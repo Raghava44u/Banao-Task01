@@ -76,9 +76,9 @@ st.sidebar.caption("Support AI & Workforce Planning System")
 section = st.sidebar.radio(
     "Navigation Menu",
     [
-        "1. Executive Summary",
-        "2. Data Overview",
-        "3. Ticket Categorization",
+        "1. AI Ticket Categorization Engine",
+        "2. Executive Summary & CX Brief",
+        "3. Data Overview & Integrity",
         "4. Category Trends",
         "5. Team Trends",
         "6. Team × Category",
@@ -86,106 +86,16 @@ section = st.sidebar.radio(
         "8. Error Analysis",
         "9. Headcount Analysis",
         "10. Assumptions & Limitations"
-    ]
+    ],
+    index=0
 )
 
 tickets_df = artifacts.get('tickets', pd.DataFrame())
 
 # ==========================================
-# 1. EXECUTIVE SUMMARY
+# 1. TICKET CATEGORIZATION (DEFAULT FIRST VIEW)
 # ==========================================
-if section == "1. Executive Summary":
-    st.markdown('<div class="main-header">Executive Summary & CX Decision Brief</div>', unsafe_allow_html=True)
-    st.markdown('<div class="sub-header">Strategic analysis for Priya Raman (Head of CX) & Arjun Mehta (Finance Controller)</div>', unsafe_allow_html=True)
-    
-    m1, m2, m3, m4 = st.columns(4)
-    with m1:
-        st.metric("Total Tickets Analyzed", f"{len(tickets_df):,}", "Jun 2024 – Jun 2026")
-    with m2:
-        st.metric("AI Categorization Accuracy", "83.25%", "+21.5% vs Intake Bot")
-    with m3:
-        st.metric("Highest-Volume Team (Resolved)", "Chat Frontline (3,078)", "Logistics #2 (2,673)")
-    with m4:
-        st.metric("Transfer Waste Recoverable", "Rs 242,475", "795 Misrouted Tickets")
-        
-    st.markdown("""
-    <div class="finding-box">
-    <b>DATA FINDING vs. BUSINESS RULE</b><br>
-    <ul>
-        <li><b>Priya's Initial Assumption:</b> <i>"Billing is our biggest queue by a mile, 22% of tickets... Whichever team has the most volume gets the next two hires."</i></li>
-        <li><b>Data Discovery:</b> Billing's 2,564 assigned tickets were an <b>artifact of intake bot misclassification</b>. Customers writing <i>"paid, where is my tracking"</i> triggered the keyword <i>"paid"</i> and were routed to Billing. Billing transferred <b>795 tickets</b> to Logistics.</li>
-        <li><b>Operational Workload Reality:</b> Logistics actually resolved <b>2,673 tickets</b> (22.7% of all work) with a median handle time of <b>24.5 hours</b> (vs Billing's 23 minutes) and the highest SLA breach rate (17.1%).</li>
-        <li><b>Business Decision Rule:</b> Under Priya's rule of assigning 2 hires to the highest-volume team:
-            <ul>
-                <li>If measured by <b>Assigned Queue</b>: Chat Frontline (3,030) > Billing (2,564) > Logistics (1,905).</li>
-                <li>If measured by <b>Actual Resolved Work</b>: Chat Frontline (3,078) > Logistics (2,673) > Billing (1,838).</li>
-                <li>If measured by <b>Specialized Back-Office Work</b>: <b>Logistics is #1 by far</b> (2,673 tickets vs Billing's 1,838).</li>
-            </ul>
-        </li>
-    </ul>
-    </div>
-    """, unsafe_allow_html=True)
-    
-    col_a, col_b = st.columns(2)
-    with col_a:
-        st.subheader("Workforce Staffing Recommendation")
-        st.write("""
-        1. **Do NOT allocate the 2 hires to Billing**: Billing is not drowning; its volume was artificially inflated by misrouted delivery queries.
-        2. **Allocate to Logistics if hiring**: Logistics agents handle 534.6 tickets/agent with a 24.5-hour resolution backlog and 17.1% SLA breaches.
-        3. **Deploy AI First-Touch Routing**: Fixes root-cause routing at intake, saving Rs 242,475 in internal transfer costs and eliminating 18.4 hours of customer lag.
-        """)
-    with col_b:
-        st.subheader("Financial Impact Summary")
-        st.write("""
-        - **Total Quantified CX Spend**: Rs 11,413,088 across 11,780 customer contacts.
-        - **Refunds & Replacements**: Rs 5.33M in refunds + Rs 2.00M in replacements.
-        - **SLA Breach Penalty Credits**: Rs 469,000 incurred across 1,340 breached contacts (at Rs 350/breach).
-        - **Two Hires Budget**: Rs 9,00,000 / year (Rs 4.5L / FTE).
-        """)
-
-# ==========================================
-# 2. DATA OVERVIEW
-# ==========================================
-elif section == "2. Data Overview":
-    st.markdown('<div class="main-header">Support Data Audit & System Profile</div>', unsafe_allow_html=True)
-    st.markdown('<div class="sub-header">Relational validation and data quality metrics across all tables</div>', unsafe_allow_html=True)
-    
-    c1, c2, c3, c4 = st.columns(4)
-    with c1:
-        st.metric("Total Tickets", "11,780", "100% Relational Match")
-    with c2:
-        st.metric("Active Agents", "44", "25 Bengaluru / 19 Indore")
-    with c3:
-        st.metric("Customers & Orders", "9,500 / 15,000", "0 Orphan Records")
-    with c4:
-        st.metric("SLA Breach Rate", "11.38%", "1,340 Breaches Total")
-
-    st.subheader("Data Quality Audit Summary")
-    quality_df = artifacts.get('quality', pd.DataFrame())
-    if not quality_df.empty:
-        st.dataframe(quality_df, use_container_width=True)
-
-    st.subheader("Channel SLAs and CSAT Performance")
-    ch_col1, ch_col2 = st.columns(2)
-    with ch_col1:
-        st.write("**First-Response SLA Performance by Channel (§3)**")
-        sla_table = pd.DataFrame([
-            {"Channel": "Chat", "Target": "15 min", "Median Response": "5.0 min", "Breach Rate": "13.37%", "Breaches": 720},
-            {"Channel": "Email", "Target": "8 hours (480m)", "Median Response": "162.0 min", "Breach Rate": "12.10%", "Breaches": 430},
-            {"Channel": "Voice", "Target": "2 hours (120m)", "Median Response": "33.0 min", "Breach Rate": "5.82%", "Breaches": 99},
-            {"Channel": "Social", "Target": "4 hours (240m)", "Median Response": "67.0 min", "Breach Rate": "8.01%", "Breaches": 91},
-        ])
-        st.dataframe(sla_table, hide_index=True, use_container_width=True)
-    with ch_col2:
-        st.write("**CSAT Score Distribution (§8)**")
-        st.write("- Total CSAT responses: 5,345 (45.4% response rate, matching policy expectation)")
-        st.write("- Average CSAT: **3.37 / 5.0**")
-        st.write("- Voice Frontline achieved highest CSAT (**3.53**), Chat Frontline was lowest (**3.33**)")
-
-# ==========================================
-# 3. TICKET CATEGORIZATION
-# ==========================================
-elif section == "3. Ticket Categorization":
+if section == "1. AI Ticket Categorization Engine":
     st.markdown('<div class="main-header">AI Ticket Categorization Engine</div>', unsafe_allow_html=True)
     st.markdown('<div class="sub-header">Automated classification, intent disambiguation, and human review gating</div>', unsafe_allow_html=True)
     
@@ -240,9 +150,100 @@ elif section == "3. Ticket Categorization":
             
         st.write(f"Displaying **{len(filtered):,}** matching tickets:")
         st.dataframe(
-            filtered[['ticket_id', 'date', 'category', 'ai_subcategory', 'confidence', 'review_required', 'resolving_team', 'classification_reason']].head(100),
+            filtered[['ticket_id', 'date', 'category', 'ai_subcategory', 'confidence', 'second_best_category', 'margin', 'review_required', 'resolving_team', 'classification_reason']].head(100),
             use_container_width=True
         )
+
+# ==========================================
+# 2. EXECUTIVE SUMMARY
+# ==========================================
+elif section == "2. Executive Summary & CX Brief":
+    st.markdown('<div class="main-header">Executive Summary & CX Decision Brief</div>', unsafe_allow_html=True)
+    st.markdown('<div class="sub-header">Strategic analysis for Priya Raman (Head of CX) & Arjun Mehta (Finance Controller)</div>', unsafe_allow_html=True)
+    
+    m1, m2, m3, m4 = st.columns(4)
+    with m1:
+        st.metric("Total Tickets Analyzed", f"{len(tickets_df):,}", "Jun 2024 – Jun 2026")
+    with m2:
+        st.metric("AI Categorization Accuracy", "84.49%", "+39.2% vs Intake Bot")
+    with m3:
+        st.metric("Highest-Volume Team (Resolved)", "Chat Frontline (3,078)", "Logistics #2 (2,673)")
+    with m4:
+        st.metric("Transfer Waste Recoverable", "Rs 242,475", "795 Misrouted Tickets")
+        
+    st.markdown("""
+    <div class="finding-box">
+    <b>DATA FINDING vs. BUSINESS RULE</b><br>
+    <ul>
+        <li><b>Priya's Initial Assumption:</b> <i>"Billing is our biggest queue by a mile, 22% of tickets... Whichever team has the most volume gets the next two hires."</i></li>
+        <li><b>Data Discovery:</b> Billing's 2,564 assigned tickets were an <b>artifact of intake bot misclassification</b>. Customers writing <i>"paid, where is my tracking"</i> triggered the keyword <i>"paid"</i> and were routed to Billing. Billing transferred <b>795 tickets</b> to Logistics.</li>
+        <li><b>Operational Workload Reality:</b> Logistics actually resolved <b>2,673 tickets</b> (22.7% of all work) with a median handle time of <b>24.5 hours</b> (vs Billing's 23 minutes) and the highest SLA breach rate (17.1%).</li>
+        <li><b>Business Decision Rule:</b> Under Priya's rule of assigning 2 hires to the highest-volume team:
+            <ul>
+                <li>If measured by <b>Assigned Queue</b>: Chat Frontline (3,030) > Billing (2,564) > Logistics (1,905).</li>
+                <li>If measured by <b>Actual Resolved Work</b>: Chat Frontline (3,078) > Logistics (2,673) > Billing (1,838).</li>
+                <li>If measured by <b>Specialized Back-Office Work</b>: <b>Logistics is #1 by far</b> (2,673 tickets vs Billing's 1,838).</li>
+            </ul>
+        </li>
+    </ul>
+    </div>
+    """, unsafe_allow_html=True)
+    
+    col_a, col_b = st.columns(2)
+    with col_a:
+        st.subheader("Workforce Staffing Recommendation")
+        st.write("""
+        1. **Do NOT allocate the 2 hires to Billing**: Billing is not drowning; its volume was artificially inflated by misrouted delivery queries.
+        2. **Allocate to Logistics if hiring**: Logistics agents handle 534.6 tickets/agent with a 24.5-hour resolution backlog and 17.1% SLA breaches.
+        3. **Deploy AI First-Touch Routing**: Fixes root-cause routing at intake, saving Rs 242,475 in internal transfer costs and eliminating 18.4 hours of customer lag.
+        """)
+    with col_b:
+        st.subheader("Financial Impact Summary")
+        st.write("""
+        - **Total Quantified CX Spend**: Rs 11,413,088 across 11,780 customer contacts.
+        - **Refunds & Replacements**: Rs 5.33M in refunds + Rs 2.00M in replacements.
+        - **SLA Breach Penalty Credits**: Rs 469,000 incurred across 1,340 breached contacts (at Rs 350/breach).
+        - **Two Hires Budget**: Rs 9,00,000 / year (Rs 4.5L / FTE).
+        """)
+
+# ==========================================
+# 3. DATA OVERVIEW
+# ==========================================
+elif section == "3. Data Overview & Integrity":
+    st.markdown('<div class="main-header">Support Data Audit & System Profile</div>', unsafe_allow_html=True)
+    st.markdown('<div class="sub-header">Relational validation and data quality metrics across all tables</div>', unsafe_allow_html=True)
+    
+    c1, c2, c3, c4 = st.columns(4)
+    with c1:
+        st.metric("Total Tickets", "11,780", "100% Relational Match")
+    with c2:
+        st.metric("Active Agents", "44", "25 Bengaluru / 19 Indore")
+    with c3:
+        st.metric("Customers & Orders", "9,500 / 15,000", "0 Orphan Records")
+    with c4:
+        st.metric("SLA Breach Rate", "11.38%", "1,340 Breaches Total")
+
+    st.subheader("Data Quality Audit Summary")
+    quality_df = artifacts.get('quality', pd.DataFrame())
+    if not quality_df.empty:
+        st.dataframe(quality_df, use_container_width=True)
+
+    st.subheader("Channel SLAs and CSAT Performance")
+    ch_col1, ch_col2 = st.columns(2)
+    with ch_col1:
+        st.write("**First-Response SLA Performance by Channel (§3)**")
+        sla_table = pd.DataFrame([
+            {"Channel": "Chat", "Target": "15 min", "Median Response": "5.0 min", "Breach Rate": "13.37%", "Breaches": 720},
+            {"Channel": "Email", "Target": "8 hours (480m)", "Median Response": "162.0 min", "Breach Rate": "12.10%", "Breaches": 430},
+            {"Channel": "Voice", "Target": "2 hours (120m)", "Median Response": "33.0 min", "Breach Rate": "5.82%", "Breaches": 99},
+            {"Channel": "Social", "Target": "4 hours (240m)", "Median Response": "67.0 min", "Breach Rate": "8.01%", "Breaches": 91},
+        ])
+        st.dataframe(sla_table, hide_index=True, use_container_width=True)
+    with ch_col2:
+        st.write("**CSAT Score Distribution (§8)**")
+        st.write("- Total CSAT responses: 5,345 (45.4% response rate, matching policy expectation)")
+        st.write("- Average CSAT: **3.37 / 5.0**")
+        st.write("- Voice Frontline achieved highest CSAT (**3.53**), Chat Frontline was lowest (**3.33**)")
 
 # ==========================================
 # 4. CATEGORY TRENDS
