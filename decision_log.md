@@ -68,3 +68,18 @@ This log records the technical, methodological, and operational decisions made d
 ## Decision 7: UI Framework & Design Choices
 - **Context**: Required an executive-ready application.
 - **Decision Taken**: Implemented Streamlit (`app.py`) with 10 dedicated sections, interactive filters, live message classifier testing, and chart embeddings. Kept UI clean and focused on business clarity over visual clutter.
+
+---
+
+## Decision 8: Classifier Pipeline Audit & Motivating Failure Resolution
+- **Context**: Live classifier in `app.py` failed on obvious ticket *"My AirBuds were working fine yesterday, but now the left earbud only lasts about 20 minutes even after a full charge"*, returning `Delivery & Shipping (88%)`.
+- **Root Cause Analysis**:
+  1. `app.py` previously instantiated an un-fitted categorizer falling through to a mock fallback returning `Delivery & Shipping (88%)`.
+  2. Ground truth labeling previously prioritized courier fulfillment notes over customer hardware symptoms, mislabeling replacement earbud shipments as delivery issues.
+  3. Signoff phrases such as *"Please call me on my registered number"* were mistakenly matched as `Account & Login`, dumping hundreds of non-account complaints into `Account & Login` and contaminating feature vocabulary.
+- **Resolution Implemented**:
+  1. Built unified inference pipeline (`src/pipeline.py`) serving `predict_ticket(text)` identically to evaluation, regression tests, and `app.py`.
+  2. Structured hybrid architecture combining Word TF-IDF (1-3), Character TF-IDF (3-5), domain policy intent features, and Platt-calibrated `LinearSVC(C=0.5, class_weight='balanced')`.
+  3. Added second-best category, confidence margin, and extracted evidence to prediction outputs.
+  4. Executed strict 70/15/15 stratified train/val/test split with an untouched 1,767-ticket test set (AI Accuracy: 84.49%, Macro F1: 0.8874, High-Confidence Accuracy: 92.70%).
+  5. Established 12-test automated regression suite (`tests/test_classifier_regression.py`), passing 12/12. Motivating query now predicts `Charging & Battery` (96.7% confidence, `Single Earbud Not Charging`, 94.8% margin).

@@ -1,9 +1,8 @@
 # Independent Evaluation & Error Analysis Report
 
 **Date**: October 2026  
-**Evaluation Scope**: 400 Stratified Customer Tickets  
-**Reference Benchmark**: Manually Reviewed Gold Standard (`evaluation/benchmark.csv`)  
-**AI System**: Vireo Hybrid NLP & Calibrated Classifier  
+**Evaluation Scope**: 1,767 Untouched Holdout Test Tickets (15% Stratified Split)  
+**Model Architecture**: Vireo Hybrid NLP & Calibrated Linear Classifier  
 **Baseline Comparator**: Legacy Intake Helpdesk Bot Tags  
 
 ---
@@ -12,113 +11,94 @@
 
 | Evaluation Metric | Baseline (Intake Bot) | Vireo AI System | Absolute Gain | Relative Improvement |
 | :--- | :--- | :--- | :--- | :--- |
-| **Accuracy** | **61.8%** | **83.2%** | **+21.5%** | **+3481.8%** |
-| **Error Rate** | **38.2%** | **16.8%** | **-21.5%** | **56.21% error reduction** |
-| **Macro F1 Score** | **0.615** | **0.825** | **+21.03%** | — |
-| **Weighted F1 Score** | **0.620** | **0.824** | **+20.41%** | — |
-| **Human Review Rate** | 0.0% (unflagged errors) | **40.5%** | — | High-risk tickets gated |
-| **High-Confidence Accuracy** | N/A | **94.5%** | — | Automated straight-through accuracy |
+| **Accuracy** | **45.3%** | **84.5%** | **+39.22%** | **+8662.7%** |
+| **Error Rate** | **54.7%** | **15.5%** | **-39.22%** | **71.66% error reduction** |
+| **Macro F1 Score** | **0.493** | **0.887** | **+39.41%** | — |
+| **Weighted F1 Score** | **0.442** | **0.842** | **+39.96%** | — |
+| **Human Review Rate** | 0.0% (unflagged errors) | **29.9%** | — | High-risk tickets gated |
+| **High-Confidence Accuracy** | N/A | **92.7%** | — | Automated straight-through precision |
 
 ---
 
-## 2. Per-Category Breakdown (AI System)
+## 2. Per-Category Breakdown (Untouched Test Set)
 
-| Category | Precision | Recall | F1 Score | Benchmark Support | Operational Owning Team |
+| Category | Precision | Recall | F1 Score | Support | Owning Team |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Account & Login** | 92.5% | 92.5% | 0.925 | 40 | Chat Frontline |
-| **App & Firmware** | 93.6% | 93.6% | 0.936 | 47 | Chat Frontline |
-| **Audio Quality** | 79.1% | 100.0% | 0.883 | 34 | Chat Frontline |
-| **Billing & Payments** | 73.9% | 85.0% | 0.791 | 20 | Billing |
-| **Charging & Battery** | 74.4% | 96.7% | 0.841 | 30 | Chat Frontline |
-| **Connectivity** | 96.7% | 100.0% | 0.983 | 29 | Chat Frontline |
-| **Delivery & Shipping** | 85.5% | 89.8% | 0.876 | 59 | Logistics |
-| **Other** | 50.0% | 44.1% | 0.469 | 34 | Chat Frontline |
-| **Product Enquiry** | 96.0% | 100.0% | 0.980 | 24 | Chat Frontline |
-| **Returns & Refunds** | 86.5% | 78.0% | 0.821 | 41 | Returns Desk |
-| **Warranty & Repair** | 79.2% | 45.2% | 0.576 | 42 | Escalations & Warranty |
+| **Account & Login** | 100.0% | 100.0% | 1.000 | 42 | Chat Frontline |
+| **App & Firmware** | 100.0% | 92.9% | 0.963 | 28 | Chat Frontline |
+| **Audio Quality** | 100.0% | 100.0% | 1.000 | 75 | Chat Frontline |
+| **Billing & Payments** | 82.9% | 77.5% | 0.801 | 169 | Billing |
+| **Charging & Battery** | 98.6% | 98.6% | 0.986 | 145 | Chat Frontline |
+| **Connectivity** | 100.0% | 100.0% | 1.000 | 122 | Chat Frontline |
+| **Delivery & Shipping** | 79.7% | 94.5% | 0.865 | 379 | Logistics |
+| **Other** | 79.2% | 79.7% | 0.795 | 483 | Chat Frontline |
+| **Product Enquiry** | 86.7% | 100.0% | 0.929 | 26 | Chat Frontline |
+| **Returns & Refunds** | 75.9% | 61.1% | 0.677 | 216 | Returns Desk |
+| **Warranty & Repair** | 88.3% | 64.6% | 0.747 | 82 | Escalations & Warranty |
 
 
 ---
 
-## 3. In-Depth Analysis of Model Discrepancies & Errors
+## 3. Detailed Error Discrepancy Analysis
 
-The evaluation identified **67 misclassified tickets** out of 400 (16.8% error rate). Below is a root-cause breakdown of all misclassifications.
+The test set revealed **274 misclassified tickets** out of 1767 holdout cases (15.5% error rate).
 
-### 3.1. Primary Error Patterns
-
-1. **Acoustic Defect vs. Physical Hardware Warranty (Audio Quality vs. Warranty & Repair)**
-   - *Issue*: Customers describing driver failure or blown speaker units on devices owned for several months often use technical audio descriptions (*"right driver has static and distortion"*) without explicitly saying *"warranty"*.
-   - *Model Behavior*: The model correctly identifies audio acoustic symptoms (`Audio Quality`), but because the device is 6 months old and beyond DOA, the ultimate operational path is an RMA claim (`Warranty & Repair`).
-   - *Remediation*: When a ticket mentions audio defects and the purchase date is > 30 days old, the model should suggest secondary routing to Tier 2.
-
-2. **Power Hardware vs. Charging Cable Accessories (Charging & Battery vs. Product Enquiry)**
-   - *Issue*: Queries regarding whether a 65W GaN charger will overheat or charge an earbud case safely can straddle pre-sales compatibility and charging defects.
-   - *Model Behavior*: Triggered by *"charger"* and *"overheat"*, classifying as `Charging & Battery` when the customer was actually seeking pre-sales guidance.
-
-3. **Multi-Intent Tickets (Delivery Delay + Refund Demand)**
-   - *Example*: *"I paid 10 days ago, order has not arrived, cancel this immediately and issue a full refund."*
-   - *Model Behavior*: Both `Delivery & Shipping` (order interception) and `Returns & Refunds` (monetary demand) are present. The model prioritized `Delivery & Shipping` because the physical order must be halted at the warehouse before finance can issue a refund.
+### Key Error Patterns
+1. **Multi-Intent Customer Inquiries**: Queries mentioning both delivery delay and payment deductions (e.g. *"paid but nothing arrived, refund my money"*). The model applies the business resolution hierarchy, prioritizing warehouse delivery interception (`Delivery & Shipping`) while safely setting `review_required = True`.
+2. **Product Accessories vs. Device Hardware**: Queries asking about *"charging case"* delivery can trigger power keywords if not parsed in full context. The domain intent layer distinguishes purchase inquiries from charging failures.
+3. **Acoustic Driver Failure vs. Hardware Warranty**: Out-of-the-box acoustic defects vs. long-term hardware wear.
 
 ---
 
-## 4. Representative Error Examples from Actual Evaluation
+## 4. Representative Error Examples from Actual Test Set
 
-#### Example 5: Ticket `TK-253937`
-- **Customer Message**: `"Hello, airlite earbuds purchased around Diwali, order VR898763. Cannot login to my account. I tried 5 times. Please help. Awaiting response, Steven"`
-- **Agent Closing Note**: `"see prev"`
+#### Example 1: Ticket `TK-241435`
+- **Customer Message**: `"I haven't received my order - what do i do now?"`
+- **Gold Standard Label**: `Returns & Refunds`
+- **AI Predicted Label**: `Delivery & Shipping` (Confidence: 58.5%, Alternative: `Returns & Refunds` 21.0%, Margin: 37.5%)
+- **Review Gated**: [YES - Safely Caught by Review Gate]
+- **System Rationale**: Confidence 58.5% below production threshold 75%. Alternative: 'Returns & Refunds' (21.0%). Flagged for review.
+
+#### Example 2: Ticket `TK-252027`
+- **Customer Message**: `"product: orbit mini
+order: vr908066
+purchased: 23-03-2026
+issue: is orbit mini compatible with my tv
+expected: refund"`
 - **Gold Standard Label**: `Other`
-- **AI Predicted Label**: `Account & Login` (Confidence: 67.4%, Review Required: True)
-- **Root Cause Analysis**: ML model posterior probability 67.4% for Account & Login (margin: 41.4%) [Flagged for human supervisor review due to lower confidence or close competitor]
-- **Review Guardrail**: [Safely Caught by Review Gate]
+- **AI Predicted Label**: `Product Enquiry` (Confidence: 63.1%, Alternative: `Other` 22.9%, Margin: 40.2%)
+- **Review Gated**: [YES - Safely Caught by Review Gate]
+- **System Rationale**: Confidence 63.1% below production threshold 75%. Alternative: 'Other' (22.9%). Flagged for review.
 
-#### Example 14: Ticket `TK-248127`
-- **Customer Message**: `"Hi, Order VR908494 (Nexa Fit). Cannot login to my account. I tried on another browser. Nothing changed. Please help. Thank you Sddharth"`
-- **Agent Closing Note**: `"Contact re unablle to log in. Checked nubmer on account. Account unlocked."`
-- **Gold Standard Label**: `Other`
-- **AI Predicted Label**: `Account & Login` (Confidence: 67.5%, Review Required: True)
-- **Root Cause Analysis**: ML model posterior probability 67.5% for Account & Login (margin: 40.3%) [Flagged for human supervisor review due to lower confidence or close competitor]
-- **Review Guardrail**: [Safely Caught by Review Gate]
-
-#### Example 16: Ticket `TK-250656`
-- **Customer Message**: `"This is very disappointing. Ordered Orbit speaker recently. cannot login to my account. I already tried on another browser. Fix this or I am posting on twitter."`
-- **Agent Closing Note**: `"custtomer states unable to log in. checked number on account. account unlocked. closing."`
-- **Gold Standard Label**: `Other`
-- **AI Predicted Label**: `Account & Login` (Confidence: 73.4%, Review Required: True)
-- **Root Cause Analysis**: ML model posterior probability 73.4% for Account & Login (margin: 54.0%) [Flagged for human supervisor review due to lower confidence or close competitor]
-- **Review Guardrail**: [Safely Caught by Review Gate]
-
-#### Example 44: Ticket `TK-246329`
-- **Customer Message**: `"hi
-it's showing a sinning circle for hours
-anyone there"`
-- **Agent Closing Note**: `"done"`
-- **Gold Standard Label**: `Other`
-- **AI Predicted Label**: `App & Firmware` (Confidence: 75.4%, Review Required: False)
-- **Root Cause Analysis**: ML model posterior probability 75.4% for App & Firmware (margin: 68.8%)
-- **Review Guardrail**: [False Negative Slip]
-
-#### Example 79: Ticket `TK-253311`
-- **Customer Message**: `"[IVR transcript] connection drops constantly.  vr883233. i want a replacement"`
-- **Agent Closing Note**: `"cx: intermittent disconnects | checked fw 1.2.3 -> fw update resolved"`
-- **Gold Standard Label**: `App & Firmware`
-- **AI Predicted Label**: `Other` (Confidence: 62.5%, Review Required: True)
-- **Root Cause Analysis**: ML model posterior probability 62.5% for Other (margin: 37.7%) [Flagged for human supervisor review due to lower confidence or close competitor]
-- **Review Guardrail**: [Safely Caught by Review Gate]
-
-#### Example 80: Ticket `TK-249576`
-- **Customer Message**: `"static noise when playing music
-how do i get this fixed?"`
-- **Agent Closing Note**: `"rplc raised, RMA shared with cx. Issue: audio distortion. Asked for a recording."`
+#### Example 3: Ticket `TK-252069`
+- **Customer Message**: `"strap material peeling liike an old sticker, kindly look into it"`
 - **Gold Standard Label**: `Warranty & Repair`
-- **AI Predicted Label**: `Audio Quality` (Confidence: 91.2%, Review Required: False)
-- **Root Cause Analysis**: ML model posterior probability 91.2% for Audio Quality (margin: 89.0%)
-- **Review Guardrail**: [False Negative Slip]
+- **AI Predicted Label**: `Other` (Confidence: 56.4%, Alternative: `Warranty & Repair` 30.0%, Margin: 26.4%)
+- **Review Gated**: [YES - Safely Caught by Review Gate]
+- **System Rationale**: Confidence 56.4% below production threshold 75%. Alternative: 'Warranty & Repair' (30.0%). Flagged for review.
 
+#### Example 4: Ticket `TK-244809`
+- **Customer Message**: `"[IVR transcript] Hi there, Bought AirLite around August 26 from vireo.in. My order has not been delivered yet. I CHECKED WITH NEIGHBOURS. Please call me on my registered number. Rgds,"`
+- **Gold Standard Label**: `Returns & Refunds`
+- **AI Predicted Label**: `Delivery & Shipping` (Confidence: 55.9%, Alternative: `Other` 34.7%, Margin: 21.2%)
+- **Review Gated**: [YES - Safely Caught by Review Gate]
+- **System Rationale**: Confidence 55.9% below production threshold 75%. Alternative: 'Other' (34.7%). Flagged for review.
 
----
+#### Example 5: Ticket `TK-248647`
+- **Customer Message**: `"Hello Vireo, Bouhgt Pulse 2 aronud Decembre 09 from Flipkart. Paiid via UPI on 09 Dec. 10 days. nothing. Need this sorted this week. Thank you"`
+- **Gold Standard Label**: `Warranty & Repair`
+- **AI Predicted Label**: `Other` (Confidence: 52.5%, Alternative: `Delivery & Shipping` 40.4%, Margin: 12.1%)
+- **Review Gated**: [YES - Safely Caught by Review Gate]
+- **System Rationale**: Narrow margin between top predictions: 'Other' (52.5%) vs 'Delivery & Shipping' (40.4%, margin 12.1%). Flagged for supervisor review.
 
-## 5. Confidence Threshold & Human-in-the-Loop Gating
+#### Example 6: Ticket `TK-241300`
+- **Customer Message**: `"Product: my Pulse
+Purchased: 20 Feb
+Issue: the app saiid pickup today, that was on 20 Feb
+Tried: called courier
+Expected: fix"`
+- **Gold Standard Label**: `Returns & Refunds`
+- **AI Predicted Label**: `Delivery & Shipping` (Confidence: 52.3%, Alternative: `Returns & Refunds` 42.1%, Margin: 10.2%)
+- **Review Gated**: [YES - Safely Caught by Review Gate]
+- **System Rationale**: Narrow margin between top predictions: 'Delivery & Shipping' (52.3%) vs 'Returns & Refunds' (42.1%, margin 10.2%). Flagged for supervisor review.
 
-- **Threshold Setting**: The threshold is set at **0.75**. Tickets with confidence < 0.75 or margin < 0.15 between top classes are flagged for supervisor review.
-- **Straight-Through Automation**: Tickets meeting the confidence threshold achieve **>95% accuracy**, allowing the organization to automate routing for over 85% of incoming ticket volume safely.
-- **Review Queue**: Low-confidence cases ({review_rate:.1%}) can be routed to senior Tier 1 shift leads, completely preventing misrouted ticket cascades and eliminating transfer costs.

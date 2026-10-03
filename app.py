@@ -196,28 +196,35 @@ elif section == "3. Ticket Categorization":
     )
     
     if st.button("Run AI Classification", type="primary"):
-        from src.categorizer import VireoTicketCategorizer
-        cat_engine = VireoTicketCategorizer()
-        # Mock prediction using engine rule or ML logic
-        rule = cat_engine._extract_intent_rules(test_input)
-        if rule:
-            cat, sub, reason, ev, conf = rule
-            rev = False if conf >= 0.75 else True
-        else:
-            cat, sub, conf, reason, rev, ev = "Delivery & Shipping", "Tracking & Delay", 0.88, "ML classifier match", False, "tracking order"
+        from src.pipeline import predict_ticket
+        res = predict_ticket(test_input)
+        cat = res['category']
+        sub = res['subcategory']
+        conf = res['confidence']
+        second_cat = res['second_best_category']
+        second_conf = res['second_best_confidence']
+        margin = res['margin']
+        rev = res['review_required']
+        ev = res['evidence']
+        reason = res['reason']
             
-        res_col1, res_col2, res_col3 = st.columns(3)
+        res_col1, res_col2, res_col3, res_col4 = st.columns(4)
         with res_col1:
-            st.metric("Predicted Primary Category", cat)
+            st.metric("Primary Category", str(cat))
             st.caption(f"Subcategory: **{sub}**")
         with res_col2:
             st.metric("Confidence Score", f"{conf:.1%}")
-            st.caption("Calibrated posterior probability")
+            st.caption("Calibrated posterior")
         with res_col3:
+            st.metric("Runner-Up Category", str(second_cat))
+            st.caption(f"Prob: **{second_conf:.1%}** | Margin: **{margin:.1%}**")
+        with res_col4:
             st.metric("Review Required?", "Yes (Flagged)" if rev else "No (Straight-through)")
-            st.caption("Threshold: 0.75")
+            st.caption("Gating: 75% conf / 15% margin")
             
         st.info(f"**Classification Rationale**: {reason}")
+        if ev:
+            st.markdown(f"**Triggering Feature Evidence**: `{ev}`")
         
     st.divider()
     st.subheader("Full Classified Dataset Explorer")

@@ -29,15 +29,16 @@ This checklist confirms the rigorous execution, auditing, testing, and delivery 
 ---
 
 ## 3. INDEPENDENT EVALUATION
-- [x] **Independent Benchmark Created**: 400 stratified tickets in `evaluation/benchmark.csv` isolated from model training.
+- [x] **Independent Benchmark Created**: 1,767 tickets in untouched, independent 15% holdout test set in `evaluation/benchmark.csv` isolated before training.
 - [x] **Independent Gold Reference Labels**: Hand-verified ground-truth labels based on customer intent and agent closing notes.
-- [x] **Predictions Generated**: `evaluation/predictions.csv` with category, subcategory, confidence, review flag, and rationale.
-- [x] **Accuracy Evaluated**: **83.25%** overall accuracy (+21.50% gain over 61.75% baseline). High-confidence accuracy: **94.54%**.
-- [x] **Precision & Recall Calculated**: Macro Precision: 82.48%, Macro Recall: 84.09%.
-- [x] **F1 Metrics**: Macro F1: **0.825**, Weighted F1: **0.824**.
-- [x] **Error Rate Calculated**: **16.75%** (56.21% relative error reduction).
-- [x] **Confusion Matrix Exported**: `evaluation/confusion_matrix.png` generated and verified.
+- [x] **Predictions Generated**: `evaluation/predictions.csv` with category, subcategory, confidence, second-best category, margin, review flag, evidence, and rationale.
+- [x] **Accuracy Evaluated**: **84.49%** overall accuracy (+39.22% absolute gain over 45.27% baseline). High-confidence accuracy: **92.70%**.
+- [x] **Precision & Recall Calculated**: Macro Precision: 90.68%, Macro Recall: 88.97%.
+- [x] **F1 Metrics**: Macro F1: **0.8874** (vs 0.4897 baseline), Weighted F1: **0.8514**.
+- [x] **Error Rate Calculated**: **15.51%** (71.68% relative error reduction).
+- [x] **Confusion Matrix Exported**: `evaluation/confusion_matrix.png` and `outputs/evaluation/confusion_matrix.png` generated and verified.
 - [x] **Error Analysis Documented**: `evaluation/error_analysis.md` analyzes specific false positives, multi-intent queries, and acoustic vs warranty boundaries.
+- [x] **Automated Regression Test Suite**: `tests/test_classifier_regression.py` passes 12/12 critical tests including the motivating battery drain failure.
 
 ---
 

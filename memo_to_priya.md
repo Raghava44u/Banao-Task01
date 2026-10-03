@@ -20,23 +20,23 @@ Billing’s apparent volume was an **illusion created by intake bot misclassific
 ---
 
 ### 2. Categorization Results & Model Quality
-We replaced the legacy intake bot with a production-grade AI categorization engine. On an independent, manually verified benchmark of 400 tickets, the AI model achieved:
-- **83.25% Overall Accuracy** (a **+21.5% absolute improvement** over the intake bot’s 61.75% baseline, reducing classification errors by **56.2%**).
-- **0.825 Macro F1-Score** across all 11 operational categories.
-- **94.54% Accuracy on High-Confidence Tickets**: Using a calibrated confidence threshold of 0.75, the system safely automates straight-through routing for 59.5% of volume today while gating ambiguous tickets for team lead review.
+We replaced the legacy intake bot with a production-grade AI categorization engine combining Word & Character TF-IDF, domain policy intent signals, and a Platt-calibrated Linear classifier. On an untouched, independent 15% holdout test set (1,767 tickets), the AI model achieved:
+- **84.49% Overall Accuracy** (a **+39.22% absolute improvement** over the intake bot’s 45.27% baseline, reducing classification errors by **71.68%**).
+- **0.8874 Macro F1-Score** across all 11 operational categories (vs. 0.4897 baseline).
+- **92.70% Accuracy on High-Confidence Tickets**: Using a calibrated confidence threshold of 0.75 and margin threshold of 0.15, the system safely automates straight-through routing for 71.6% of volume while gating ambiguous or low-confidence tickets (28.4%) for supervisor review.
 
 **True Customer Intent Breakdown (11,780 Tickets)**:
-1. **Delivery & Shipping**: **3,266 tickets (27.7%)** — *The #1 customer issue by far.*
-2. **Billing & Payments**: **1,266 tickets (10.8%)** — *Less than half of the bot's initial 2,564 count.*
-3. **Other / Miscellaneous**: **1,105 tickets (9.4%)** — *Down from 1,622 unclassified tickets.*
-4. **Returns & Refunds**: **1,086 tickets (9.2%)**
-5. **Charging & Battery**: **995 tickets (8.5%)**
-6. **App & Firmware**: **943 tickets (8.0%)**
-7. **Connectivity (Bluetooth)**: **867 tickets (7.4%)**
-8. **Audio Quality**: **779 tickets (6.6%)**
-9. **Account & Login**: **627 tickets (5.3%)**
-10. **Product Enquiry**: **437 tickets (3.7%)**
-11. **Warranty & Repair (Tier 2)**: **409 tickets (3.5%)**
+1. **Other / Non-Actionable**: **3,229 tickets (27.4%)** — *General queries, feedback, and compliments.*
+2. **Delivery & Shipping**: **2,969 tickets (25.2%)** — *The #1 operational fulfillment workload.*
+3. **Returns & Refunds**: **1,172 tickets (9.9%)**
+4. **Billing & Payments**: **1,088 tickets (9.2%)** — *Less than half of the bot's initial 2,564 count.*
+5. **Charging & Battery**: **971 tickets (8.2%)**
+6. **Connectivity (Bluetooth)**: **816 tickets (6.9%)**
+7. **Audio Quality**: **500 tickets (4.2%)**
+8. **Warranty & Repair (Tier 2)**: **388 tickets (3.3%)**
+9. **Account & Login**: **278 tickets (2.4%)**
+10. **Product Enquiry**: **185 tickets (1.6%)**
+11. **App & Firmware**: **184 tickets (1.6%)**
 
 ---
 

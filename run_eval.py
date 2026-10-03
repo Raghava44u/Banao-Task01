@@ -15,7 +15,7 @@ enriched_tickets = enrich_tickets(
 )
 
 print("Starting evaluation...")
-categorizer, metrics = run_evaluation(enriched_tickets, sample_size=400, random_state=42)
+categorizer, metrics = run_evaluation(enriched_tickets, random_state=42)
 print("Evaluation complete!")
 print("AI Accuracy:", metrics['ai_model']['accuracy'])
 print("Baseline Accuracy:", metrics['baseline_intake_bot']['accuracy'])

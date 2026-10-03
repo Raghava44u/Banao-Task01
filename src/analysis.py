@@ -9,8 +9,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 from src.taxonomy import CATEGORIES, CATEGORY_TO_TEAM
-from src.benchmark_builder import determine_gold_label
-from src.categorizer import VireoTicketCategorizer
+from src.pipeline import get_model
 
 def run_full_analysis(enriched_tickets_df, categorizer=None):
     """
@@ -21,12 +20,10 @@ def run_full_analysis(enriched_tickets_df, categorizer=None):
     
     df = enriched_tickets_df.copy()
     
-    # 1. Train categorizer if not passed
+    # 1. Load production model if not passed
     if categorizer is None:
-        print("Training categorizer on full training data...")
-        categorizer = VireoTicketCategorizer()
-        train_labels = [determine_gold_label(r)[0] for _, r in df.iterrows()]
-        categorizer.fit(df['cleaned_customer_message'].tolist(), train_labels)
+        print("Loading production model from models/vireo_classifier.joblib...")
+        categorizer = get_model()
         
     print(f"Categorizing full dataset of {len(df)} tickets...")
     preds_df = categorizer.predict_dataset(df)
@@ -35,6 +32,9 @@ def run_full_analysis(enriched_tickets_df, categorizer=None):
     df['ai_category'] = preds_df['category']
     df['ai_subcategory'] = preds_df['subcategory']
     df['confidence'] = preds_df['confidence']
+    df['second_best_category'] = preds_df['second_best_category']
+    df['second_best_confidence'] = preds_df['second_best_confidence']
+    df['margin'] = preds_df['margin']
     df['review_required'] = preds_df['review_required']
     df['classification_reason'] = preds_df['reason']
     df['classification_evidence'] = preds_df['evidence']
@@ -57,8 +57,12 @@ def run_full_analysis(enriched_tickets_df, categorizer=None):
         'ai_category',
         'ai_subcategory',
         'confidence',
+        'second_best_category',
+        'second_best_confidence',
+        'margin',
         'review_required',
         'classification_reason',
+        'classification_evidence',
         'transfers_count',
         'first_response_time_min',
         'handle_time_hours',

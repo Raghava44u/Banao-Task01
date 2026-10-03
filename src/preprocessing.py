@@ -29,10 +29,14 @@ def clean_text(text):
     - Product references (Pulse 2, Strata, AirLite, Orbit, Nexa)
     - Tracking / AWB mentions
     - Numerical currency/warranty terms
+    - Normalizes curly quotes and unicode dashes
     """
     if pd.isna(text):
         return ""
     text = str(text)
+    # Normalize unicode apostrophes, quotes, and dashes
+    text = text.replace("’", "'").replace("‘", "'").replace("“", '"').replace("”", '"')
+    text = text.replace("—", "-").replace("–", "-")
     # Normalize unicode spaces & newlines
     text = re.sub(r'[\r\n\t]+', ' ', text)
     # Strip unnecessary repeated punctuation but preserve hyphens/alphanumerics

@@ -1,0 +1,12 @@
+category,precision,recall,f1_score,support
+Account & Login,1.0,1.0,1.0,42
+App & Firmware,1.0,0.9286,0.963,28
+Audio Quality,1.0,1.0,1.0,75
+Billing & Payments,0.8291,0.7751,0.8012,169
+Charging & Battery,0.9862,0.9862,0.9862,145
+Connectivity,1.0,1.0,1.0,122
+Delivery & Shipping,0.7973,0.9446,0.8647,379
+Other,0.7922,0.7971,0.7946,483
+Product Enquiry,0.8667,1.0,0.9286,26
+Returns & Refunds,0.7586,0.6111,0.6769,216
+Warranty & Repair,0.8833,0.6463,0.7465,82

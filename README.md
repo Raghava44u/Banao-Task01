@@ -73,18 +73,18 @@ Our comprehensive audit of all **11,780 customer support tickets** (June 2024 �
 
 ## 3. Independent Model Evaluation & Correctness
 
-To prevent circular evaluation, the model was tested against an **independent, manually reviewed gold-standard benchmark of 400 stratified tickets** (`evaluation/benchmark.csv`), strictly excluded from training:
+To prevent data leakage and circular evaluation, the model was tested against an **untouched, independent 15% holdout test set of 1,767 tickets** (`evaluation/benchmark.csv`), strictly split before training and unseen by the pipeline:
 
 | Metric | Baseline (Intake Bot) | Vireo AI System | Absolute Gain | Relative Improvement |
 | :--- | :--- | :--- | :--- | :--- |
-| **Accuracy** | **61.75%** | **83.25%** | **+21.50%** | **+34.8%** |
-| **Error Rate** | **38.25%** | **16.75%** | **-21.50%** | **56.21% error reduction** |
-| **Macro F1-Score** | **0.615** | **0.825** | **+0.210** | **+34.1%** |
-| **Weighted F1-Score**| **0.620** | **0.824** | **+0.204** | — |
-| **High-Confidence Accuracy** | N/A | **94.54%** | — | Automated straight-through precision |
-| **Human Review Rate**| 0.0% (unflagged errors) | **40.50%** | — | High-risk edge cases gated |
+| **Accuracy** | **45.27%** | **84.49%** | **+39.22%** | **+86.6%** |
+| **Error Rate** | **54.73%** | **15.51%** | **-39.22%** | **71.68% error reduction** |
+| **Macro F1-Score** | **0.4897** | **0.8874** | **+0.3977** | **+81.2%** |
+| **Weighted F1-Score**| **0.4396** | **0.8514** | **+0.4118** | — |
+| **High-Confidence Accuracy** | N/A | **92.70%** | — | Automated straight-through precision |
+| **Human Review Rate**| 0.0% (unflagged errors) | **28.41%** | — | Ambiguous tickets (<0.75 conf or <0.15 margin) gated |
 
-Confusion matrix visualizer is available in `evaluation/confusion_matrix.png`. Detailed error analysis is documented in `evaluation/error_analysis.md`.
+Confusion matrix visualizers are available in `evaluation/confusion_matrix.png` and `outputs/evaluation/confusion_matrix.png`. Detailed error analysis is documented in `evaluation/error_analysis.md`. Regression test suite in `tests/test_classifier_regression.py` passes 12/12 tests.
 
 ---
 
@@ -92,17 +92,17 @@ Confusion matrix visualizer is available in `evaluation/confusion_matrix.png`. D
 
 | Primary Category | Intake Bot Count (Corrupted) | True AI Count (Cleaned) | Net Shift | Primary Owning Team |
 | :--- | :--- | :--- | :--- | :--- |
-| **Delivery & Shipping** | 1,905 (16.17%) | **3,266 (27.73%)** | **+1,361 (+71.4%)** | Logistics |
-| **Billing & Payments** | **2,564 (21.77%)** | **1,266 (10.75%)** | **-1,298 (-50.6%)** | Billing |
-| **Other / Miscellaneous**| 1,622 (13.77%) | **1,105 (9.38%)** | **-517 (-31.9%)** | Frontline Tier 1 |
-| **Returns & Refunds** | 1,049 (8.90%) | **1,086 (9.22%)** | +37 | Returns Desk |
-| **Charging & Battery** | 820 (6.96%) | **995 (8.45%)** | +175 | Frontline Tier 1 |
-| **App & Firmware** | 699 (5.93%) | **943 (8.01%)** | +244 | Frontline Tier 1 |
-| **Connectivity** | 1,002 (8.51%) | **867 (7.36%)** | -135 | Frontline Tier 1 |
-| **Audio Quality** | 591 (5.02%) | **779 (6.61%)** | +188 | Frontline Tier 1 |
-| **Account & Login** | 391 (3.32%) | **627 (5.32%)** | +236 | Frontline Tier 1 |
-| **Product Enquiry** | 612 (5.20%) | **437 (3.71%)** | -175 | Frontline Tier 1 |
-| **Warranty & Repair** | 525 (4.46%) | **409 (3.47%)** | -116 | Escalations & Warranty (Tier 2) |
+| **Other / Non-Actionable**| 1,622 (13.77%) | **3,229 (27.41%)** | +1,607 | Frontline Tier 1 |
+| **Delivery & Shipping** | 1,905 (16.17%) | **2,969 (25.20%)** | **+1,064 (+55.9%)** | Logistics |
+| **Returns & Refunds** | 1,049 (8.90%) | **1,172 (9.95%)** | +123 | Returns Desk |
+| **Billing & Payments** | **2,564 (21.77%)** | **1,088 (9.24%)** | **-1,476 (-57.6%)** | Billing |
+| **Charging & Battery** | 820 (6.96%) | **971 (8.24%)** | +151 | Frontline Tier 1 |
+| **Connectivity** | 1,002 (8.51%) | **816 (6.93%)** | -186 | Frontline Tier 1 |
+| **Audio Quality** | 591 (5.02%) | **500 (4.24%)** | -91 | Frontline Tier 1 |
+| **Warranty & Repair** | 525 (4.46%) | **388 (3.29%)** | -137 | Escalations & Warranty (Tier 2) |
+| **Account & Login** | 391 (3.32%) | **278 (2.36%)** | -113 | Frontline Tier 1 |
+| **Product Enquiry** | 612 (5.20%) | **185 (1.57%)** | -427 | Frontline Tier 1 |
+| **App & Firmware** | 699 (5.93%) | **184 (1.56%)** | -515 | Frontline Tier 1 |
 | **Total Population** | **11,780 (100.0%)** | **11,780 (100.0%)** | **0** | — |
 
 ---

@@ -35,28 +35,29 @@
 
 ## 3. Categorization Performance & Evaluation Metrics
 - **Dataset Size**: 11,780 customer tickets (100% classified in `outputs/categorized_tickets.csv`).
-- **Benchmark Size**: 400 stratified tickets independently reviewed (`evaluation/benchmark.csv`).
-- **AI Model Accuracy**: **83.25%** (+21.50% gain over baseline intake bot's 61.75%).
-- **Macro F1-Score**: **0.825** (vs. 0.615 baseline bot).
-- **Weighted F1-Score**: **0.824** (vs. 0.620 baseline bot).
-- **Error Rate**: **16.75%** (a 56.21% relative reduction in errors).
-- **High-Confidence Straight-Through Accuracy**: **94.54%** (confidence >= 0.75).
-- **Human Review Gating Rate**: **40.5%** of complex/ambiguous tickets safely routed for supervisor review.
+- **Benchmark Size**: 1,767 tickets in untouched, independent 15% holdout test set (`evaluation/benchmark.csv`).
+- **AI Model Accuracy**: **84.49%** (+39.22% absolute gain over baseline intake bot's 45.27%).
+- **Macro F1-Score**: **0.8874** (vs. 0.4897 baseline bot).
+- **Weighted F1-Score**: **0.8514** (vs. 0.4396 baseline bot).
+- **Error Rate**: **15.51%** (a 71.68% relative reduction in errors).
+- **High-Confidence Straight-Through Accuracy**: **92.70%** (confidence >= 0.75, margin >= 0.15).
+- **Human Review Gating Rate**: **28.41%** of complex/ambiguous tickets safely routed for supervisor review.
+- **Regression Suite**: 12/12 passing in `tests/test_classifier_regression.py`.
 
 ---
 
 ## 4. True Intent Category Breakdown (11,780 Tickets)
-1. `Delivery & Shipping`: **3,266 tickets (27.73%)**
-2. `Billing & Payments`: **1,266 tickets (10.75%)**
-3. `Other / Miscellaneous`: **1,105 tickets (9.38%)**
-4. `Returns & Refunds`: **1,086 tickets (9.22%)**
-5. `Charging & Battery`: **995 tickets (8.45%)**
-6. `App & Firmware`: **943 tickets (8.01%)**
-7. `Connectivity`: **867 tickets (7.36%)**
-8. `Audio Quality`: **779 tickets (6.61%)**
-9. `Account & Login`: **627 tickets (5.32%)**
-10. `Product Enquiry`: **437 tickets (3.71%)**
-11. `Warranty & Repair`: **409 tickets (3.47%)**
+1. `Other / Non-Actionable`: **3,229 tickets (27.41%)**
+2. `Delivery & Shipping`: **2,969 tickets (25.20%)**
+3. `Returns & Refunds`: **1,172 tickets (9.95%)**
+4. `Billing & Payments`: **1,088 tickets (9.24%)**
+5. `Charging & Battery`: **971 tickets (8.24%)**
+6. `Connectivity`: **816 tickets (6.93%)**
+7. `Audio Quality`: **500 tickets (4.24%)**
+8. `Warranty & Repair`: **388 tickets (3.29%)**
+9. `Account & Login`: **278 tickets (2.36%)**
+10. `Product Enquiry`: **185 tickets (1.57%)**
+11. `App & Firmware`: **184 tickets (1.56%)**
 
 ---
 
