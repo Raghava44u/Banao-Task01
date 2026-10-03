@@ -1,0 +1,8 @@
+,agent_headcount,assigned_volume,resolving_volume,median_handle_time_hrs,mean_handle_time_hrs,sla_breaches_count,sla_breach_rate_pct,tickets_per_agent_assigned,tickets_per_agent_resolved,pct_of_total_resolved,pct_of_total_assigned
+Billing,4,2564,1838,0.3833333333333333,11.028794769755544,254,13.82,641.0,459.5,15.6,21.77
+Chat Frontline,15,3030,3078,0.35,4.838400592795257,265,8.61,202.0,205.2,26.13,25.72
+Email Frontline,7,1807,1658,0.3333333333333333,5.189462502655619,158,9.53,258.1,236.9,14.07,15.34
+Escalations & Warranty,6,525,650,122.0,141.63400214018193,52,8.0,87.5,108.3,5.52,4.46
+Logistics,5,1905,2673,24.466666666666665,41.0569640985325,458,17.13,381.0,534.6,22.69,16.17
+Returns Desk,3,1049,1117,24.55,37.103510436432636,118,10.56,349.7,372.3,9.48,8.9
+Voice Frontline,4,900,766,0.35,3.6935543278084713,35,4.57,225.0,191.5,6.5,7.64

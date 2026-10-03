@@ -1,0 +1,51 @@
+table_name,column_name,data_type,total_rows,null_count,null_percentage,unique_count,anomalies_detected
+tickets,ticket_id,str,11780,0,0.0,11780,None
+tickets,created_at,str,11780,0,0.0,11648,None
+tickets,first_response_at,str,11780,0,0.0,11645,None
+tickets,resolved_at,str,11780,583,4.95,11077,2379 legacy rows with UTC timestamps before created_at IST
+tickets,status,str,11780,0,0.0,4,None
+tickets,channel,str,11780,0,0.0,4,None
+tickets,customer_id,str,11780,0,0.0,5341,None
+tickets,order_id,str,11780,4017,34.1,5529,4017 nulls (recoverable via customer_id + product_sku fallback)
+tickets,product_sku,str,11780,0,0.0,14,None
+tickets,category,str,11780,0,0.0,11,None
+tickets,priority,str,11780,0,0.0,3,None
+tickets,assigned_team,str,11780,0,0.0,7,None
+tickets,agent_id,str,11780,0,0.0,44,None
+tickets,transfers,float64,11780,4052,34.4,3,4052 nulls in legacy_fd (feature did not exist in Freshdesk)
+tickets,csat_score,float64,11780,6435,54.63,5,"6435 unrated tickets (45.4% response rate, do not treat null as 0)"
+tickets,refund_amount_inr,float64,11780,9886,83.92,228,9886 nulls (tickets with no refund issued)
+tickets,refund_reason_code,str,11780,9886,83.92,8,None
+tickets,replacement_issued,str,11780,0,0.0,2,None
+tickets,customer_message,str,11780,0,0.0,11487,None
+tickets,agent_notes,str,11780,0,0.0,10737,None
+tickets,source_system,str,11780,0,0.0,2,None
+agents,agent_id,str,44,0,0.0,44,None
+agents,name,str,44,0,0.0,43,Name collision: Om Sharma appears twice with agent_ids A3006 and A3029
+agents,site,str,44,0,0.0,2,None
+agents,team,str,44,0,0.0,7,None
+agents,shift,str,44,0,0.0,3,None
+agents,tier,int64,44,0,0.0,2,None
+agents,from_date,str,44,0,0.0,43,None
+agents,to_date,float64,44,44,100.0,0,None
+customers,customer_id,str,9500,0,0.0,9500,None
+customers,name,str,9500,0,0.0,4580,None
+customers,city,str,9500,0,0.0,30,None
+customers,state,str,9500,0,0.0,20,None
+customers,signup_date,str,9500,0,0.0,901,None
+customers,care_plus,str,9500,0,0.0,2,None
+orders,order_id,str,15000,0,0.0,15000,None
+orders,customer_id,str,15000,0,0.0,7546,None
+orders,sku,str,15000,0,0.0,14,None
+orders,order_date,str,15000,0,0.0,746,None
+orders,channel,str,15000,0,0.0,3,None
+orders,qty,int64,15000,0,0.0,2,None
+orders,order_value_inr,int64,15000,0,0.0,104,None
+orders,lot_code,str,15000,0,0.0,1267,None
+products,sku,str,14,0,0.0,14,None
+products,product_name,str,14,0,0.0,14,None
+products,family,str,14,0,0.0,5,None
+products,launch_date,str,14,0,0.0,13,None
+products,unit_cost_inr,int64,14,0,0.0,14,None
+products,retail_price_inr,int64,14,0,0.0,11,None
+products,warranty_months,int64,14,0,0.0,2,None

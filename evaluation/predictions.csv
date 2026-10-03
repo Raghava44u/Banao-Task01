@@ -1,0 +1,1152 @@
+ticket_id,customer_message,agent_notes,baseline_bot_category,gold_category,assigned_team,channel,ai_predicted_category,subcategory,confidence,reason,review_required,evidence,ai_correct,baseline_correct
+TK-240607,"sir ji
+locked out of my own account since recently
+please help karo
+help","cx reported unable to log in. checked otp logs. number updated, rslvd. follow-up not required.",Account & Login,Account & Login,Email Frontline,email,Account & Login,OTP Delivery Failure,0.4011,ML model posterior probability 40.1% for Account & Login (margin: 12.9%) [Flagged for human supervisor review due to lower confidence or close competitor],True,sir locked account,True,True
+TK-241900,"dear sir/madam,
+
+i am writing wiht refeerence to my order of the airlite buds placed on 20 mar. not receiving otp to login. i have tried on another browser. i request you to process a refund to my original paymet method.
+
+yours faithfully,
+reyansh varghese","cust contacted re login issue. checked number on account. otp resent, cx logged in.",Account & Login,Account & Login,Chat Frontline,chat,Account & Login,OTP Delivery Failure,0.95,"User authentication difficulty, missing verification OTP, or credential lockout.",False,login / OTP failure,True,True
+TK-241549,[IVR transcript] hey your site keeps saying it sent me a code and my phone disagrees help,"unable to log in | checked otp logs -> number updated, rslvd ~Ritika",Account & Login,Account & Login,Voice Frontline,voice,Account & Login,OTP Delivery Failure,0.6683,ML model posterior probability 66.8% for Account & Login (margin: 38.5%) [Flagged for human supervisor review due to lower confidence or close competitor],True,ivr transcript hey,True,True
+TK-251965,"To the Vireo Customer Care Team,
+
+I am writing with reference to my order of Orbit speaker placed on February 12. OTP not coming on my number. I have tried 5 times. I request you to process a refund to my original payment method.
+
+Yours faithfully,
+Zaid D'Souza",resolved on call (SOP 3.1) //SIM,Account & Login,Account & Login,Email Frontline,email,Account & Login,OTP Delivery Failure,0.95,"User authentication difficulty, missing verification OTP, or credential lockout.",False,login / OTP failure,True,True
+TK-253937,"Hello, airlite earbuds purchased around Diwali, order VR898763. Cannot login to my account. I tried 5 times. Please help. Awaiting response, Steven",see prev,Account & Login,Other,Email Frontline,email,Account & Login,OTP Delivery Failure,0.674,ML model posterior probability 67.4% for Account & Login (margin: 41.4%) [Flagged for human supervisor review due to lower confidence or close competitor],True,hello airlite earbuds,False,False
+TK-253997,"hi
+the login coed never arrives, tried 6 times
+pulse 1
+anyyone there","issue: login issue | chk otp logs -> number updated, resolved",Account & Login,Account & Login,Email Frontline,email,Account & Login,OTP Delivery Failure,0.92,ML model posterior probability 92.0% for Account & Login (margin: 88.1%),False,login arrives tried,True,True
+TK-242424,locked out of my own account since a month ago - waiting for your reply,"Ticket raised for unable to log in. chk OTP logs. Number updated, rslvd.",Account & Login,Account & Login,Chat Frontline,social,Account & Login,OTP Delivery Failure,0.5626,ML model posterior probability 56.3% for Account & Login (margin: 29.6%) [Flagged for human supervisor review due to lower confidence or close competitor],True,locked account month,True,True
+TK-252288,"To the Vireo Customer Care Team,
+
+I am writing with reference to my order of the Pulse buds (VR886060) placed on 15/03.  OTP not coming on my number. I have tried on another browser. I request you to provide a resolution within 3 working days.
+
+Yours faithfully,
+Aditya Patel",cust contacted re unable to log in. checked otp logs. account unlocked. follow-up not required.,Account & Login,Account & Login,Email Frontline,email,Account & Login,OTP Delivery Failure,0.95,"User authentication difficulty, missing verification OTP, or credential lockout.",False,login / OTP failure,True,True
+TK-249692,"hi, this is regarding orbit speaker. the login code never arrives, tried 6 times. kindly look into it","ticket raisde for otp not rcvd. checkd number on account. otp resent, cx logged in. cx satisfied on chat. [closed]",Account & Login,Account & Login,Chat Frontline,chat,Account & Login,Account Locked / Password Reset,0.95,"User authentication difficulty, missing verification OTP, or credential lockout.",False,login / OTP failure,True,True
+TK-244497,"hii
+not receiving otp to login","login issue | chk otp logs -> otp resent, cx logged in -SM",Account & Login,Account & Login,Chat Frontline,chat,Account & Login,OTP Delivery Failure,0.95,"User authentication difficulty, missing verification OTP, or credential lockout.",False,login / OTP failure,True,True
+TK-250486,"Honestly regretting this purchase. This is regarding the charging case I ordered. the login code never arrives, tried 6 times. I already tried on another browser. This is the last time I buy from you.",account unlocked. issue: unable to log in. checked otp logs.,Account & Login,Account & Login,Chat Frontline,chat,Account & Login,Account Locked / Password Reset,0.95,"User authentication difficulty, missing verification OTP, or credential lockout.",False,login / OTP failure,True,True
+TK-246192,"Product: my Pulse
+Order: VR894528
+Purchased: 15 Dec
+Issue: cannot login to my account
+Tried: tried 5 times
+Expected: refund","cx says otp not received. checked otp logs. otp resent, cx logged in. ~Abhishek",Account & Login,Account & Login,Chat Frontline,chat,Account & Login,OTP Delivery Failure,0.7075,ML model posterior probability 70.8% for Account & Login (margin: 47.3%) [Flagged for human supervisor review due to lower confidence or close competitor],True,product pulse order,True,True
+TK-243214,locked out of my own account since a month ago,"issue: login issue | chk otp logs -> otp resent, cx logged in ~Ritika",Account & Login,Account & Login,Email Frontline,email,Account & Login,OTP Delivery Failure,0.6858,ML model posterior probability 68.6% for Account & Login (margin: 46.4%) [Flagged for human supervisor review due to lower confidence or close competitor],True,locked account month,True,True
+TK-248127,"Hi, Order VR908494 (Nexa Fit). Cannot login to my account. I tried on another browser. Nothing changed. Please help. Thank you Sddharth",Contact re unablle to log in. Checked nubmer on account. Account unlocked.,Account & Login,Other,Email Frontline,email,Account & Login,OTP Delivery Failure,0.6749,ML model posterior probability 67.5% for Account & Login (margin: 40.3%) [Flagged for human supervisor review due to lower confidence or close competitor],True,order nexa fit,False,False
+TK-252703,"sir ji
+my company accounts team is asking for the tax bill
+kuch karo
+kindly do the needful",GST invoice regenerated and shared. Issue: GST invoice request. Updated GSTIN on ord. //SNE,Account & Login,Billing & Payments,Chat Frontline,chat,Billing & Payments,Payment Failed / Deducted,0.8082,ML model posterior probability 80.8% for Billing & Payments (margin: 74.7%),False,sir company accounts,True,False
+TK-250656,This is very disappointing. Ordered Orbit speaker recently. cannot login to my account. I already tried on another browser. Fix this or I am posting on twitter.,custtomer states unable to log in. checked number on account. account unlocked. closing.,Account & Login,Other,Email Frontline,email,Account & Login,OTP Delivery Failure,0.7344,ML model posterior probability 73.4% for Account & Login (margin: 54.0%) [Flagged for human supervisor review due to lower confidence or close competitor],True,disappointing ordered orbit,False,False
+TK-243933,"hello
+the login code never arrives, tried 6 times
+the mini speakr
+kindly do the needful","issue: login issue | chk otp logs -> otp resent, cx logged in",Account & Login,Account & Login,Chat Frontline,social,Account & Login,Account Locked / Password Reset,0.95,"User authentication difficulty, missing verification OTP, or credential lockout.",False,login / OTP failure,True,True
+TK-240884,"hey
+not receiving otp to login
+the airlite buds",as discussed,Account & Login,Account & Login,Chat Frontline,chat,Account & Login,OTP Delivery Failure,0.95,"User authentication difficulty, missing verification OTP, or credential lockout.",False,login / OTP failure,True,True
+TK-245051,"Got the fit band from Amazon recently. OTP not coming on my number.
+I tried 5 times.
+Please advise.
+Regards, Ankit Jain",Reported: OTP not rcvd. chk number on account. Account unlocked.,Account & Login,Account & Login,Chat Frontline,chat,Account & Login,OTP Delivery Failure,0.95,"User authentication difficulty, missing verification OTP, or credential lockout.",False,login / OTP failure,True,True
+TK-249118,"[IVR transcript] Hi there, This is regarding Strata 3.  Not receiving OTP to login. I tried 5 times. How do I get thsi fixed? Rgds Farah","re: otp not received | checked otp logs -> otp resent, cx logged in",Account & Login,Account & Login,Voice Frontline,voice,Account & Login,OTP Delivery Failure,0.95,"User authentication difficulty, missing verification OTP, or credential lockout.",False,login / OTP failure,True,True
+TK-240195,"PRODUCT: MY NEXA
+ORDER: VR888724
+PURCHASED: 06/11
+ISSUE: THE LOGIN CODE NEVER ARRIVES, TRIED 6 TIMES
+TRIED: TRIED ON ANOTHER BROWSER
+EXPECTED: RESOLUTION","issue: login issue | checked otp logs -> number updated, rslvd -SM",Account & Login,Account & Login,Chat Frontline,chat,Account & Login,Account Locked / Password Reset,0.95,"User authentication difficulty, missing verification OTP, or credential lockout.",False,login / OTP failure,True,True
+TK-247799,[IVR transcript] locked out of my own account since 2 weeks ago. i want my money back,"1. Unable to log in
+2. chk number on account
+3. Account unlocked -NP",Account & Login,Account & Login,Voice Frontline,voice,Account & Login,OTP Delivery Failure,0.7898,ML model posterior probability 79.0% for Account & Login (margin: 68.1%),False,ivr transcript locked,True,True
+TK-253924,"hello
+otp not coming on my number
+the pulse 2 earbuds
+kindly do the needful","re: login issue | checked number on account -> otp resent, cx logged in",Account & Login,Account & Login,Voice Frontline,voice,Account & Login,OTP Delivery Failure,0.95,"User authentication difficulty, missing verification OTP, or credential lockout.",False,login / OTP failure,True,True
+TK-247303,"To the Vireo Customer Care Team,
+
+I am writing with reference to my order of USB-C cable (VR888426) placed on 05-11-2025.  Not receiving OTP to login. I have tried on another browser. I request you to look into this matter at the earliest.
+
+Sincerely,
+Payal Sandhu
+Nashik","number updated, rslvd. issue: login issue. checked otp logs. -SM",Account & Login,Account & Login,Chat Frontline,chat,Account & Login,OTP Delivery Failure,0.95,"User authentication difficulty, missing verification OTP, or credential lockout.",False,login / OTP failure,True,True
+TK-243320,"product: the airlite buds
+purchased: 18 jun
+issue: not receiving otp to login
+tried: tried 5 times
+expected: callback","Number updated, rslvd. Issue: OTP not rcvd. chk number on account. //SNE",Account & Login,Account & Login,Chat Frontline,chat,Account & Login,OTP Delivery Failure,0.95,"User authentication difficulty, missing verification OTP, or credential lockout.",False,login / OTP failure,True,True
+TK-245331,"Hey,
+I bought the Pulse 2 earbuds on 20/09. Need GST invoice for my order.
+I checked orders page. Nothing changed.
+I want my money back.
+Thank you Tenzin",cx states invoice query. Regenerated invoice. xfer to Logistics. GST invoice regenerated & shared. (SOP 2.7),Account & Login,Billing & Payments,Voice Frontline,voice,Billing & Payments,GST Invoice Request,0.94,"Payment transaction anomaly, double debit at gateway, or commercial GST invoice request.",False,payment gateway / GST invoice,True,False
+TK-245191,"Order VR903287 (Pulse earbuds). OTP not coming on my number.
+I tried on another browser.
+I want my money back.
+Thanks & regards Tenzin Reddy","otp not received | checked number on account -> otp resent, cx logged in -SS",Account & Login,Account & Login,Voice Frontline,voice,Account & Login,OTP Delivery Failure,0.95,"User authentication difficulty, missing verification OTP, or credential lockout.",False,login / OTP failure,True,True
+TK-250612,"the login code never arrives, tried 6 times","re: unable to log in | checked number on account -> number updated, resolved ~Abhishek",Account & Login,Account & Login,Chat Frontline,chat,Account & Login,Account Locked / Password Reset,0.95,"User authentication difficulty, missing verification OTP, or credential lockout.",False,login / OTP failure,True,True
+TK-249609,"hi
+locked out of my own account since 3 weeks back
+pulse 2 buds","cx reported otp not received. checked otp logs. otp resent, cx logged in. ~Abhishek",Account & Login,Account & Login,Chat Frontline,chat,Account & Login,OTP Delivery Failure,0.8036,ML model posterior probability 80.4% for Account & Login (margin: 66.8%),False,locked account weeks,True,True
+TK-252842,"Hi, This is regarding my Strata 2 headphones. Cannot login to my account. I tried on another browser. Please resolve asap. Awaiting response","re: unable to log in | checked otp logs -> otp resent, cx logged in",Account & Login,Account & Login,Email Frontline,email,Account & Login,OTP Delivery Failure,0.785,ML model posterior probability 78.5% for Account & Login (margin: 62.6%),False,regarding strata headphones,True,True
+TK-254287,"product: pulse2
+order: vr907733
+purchased: 28/04
+issue: cannot login to my account
+tried: tried 5 times
+expected: callback","Customer reached out - OTP not rcvd. chk number on account. Number updated, resolved.",Account & Login,Account & Login,Chat Frontline,chat,Account & Login,OTP Delivery Failure,0.7173,ML model posterior probability 71.7% for Account & Login (margin: 48.5%) [Flagged for human supervisor review due to lower confidence or close competitor],True,product order purchased,True,True
+TK-242114,not receiiving OTP to login - VR907427 - please resolve asap,issue: login issue | checked otp logs -> account unlocked,Account & Login,Account & Login,Email Frontline,email,Account & Login,OTP Delivery Failure,0.95,"User authentication difficulty, missing verification OTP, or credential lockout.",False,login / OTP failure,True,True
+TK-248793,"the login code never arrives, tried 6 times - can someone fix this?","csut contacted re unable to log in. chhecked otp logs. number updated, rslvd. follow-up not required.",Account & Login,Account & Login,Email Frontline,email,Account & Login,Account Locked / Password Reset,0.95,"User authentication difficulty, missing verification OTP, or credential lockout.",False,login / OTP failure,True,True
+TK-243120,"Product: airlite earbuds
+Order: VR904044
+Purchased: 13/06
+Issue: the login code never arrives, tried 6 times
+Tried: tried on another browser
+Expected: callback",re: unable to log in | checked number on account -> acount unlokced [closed],Account & Login,Account & Login,Chat Frontline,chat,Account & Login,Account Locked / Password Reset,0.95,"User authentication difficulty, missing verification OTP, or credential lockout.",False,login / OTP failure,True,True
+TK-251054,"This is very disappointing. Bought the Orbit smart speaker around 06 Dec from vireo.in. the login code never arrives, tried 6 times. I already tried 5 times. This is the last time I buy from you.","Reported: OTP not received. chk OTP logs. OTP resent, cx logged in.",Account & Login,Account & Login,Chat Frontline,chat,Account & Login,Account Locked / Password Reset,0.95,"User authentication difficulty, missing verification OTP, or credential lockout.",False,login / OTP failure,True,True
+TK-243233,"the login code never arrives, tried 6 times, please call me on my registered number",cx: login issue | checked number on account -> account unlocked -SM,Account & Login,Account & Login,Chat Frontline,chat,Account & Login,Account Locked / Password Reset,0.95,"User authentication difficulty, missing verification OTP, or credential lockout.",False,login / OTP failure,True,True
+TK-243669,"Ordered Arc neckband around Diwali. Not receiving OTP to login. How do I get this fixed? Thanks, Lobsang",Account unlocked. Issue: OTP not received. Checked OTP logs. Via Billing.,App & Firmware,Account & Login,Chat Frontline,social,Account & Login,OTP Delivery Failure,0.95,"User authentication difficulty, missing verification OTP, or credential lockout.",False,login / OTP failure,True,False
+TK-250688,"Product: Pulse 2
+Order: VR886706
+Purchased: December 24
+Issue: firmware update stuck for 2 hours
+Tried: restarted the app
+Expected: refund",contact re fw update stuck. asked cx to keep in case 30 min. replacement raised (bricked). cx informed.,App & Firmware,App & Firmware,Email Frontline,email,App & Firmware,Firmware Update Stuck / Failed,0.8688,ML model posterior probability 86.9% for App & Firmware (margin: 82.8%),False,product pulse order,True,True
+TK-248677,"Hello, This is regarding my Strata 3 headphones. The app closes itself the moment I tap on my device. I cleared cache. I want my money back. Thanks","adv beta build, rslvd. Issue: app crashing. Asked for phone model + OS.",App & Firmware,App & Firmware,Chat Frontline,chat,App & Firmware,Firmware Update Stuck / Failed,0.907,ML model posterior probability 90.7% for App & Firmware (margin: 88.5%),False,hello regarding strata,True,True
+TK-243625,"honestly regretting this purchase. order vr895262 (the nexa 2). atfer the update prompt it went dark and never came back. i already kept phone nearby. i want a replacement or refund, nothing else.",cx ok (SOP 2.7) -VG,App & Firmware,App & Firmware,Chat Frontline,chat,App & Firmware,Firmware Update Stuck / Failed,0.8505,ML model posterior probability 85.0% for App & Firmware (margin: 80.3%),False,honestly regretting purchase,True,True
+TK-247042,[IVR transcript] honeslty regretting this purchase. i bought the airlite buds on 21/07. firmware update stck for 2 hours. i already kept it in the case. refund. now.,re: fw update stuck | checked fw 3.8.10 rollout -> replacement raised (bricked),App & Firmware,Charging & Battery,Voice Frontline,voice,Charging & Battery,Rapid Battery Drain,0.8371,ML model posterior probability 83.7% for Charging & Battery (margin: 75.2%),False,ivr transcript regretting,True,False
+TK-244839,Honestlly regretting this purchase. Bought my Nexa around May 10 from Flipkart. firmware update stuck for 2 hours. I already kpet phone nearby. Fix this or I am posting on twitter.,Cust contacted re update hang. Walked through recovery mode. Update completed after retry.,App & Firmware,App & Firmware,Chat Frontline,chat,App & Firmware,Firmware Update Stuck / Failed,0.8891,ML model posterior probability 88.9% for App & Firmware (margin: 86.1%),False,regretting purchase bought,True,True
+TK-245215,"hello
+after the update prompt it went dark & never came back","1. update hang
+2. checked fw 1.5.5 rollout
+3. update completed after retry",App & Firmware,App & Firmware,Email Frontline,email,App & Firmware,Firmware Update Stuck / Failed,0.8554,ML model posterior probability 85.5% for App & Firmware (margin: 82.1%),False,hello update prompt,True,True
+TK-246329,"hi
+it's showing a sinning circle for hours
+anyone there",done,App & Firmware,Other,Email Frontline,email,App & Firmware,Firmware Update Stuck / Failed,0.7541,ML model posterior probability 75.4% for App & Firmware (margin: 68.8%),False,showing circle hours,False,False
+TK-246462,"DEAR SIR/MADAM,
+
+I AM WRITING WITH REFERENCE TO MY ORDER OF MY NEXA 2 WATCH (VR889588) PLACED ON 21 SEP. Firmware update is stuck at 67%. I have kept phone nearby. I request you to kindly arrange a replacement.
+
+Yours faithfully,
+Manpreet Ansari
+Mumbai",cx says fw update failed. walked through recovery mode. update completed after retry. cx informed.,App & Firmware,App & Firmware,Email Frontline,email,App & Firmware,Firmware Update Stuck / Failed,0.8502,ML model posterior probability 85.0% for App & Firmware (margin: 80.0%),False,dear sir madam,True,True
+TK-247894,"bhai
+firmware update is stuck at 89%
+please help karo
+the neckband VR884542","1. firmware update failed
+2. asked cx to keep in case 30 min
+3. replacement raised (bricked)",App & Firmware,App & Firmware,Email Frontline,email,App & Firmware,Firmware Update Stuck / Failed,0.861,ML model posterior probability 86.1% for App & Firmware (margin: 82.6%),False,bhai firmware update,True,True
+TK-254212,"Hello,
+Got the Orbti smart speaker from Flipkart a month ago. It's showing a spinning circle for hours.
+Please call me on my registered number.
+Thaks Fasial",Cx reported firmware update failed. Asked cx to keep in case 30 min. Update completed after retry.,App & Firmware,Account & Login,Chat Frontline,social,Account & Login,OTP Delivery Failure,0.703,ML model posterior probability 70.3% for Account & Login (margin: 49.7%) [Flagged for human supervisor review due to lower confidence or close competitor],True,hello got orbti,True,False
+TK-247163,"[IVR transcript] Dear Sir/Madam, Got Pulse 2 from vireo.in recently. App crashes when I open device settings. I cleared cache. WHAT DO I DO NOW?","app crashing | asked for phone model + os -> cleared cache, resolved",App & Firmware,App & Firmware,Voice Frontline,voice,App & Firmware,Firmware Update Stuck / Failed,0.9153,ML model posterior probability 91.5% for App & Firmware (margin: 89.8%),False,ivr transcript dear,True,True
+TK-244591,"Dera team,
+Got orbit mini from vireo.in lats month. It's showing a spinning circle for hours.
+I restarted the app.
+I wannt my money back.
+Thank you,",Cx says FW update stuck. Checked FW 2.7.3 rollout. Update completed after retry.,App & Firmware,App & Firmware,Chat Frontline,chat,App & Firmware,Firmware Update Stuck / Failed,0.8608,ML model posterior probability 86.1% for App & Firmware (margin: 82.3%),False,dera team got,True,True
+TK-242121,"Hi there,
+I bought pulse 1 on 18 Oct. Can't get past the loading screen in the app.
+I reinstalled the app. Nothing changed.
+Kindly look into it.
+Thanks in advance Yash","cx says app crash on device page. asked for phone model + os. cleared cache, resolved. closing.",App & Firmware,App & Firmware,Email Frontline,email,App & Firmware,Firmware Update Stuck / Failed,0.8761,ML model posterior probability 87.6% for App & Firmware (margin: 83.5%),False,bought pulse oct,True,True
+TK-252598,"product: the neckband
+order: vr894037
+purchased: march 21
+issue: can't get past the loading screen in the app
+tried: reinstalled the app
+expected: resolution","re: app crash on device page | checked app version -> bug logged, workaround shared -SM",App & Firmware,App & Firmware,Chat Frontline,chat,App & Firmware,Firmware Update Stuck / Failed,0.8908,ML model posterior probability 89.1% for App & Firmware (margin: 86.2%),False,product neckband order,True,True
+TK-252145,"namaste, ths is regarding my straa 3 headphones. firmware update is stuck at 67%. i restarted teh app. nothing changed. plaese resolve asap.",customer states fw updae stuck. asked cx to keep in case 30 min. rplc raised (bricked). cx informed.,App & Firmware,App & Firmware,Email Frontline,email,App & Firmware,Firmware Update Stuck / Failed,0.8555,ML model posterior probability 85.5% for App & Firmware (margin: 78.0%),False,namaste ths regarding,True,True
+TK-249835,since the last update the app just shows a white screen - i want a replacement,"app crash on device page | known issue on android 14 - bug logged -> advised beta build, resolved",App & Firmware,App & Firmware,Email Frontline,email,App & Firmware,Firmware Update Stuck / Failed,0.9062,ML model posterior probability 90.6% for App & Firmware (margin: 87.7%),False,update app just,True,True
+TK-250774,"team,
+app not opening after update
+itna paisa diya hai
+anyone there","app crashing | asked for phone model + os -> cleared cache, rsld [closed]",App & Firmware,App & Firmware,Chat Frontline,chat,App & Firmware,Firmware Update Stuck / Failed,0.8738,ML model posterior probability 87.4% for App & Firmware (margin: 84.1%),False,team app opening,True,True
+TK-253110,it's showing a spinning circle for hours,reported: firmware update failed. checked fw 1.8.5 rollout. update completed after retry.,App & Firmware,App & Firmware,Chat Frontline,social,App & Firmware,Firmware Update Stuck / Failed,0.8574,ML model posterior probability 85.7% for App & Firmware (margin: 80.5%),False,showing spinning circle,True,True
+TK-252655,"To the Vireo Customer Caer Team,
+
+I am writing with reference to my order of my Orbit placed on 29/03. Firmware update stuck for 2 hours. I have restarted the app. I requet you to process a refund to my original payment method.
+
+Yours faithfully,
+Komal Jdahav",new unit shipped under doa. issue: fw update stuck. asked cx to keep in case 30 min.,App & Firmware,App & Firmware,Email Frontline,email,App & Firmware,Firmware Update Stuck / Failed,0.8729,ML model posterior probability 87.3% for App & Firmware (margin: 83.9%),False,vireo customer team,True,True
+TK-247926,"hi there, ordered pulse2 recently. the vireo app keeps crashing. kindly look into it. awaiting response,","cx says app crashing. checked app version. advised beta build, resolved.",App & Firmware,App & Firmware,Email Frontline,email,App & Firmware,Firmware Update Stuck / Failed,0.8539,ML model posterior probability 85.4% for App & Firmware (margin: 80.9%),False,ordered recently vireo,True,True
+TK-247365,"Product: Pulse2
+Order: VR888640
+Purchased: 03 Oct
+Issue: app not opening after updtae
+Tried: cleared cahce
+Expected: resolution","1. app crash on device pae
+2. known issue on android 15 - bug logged
+3. bug logged, workaround shared",App & Firmware,App & Firmware,Email Frontline,email,App & Firmware,Firmware Update Stuck / Failed,0.7757,ML model posterior probability 77.6% for App & Firmware (margin: 71.3%),False,product order purchased,True,True
+TK-254164,"hi team, this is regarding my pulse 2. not pairing with my phone. kindly look into it. rdgs","device not discoverable | walked through forget + re-pair -> advised fw update via app, resolved -SM",App & Firmware,Connectivity,Chat Frontline,chat,Connectivity,Bluetooth Pairing Failure,0.8443,ML model posterior probability 84.4% for Connectivity (margin: 80.5%),False,team regarding pulse,True,False
+TK-246334,the progress bar has not moved since morning. how do i get this fixed?,issue: update hang | walked through recovery mode -> update completed after retry -SM,App & Firmware,App & Firmware,Chat Frontline,chat,App & Firmware,Firmware Update Stuck / Failed,0.7691,ML model posterior probability 76.9% for App & Firmware (margin: 68.6%),False,progress bar moved,True,True
+TK-246245,"hi
+firmware update stuck for 2 hours
+the nexa 2",cust contacted re fw update failed. walked through recovery mode. update completed after retry. cx informed.,App & Firmware,App & Firmware,Email Frontline,email,App & Firmware,Firmware Update Stuck / Failed,0.8716,ML model posterior probability 87.2% for App & Firmware (margin: 82.3%),False,firmware update stuck,True,True
+TK-247207,APP NOT OPENING AFTER UPDATE,"Bug logged, workaround shared. Issue: app not opening. Known issue on Android 15 - bug logged. Via Returns Desk. (SOP 3.1) [closed]",App & Firmware,App & Firmware,Voice Frontline,voice,App & Firmware,Firmware Update Stuck / Failed,0.9275,ML model posterior probability 92.8% for App & Firmware (margin: 90.6%),False,app opening update,True,True
+TK-250271,"Namaste, I bought the neckband on 04-11-2025. The Vireo app keeps crashing. Please advise. Awaiting response, Varun Shah","Cust contacted re app crash on device page. chk app version. Bug logged, workaround shared.",App & Firmware,App & Firmware,Email Frontline,email,App & Firmware,Firmware Update Stuck / Failed,0.8575,ML model posterior probability 85.7% for App & Firmware (margin: 82.6%),False,namaste bought neckband,True,True
+TK-241484,"hi there, bought pulse earbuds arounnd 16-12-2024 from flipkart. after teh update prompt it went dark and nveer came back. i restarted the app. can someone fix this? thanks & regards, ishaan trivedi",fw update stuck | checked fw 2.9.0 rollout -> recovery successful ~Abhishek,App & Firmware,App & Firmware,Email Frontline,email,App & Firmware,Firmware Update Stuck / Failed,0.8604,ML model posterior probability 86.0% for App & Firmware (margin: 81.8%),False,bought pulse earbuds,True,True
+TK-245469,Really frustrating. This is regarding Arc neckband. update failed and now it won't turn on. I already kept phone nearby. Escalate this to someone senior.,Ticket raised for update hang. Checked FW 2.9.8 rollout. Update completed after retry. ~Ramesh,App & Firmware,App & Firmware,Chat Frontline,chat,App & Firmware,Firmware Update Stuck / Failed,0.8368,ML model posterior probability 83.7% for App & Firmware (margin: 77.2%),False,really frustrating regarding,True,True
+TK-245019,"hii
+app not opening after update","1. App crash on device page
+2. Checked app version
+3. xfer to Returns Desk
+4. Bug logged, workaround shared [closed]",App & Firmware,App & Firmware,Voice Frontline,voice,App & Firmware,Firmware Update Stuck / Failed,0.9092,ML model posterior probability 90.9% for App & Firmware (margin: 88.3%),False,hii app opening,True,True
+TK-243206,"hello
+since teh last update the app just shows a white screen
+??","Ticket raised for app crash on device page. Asked for phone model + OS. adv beta build, resolved. Closing. (SOP 4.2) -VG",App & Firmware,App & Firmware,Chat Frontline,social,App & Firmware,Firmware Update Stuck / Failed,0.8934,ML model posterior probability 89.3% for App & Firmware (margin: 86.0%),False,hello teh update,True,True
+TK-253361,the app closes itself the moment I tap on my device,"1. App not opening
+2. Asked for phone model + OS
+3. adv beta build, rslvd -NP",App & Firmware,App & Firmware,Voice Frontline,voice,App & Firmware,Firmware Update Stuck / Failed,0.9193,ML model posterior probability 91.9% for App & Firmware (margin: 90.2%),False,app closes moment,True,True
+TK-243274,[IVR transcript] I am losing patience.  I bought Strata 3 on 30/11. battery backup is terrible now. I already turned off always-on display. Fix this or I am posting on twitter.,"adv settings change, cx satisfied. Issue: poor battery backup. Checked FW 2.7.12. //ZOY",App & Firmware,Charging & Battery,Voice Frontline,voice,Charging & Battery,Rapid Battery Drain,0.7802,ML model posterior probability 78.0% for Charging & Battery (margin: 66.8%),False,ivr transcript losing,True,False
+TK-242720,"Hi there,
+Bought the Pulse buds around March 06 from vireo.in. Firmware update stuck for 2 hours.
+Please help.",cx reached out - fw update failed. chk FW 2.1.9 rollout. New unit shipped under DOA.,App & Firmware,App & Firmware,Email Frontline,email,App & Firmware,Firmware Update Stuck / Failed,0.8785,ML model posterior probability 87.8% for App & Firmware (margin: 84.4%),False,bought pulse buds,True,True
+TK-244294,"dear team, got the nexa 2 from vireo.in 10 days ago. cannot pair the nexa 2 with my laptop. i tried on another phone. pathetic experience honestly. can someone fix this? please revert,","cx: pairing failure | asked cx to reset the device -> re-pair successful, rslvd on chat -SM",App & Firmware,Connectivity,Chat Frontline,chat,Connectivity,Bluetooth Pairing Failure,0.8679,ML model posterior probability 86.8% for Connectivity (margin: 81.6%),False,dear team got,True,False
+TK-249605,"hii
+update failed and now it won't turn on
+the nexa 2 VR903141",cust contacted re fw update stuck. walked through recovery mode. update completed after retry.,App & Firmware,App & Firmware,Email Frontline,email,App & Firmware,Firmware Update Stuck / Failed,0.8584,ML model posterior probability 85.8% for App & Firmware (margin: 81.6%),False,hii update failed,True,True
+TK-252891,"random disconnects during calls
+vr892285
+please resolve asap","1. connection dopping
+2. checked fw 1.0.9
+3. replacement raised",Audio Quality,Other,Email Frontline,email,Other,General Feedback,0.5303,ML model posterior probability 53.0% for Other (margin: 17.2%) [Flagged for human supervisor review due to lower confidence or close competitor],True,random disconnects calls,True,False
+TK-254641,[IVR transcript] hlo rigght earbud completely silent,single side audio only | walked through reset -> reset rslvd -SS,Audio Quality,Audio Quality,Voice Frontline,voice,Audio Quality,Microphone Inaudible / Muffled,0.4888,ML model posterior probability 48.9% for Audio Quality (margin: 18.0%) [Flagged for human supervisor review due to lower confidence or close competitor],True,ivr transcript hlo,True,True
+TK-245292,pathetic experience honestly.  i bought my strata 2 headphones on 08/08. right earbud completely silent. i already reset the buds. this is the last time i buy from you.,Contact re no audio one side. Asked cx to check bud in case. Replacement raised.,Audio Quality,Audio Quality,Email Frontline,email,Audio Quality,Microphone Inaudible / Muffled,0.6461,ML model posterior probability 64.6% for Audio Quality (margin: 49.8%) [Flagged for human supervisor review due to lower confidence or close competitor],True,pathetic experience honestly,True,True
+TK-244572,"Namaste, Bought Pulse 2 around July 18 from Flipkart.  Mic not working on calls. Please advise. Thanks in advance, Rohan Kaur",Replacement raised. Issue: mic not working on calls. Tested on call w/ cx.,Audio Quality,Audio Quality,Chat Frontline,chat,Audio Quality,Microphone Inaudible / Muffled,0.7536,ML model posterior probability 75.4% for Audio Quality (margin: 64.5%),False,namaste bought pulse,True,True
+TK-251606,"mircophone is vrey low on the my strata 2 headphones, kindly look itno it",customer reached out - mic not working on calls. chk mic permissions on phone. replacement raised. cx informed.,Audio Quality,Audio Quality,Email Frontline,email,Audio Quality,Microphone Inaudible / Muffled,0.4208,ML model posterior probability 42.1% for Audio Quality (margin: 24.2%) [Flagged for human supervisor review due to lower confidence or close competitor],True,low strata headphones,True,True
+TK-240839,"I hear music in one ear only, other is mute","1. No audio one side
+2. Walked through reset
+3. Transferred to Logistics
+4. Replacement approved, reverse pickup arranged ~Imran",Audio Quality,Audio Quality,Chat Frontline,chat,Audio Quality,Microphone Inaudible / Muffled,0.532,ML model posterior probability 53.2% for Audio Quality (margin: 31.6%) [Flagged for human supervisor review due to lower confidence or close competitor],True,hear music ear,True,True
+TK-253311,[IVR transcript] connection drops constantly.  vr883233. i want a replacement,cx: intermittent disconnects | checked fw 1.2.3 -> fw update resolved,Audio Quality,App & Firmware,Voice Frontline,voice,Other,General Feedback,0.6247,ML model posterior probability 62.5% for Other (margin: 37.7%) [Flagged for human supervisor review due to lower confidence or close competitor],True,ivr transcript connection,False,False
+TK-249576,"static noise when playing music
+how do i get this fixed?","rplc raised, RMA shared with cx. Issue: audio distortion. Asked for a recording.",Audio Quality,Warranty & Repair,Voice Frontline,voice,Audio Quality,Microphone Inaudible / Muffled,0.9122,ML model posterior probability 91.2% for Audio Quality (margin: 89.0%),False,static noise playing,False,False
+TK-247745,"not what i expected from vireo. ordered pulse 1 around diwali. one of them is just decoration at this point. i already checked balance settings. i want a replacement or refund, nothing else.",cx: left side silent | asked cx to check bud in case -> escalated to warranty,Audio Quality,Warranty & Repair,Voice Frontline,voice,Audio Quality,Microphone Inaudible / Muffled,0.6156,ML model posterior probability 61.6% for Audio Quality (margin: 40.6%) [Flagged for human supervisor review due to lower confidence or close competitor],True,expected vireo ordered,False,False
+TK-253259,"hello
+it goes silent for a second every few minutes and comes back
+strata 2 VR908546",issue: intermittent disconnects | adv to test in different location -> refunded rs 4999,Audio Quality,Warranty & Repair,Email Frontline,email,Other,General Feedback,0.6597,ML model posterior probability 66.0% for Other (margin: 38.6%) [Flagged for human supervisor review due to lower confidence or close competitor],True,hello goes silent,False,False
+TK-253857,"To the Vireo Customer Care Team,
+
+I am writing with reference to my order of pulse 2 buds placed on 04/02. Everything sounds like it is coming from one direction now. I have tried different phone. I request you to provide a resolution within 3 working days.
+
+Yorus faithfully,
+Deepak Tiwari",left side silent | chk balance settings with cx -> reset rslvd ~Ritika,Audio Quality,Other,Chat Frontline,chat,Audio Quality,Microphone Inaudible / Muffled,0.6749,ML model posterior probability 67.5% for Audio Quality (margin: 53.6%) [Flagged for human supervisor review due to lower confidence or close competitor],True,vireo customer care,False,False
+TK-241423,[IVR transcript] bhai distorted audio at high volue please help karo my orbit,re: crackling/distortion | checked with different source -> replacement raised,Audio Quality,Audio Quality,Voice Frontline,voice,Audio Quality,Microphone Inaudible / Muffled,0.8246,ML model posterior probability 82.5% for Audio Quality (margin: 77.0%),False,ivr transcript bhai,True,True
+TK-250640,[IVR transcript] hii crackling sound in the letf side hello??,re: crackling/distortion | checked fw -> replacement raised,Audio Quality,Audio Quality,Voice Frontline,voice,Audio Quality,Microphone Inaudible / Muffled,0.8398,ML model posterior probability 84.0% for Audio Quality (margin: 76.8%),False,ivr transcript hii,True,True
+TK-254163,[IVR transcript] This is very disappointing. I bought my Arc on April 07. distorted audio at high volume. I already changed EQ. Refund. Now.,"Cx reported audiio distortion. Checked FW. Transferred to Escalations & wty. FW update, cx to monitor. ~Meera",Audio Quality,Audio Quality,Voice Frontline,voice,Audio Quality,Microphone Inaudible / Muffled,0.8438,ML model posterior probability 84.4% for Audio Quality (margin: 77.5%),False,ivr transcript disappointing,True,True
+TK-251007,"hii
+left side has no audio at all
+kindly do the needful",Replacement raised. Issue: no audio one side. Walked through reset. Via Esclaations & wty. ~Geeta,Audio Quality,Audio Quality,Chat Frontline,chat,Audio Quality,Microphone Inaudible / Muffled,0.7625,ML model posterior probability 76.2% for Audio Quality (margin: 60.4%),False,hii left audio,True,True
+TK-242760,"Product: my Strata 2 headphones
+Order: VR883276
+Purchased: May 03
+Issue: people cannot hear me on calls
+Tried: checked mic permissions
+Expected: fix","cx says mic not working on calls. chk mic permissions on phone. permissions fixed, resolved. closing.",Audio Quality,Audio Quality,Email Frontline,email,Audio Quality,Microphone Inaudible / Muffled,0.8836,ML model posterior probability 88.4% for Audio Quality (margin: 84.6%),False,product strata headphones,True,True
+TK-248187,Very poor quality. I bought my Pulse on May 25. there is a frying sound in the background of every song. I already changed EQ. Escalate this to someone senior.,new unit shipped under doa. issue: static noise in audio. checked with different source.,Audio Quality,Audio Quality,Chat Frontline,chat,Audio Quality,Microphone Inaudible / Muffled,0.8841,ML model posterior probability 88.4% for Audio Quality (margin: 84.3%),False,poor quality bought,True,True
+TK-247782,"hi sir
+everyone on my calls says i sound like i'm underwater
+please help karo
+pulse 2 VR910156
+kindly do the needful","low mic pkp | tested on call with cx -> permissions fixed, resolved",Audio Quality,Audio Quality,Chat Frontline,chat,Audio Quality,Microphone Inaudible / Muffled,0.7541,ML model posterior probability 75.4% for Audio Quality (margin: 64.6%),False,sir calls says,True,True
+TK-245224,[IVR transcript] right earbud completley silent,re: no audio one side | walked through reset -> new unit shipped under doa,Audio Quality,Audio Quality,Voice Frontline,voice,Audio Quality,Microphone Inaudible / Muffled,0.5931,ML model posterior probability 59.3% for Audio Quality (margin: 39.6%) [Flagged for human supervisor review due to lower confidence or close competitor],True,ivr transcript right,True,True
+TK-245777,Honestly regretting this purchase.  Order VR884151 (pulse 2 buds). buzzing sound from the speaker. I already tried different apps. This is the last time I buy from you.,re: crackling/distortion | chk with different source -> replacement raised -SS,Audio Quality,Audio Quality,Chat Frontline,chat,Audio Quality,Microphone Inaudible / Muffled,0.893,ML model posterior probability 89.3% for Audio Quality (margin: 86.0%),False,honestly regretting purchase,True,True
+TK-243595,not what i expected from vireo. i bought pulse earbuds on may 19. left side has no audio at all. i alreaddy checked balance settings. this is the last time i buy from you.,-,Audio Quality,Audio Quality,Email Frontline,email,Audio Quality,Microphone Inaudible / Muffled,0.7391,ML model posterior probability 73.9% for Audio Quality (margin: 57.5%) [Flagged for human supervisor review due to lower confidence or close competitor],True,expected vireo bought,True,True
+TK-248342,"To the Vireo Customer Care Team,
+
+I am writing w/ reference to my order of my Strata 3 headphones (VR888791) placed on October 30. Static noise when plaiyng music. I have tried wired mode. I request u to kindly arrange a replacement.
+
+Yours faithfully,
+Sukhwinder Arora",static noise in audio | checked fw -> replacement raised ~Ritika,Audio Quality,Audio Quality,Chat Frontline,chat,Audio Quality,Microphone Inaudible / Muffled,0.7018,ML model posterior probability 70.2% for Audio Quality (margin: 57.7%) [Flagged for human supervisor review due to lower confidence or close competitor],True,vireo customer care,True,True
+TK-245020,"Hi there, Got my Pulse from vireo.in a month ago. I hear music in one ear only, other is mute. Waiting for ur reply. Thank you Mohammed Verma",ticket raised for right side silent. checked balance settings with cx. rpplc raised. case closed with cx consent.,Audio Quality,Other,Email Frontline,email,Audio Quality,Microphone Inaudible / Muffled,0.3761,ML model posterior probability 37.6% for Audio Quality (margin: 16.5%) [Flagged for human supervisor review due to lower confidence or close competitor],True,got pulse vireo,False,False
+TK-240278,"Not acceptable at this price. my Orbit purchased 3 weeks back, order VR883357. there is a frying sound in the background of every song. I already tried wired mode. Fix this or I am posting on twitter.","Cx says crackling/distortion. Asked for a recording. FW update, cx to monitor.",Audio Quality,Audio Quality,Chat Frontline,chat,Audio Quality,Microphone Inaudible / Muffled,0.8323,ML model posterior probability 83.2% for Audio Quality (margin: 74.8%),False,acceptable price orbit,True,True
+TK-252906,"Dear team, Ordered the AiLite buds in January.  No sound from the right earbud. I tried different phone. Nothing changed. I want a replacement. Regards, Harsh Dutta",Cust contacted re no audio one side. Walked through reset. rplc raised.,Audio Quality,Audio Quality,Chat Frontline,social,Audio Quality,Microphone Inaudible / Muffled,0.8617,ML model posterior probability 86.2% for Audio Quality (margin: 80.9%),False,dear team ordered,True,True
+TK-251123,everything sounds like it is coming from one direction now,esc to wty. Issue: single side audio only. chk balance settings w/ cx. //SNE,Audio Quality,Audio Quality,Chat Frontline,chat,Audio Quality,Microphone Inaudible / Muffled,0.6672,ML model posterior probability 66.7% for Audio Quality (margin: 47.1%) [Flagged for human supervisor review due to lower confidence or close competitor],True,sounds like coming,True,True
+TK-254648,CALLERS KEP ASKING ME TO REPEAT MYSELF SINCE 3 WEEKS BACK,"ticket raised for mic not working on calls. tested on call with cx. permissions fixed, resolved.",Audio Quality,Audio Quality,Email Frontline,email,Audio Quality,Microphone Inaudible / Muffled,0.7873,ML model posterior probability 78.7% for Audio Quality (margin: 72.0%),False,callers asking repeat,True,True
+TK-241781,"TEAM,
+STATIC NOISE WHEN PLAYIG MUUSIC
+IN JANUARY SE
+PLS REPLY",cx says crackling/distortion. asked for a recording. transferred to escalations & warranty. replacement raised.,Audio Quality,Warranty & Repair,Chat Frontline,social,Audio Quality,Microphone Inaudible / Muffled,0.482,ML model posterior probability 48.2% for Audio Quality (margin: 34.3%) [Flagged for human supervisor review due to lower confidence or close competitor],True,team static noise,False,False
+TK-253063,"hey,
+bought pulse 2 buds around march 18 from vireo.in.  only one side plays sound.
+i checked balance settings.
+i want a replacement.","1. Single side audio only
+2. chk balance settings w/ cx
+3. rplc raised ~Rohan",Audio Quality,Audio Quality,Chat Frontline,chat,Audio Quality,Microphone Inaudible / Muffled,0.7705,ML model posterior probability 77.1% for Audio Quality (margin: 63.4%),False,hey bought pulse,True,True
+TK-248105,"[IVR transcript] Very poor quality.  pulse 2 buds purchased around Diwali, odrer VR900538. one of thhem is just decoraation at this point. I already tied different phone. This is the last time I buy from you.",Reported: single side audio only. Asked cx to check bud in case. Escalated to warranty.,Audio Quality,Warranty & Repair,Voice Frontline,voice,Connectivity,Bluetooth Pairing Failure,0.3119,ML model posterior probability 31.2% for Connectivity (margin: 7.5%) [Flagged for human supervisor review due to lower confidence or close competitor],True,ivr transcript poor,False,False
+TK-244841,"hi
+one of them is just decoration at this point
+strata 3",no audio one side | checked balance settings w/ cx -> escalated to wty (SOP 5.4) -VG,Audio Quality,Audio Quality,Email Frontline,email,Audio Quality,Microphone Inaudible / Muffled,0.713,ML model posterior probability 71.3% for Audio Quality (margin: 52.5%) [Flagged for human supervisor review due to lower confidence or close competitor],True,just decoration point,True,True
+TK-240831,"hello ji
+everything sounds like it is coming from one direction now
+abhi tak kuch nahi hua
+anyone there",ticket raised for no audio one side. checked balance settings with cx. escalated to warranty. (sop 3.1),Audio Quality,Warranty & Repair,Chat Frontline,chat,Audio Quality,Microphone Inaudible / Muffled,0.5626,ML model posterior probability 56.3% for Audio Quality (margin: 31.6%) [Flagged for human supervisor review due to lower confidence or close competitor],True,hello sounds like,False,False
+TK-241607,right earbud completely silent,esc to warranty. Issue: right side silent. Walked through reset. Via Escalations & Warranty. ~Meera,Audio Quality,Warranty & Repair,Chat Frontline,chat,Audio Quality,Microphone Inaudible / Muffled,0.627,ML model posterior probability 62.7% for Audio Quality (margin: 41.8%) [Flagged for human supervisor review due to lower confidence or close competitor],True,right earbud completely,False,False
+TK-241737,Order VR904042 (the strata 3). Distorted audio at high volume. I tried wired mode. How do I get this fixed? Thank you Diya,as discussed (sop 3.1),Audio Quality,Audio Quality,Chat Frontline,social,Audio Quality,Microphone Inaudible / Muffled,0.8024,ML model posterior probability 80.2% for Audio Quality (margin: 66.1%),False,order strata distorted,True,True
+TK-254465,Honestly reegretting this purchase. This is regarding pulse 2 buds. only one side plays sound. I already reset the buds. Escalate this to someone senior.,customer states left side silent. asked cx to check bud in case. rplc unit dispatched. case closed with cx consent. -SM,Audio Quality,Audio Quality,Chat Frontline,chat,Audio Quality,Microphone Inaudible / Muffled,0.8608,ML model posterior probability 86.1% for Audio Quality (margin: 79.9%),False,honestly purchase regarding,True,True
+TK-247082,"not acceptable at this price. i bought pulse2 on 01/09. buzzing sound from the speaker. i already tried different apps. i want a replacement or refund, nothing else.","fw update, cx to monitor. issue: audio distortion. checked fw.",Audio Quality,Audio Quality,Email Frontline,email,Audio Quality,Microphone Inaudible / Muffled,0.879,ML model posterior probability 87.9% for Audio Quality (margin: 83.5%),False,acceptable price bought,True,True
+TK-246755,"Dear team, Got Pulse2 from Amazon recently. My order has not been delivered yet. Can someone fix this? Thanks,",Re-shipped from warehouse. Issue: dlvry delayed. Confirmed address with cx. Via Logistics.,Billing & Payments,Delivery & Shipping,Billing,email,Delivery & Shipping,Tracking & Delay,0.7001,ML model posterior probability 70.0% for Delivery & Shipping (margin: 56.2%) [Flagged for human supervisor review due to lower confidence or close competitor],True,dear team got,True,False
+TK-251018,"Honestly rergetting this purchase.  the Pulse 2 earbuds purchased recently, order VR909034. the payment went through on the first try, the order has not gone through my front door yet. I already called the courier. This is the last time I buy from you.",Cx reported ord not delivered. conf address w/ cx. xfer to Logistics. rfnd initiated as lost in transit.,Billing & Payments,Delivery & Shipping,Billing,social,Delivery & Shipping,Tracking & Delay,0.8249,ML model posterior probability 82.5% for Delivery & Shipping (margin: 72.5%),False,honestly purchase pulse,True,False
+TK-247924,"[IVR transcript] Ordered Strata 3 in November. Need the bill with my firm's GSTIN on it. I tried different browser. Nothing changed. Please calll me on my registered number. Thanks, Sunita",Cx reported invoice not downloading. Updated GSTIN on order. GST invoice regenerated and shared. Case closed with cx consent. (SOP 2.7),Billing & Payments,Account & Login,Billing,voice,Billing & Payments,GST Invoice Request,0.94,"Payment transaction anomaly, double debit at gateway, or commercial GST invoice request.",False,payment gateway / GST invoice,False,False
+TK-242078,Pathetic experience honestly.  This is regarding AirLite. still waiting for my refund. I already checked bank. This is the last time I buy from you.,"cust contacted re rfnd pending. chk rfnd status on pg. rfnd approved, rs 162, 5-7 working days. [closed]",Billing & Payments,Returns & Refunds,Billing,email,Returns & Refunds,Reverse Pickup Scheduling,0.6345,ML model posterior probability 63.5% for Returns & Refunds (margin: 36.8%) [Flagged for human supervisor review due to lower confidence or close competitor],True,pathetic experience honestly,True,False
+TK-249786,"[IVR transcript] Hello, Ordered Pulse 2 a month ago.  Payment wnt through but I got no order id. I tried logging out and in. Nothing changed. Please advise. Thank you Isha","Contact re failed order after payment. Confirmed wth payment gateway. Refund approved, Rs 2974, 5-7 working days. Cx informed.",Billing & Payments,Billing & Payments,Billing,voice,Billing & Payments,Payment Failed / Deducted,0.4255,ML model posterior probability 42.5% for Billing & Payments (margin: 12.5%) [Flagged for human supervisor review due to lower confidence or close competitor],True,ivr transcript hello,True,True
+TK-248874,"Hi Vireo support, This is regarding the Pulse buds.  The invoice PDF link gives a 404. I tried different browser. Please call me on my registered number. Thanks & regards Krishna George",Cx reported GST invoice request. Regenerated invoice. GST ivnoice regenerated and shared. Follow-up not required.,Billing & Payments,Account & Login,Billing,email,Billing & Payments,GST Invoice Request,0.94,"Payment transaction anomaly, double debit at gateway, or commercial GST invoice request.",False,payment gateway / GST invoice,False,False
+TK-252922,"Hi, Bought Pulse2 around 03 May from vireo.in. Please share invoice w/ GST number. Waiting for your reply. Thanks & regards, Megha",Ticket raised for invoice query. Regnerated invoice. Invoice emailed. Follow-up not required. (SOP 5.4),Billing & Payments,Billing & Payments,Billing,email,Billing & Payments,GST Invoice Request,0.94,"Payment transaction anomaly, double debit at gateway, or commercial GST invoice request.",False,payment gateway / GST invoice,True,True
+TK-240443,"hi
+paid via upi, amount deducted, no odrer confirmation
+strata 2","1. payment debited, no order
+2. conf with payment gateway
+3. auto-refund conf within 5-7 days ~Megha",Billing & Payments,Other,Billing,chat,Billing & Payments,Payment Failed / Deducted,0.446,ML model posterior probability 44.6% for Billing & Payments (margin: 1.3%) [Flagged for human supervisor review due to lower confidence or close competitor],True,paid upi deducted,False,False
+TK-245713,payment successful but order not delivered,"RTO confirmed, reshipped. Issue: shipment not rcvd. Checked AWB w/ crr. Via Logistics. [closed]",Billing & Payments,Delivery & Shipping,Billing,email,Delivery & Shipping,Tracking & Delay,0.6917,ML model posterior probability 69.2% for Delivery & Shipping (margin: 43.7%) [Flagged for human supervisor review due to lower confidence or close competitor],True,payment successful order,True,False
+TK-248524,"this is regarding my strata 3 headphones. your site took the money happily, the box never came. i checked the tracking page daily. please resolve asap.",re-shipped from warehouse. issue: shipment not received. chk awb w/ crr. ~Megha,Billing & Payments,Delivery & Shipping,Billing,chat,Delivery & Shipping,Tracking & Delay,0.7456,ML model posterior probability 74.6% for Delivery & Shipping (margin: 52.8%) [Flagged for human supervisor review due to lower confidence or close competitor],True,regarding strata headphones,True,False
+TK-245794,"[IVR transcript] payment was dedcuted but no order was created, please help",Contact re amount deducted without order. Confirmed with payment gateway. Full refund processed (2500). Case closed witth cx consent. (SOP 5.4),Billing & Payments,Billing & Payments,Billing,voice,Other,General Feedback,0.421,ML model posterior probability 42.1% for Other (margin: 7.8%) [Flagged for human supervisor review due to lower confidence or close competitor],True,ivr transcript payment,False,True
+TK-249876,"sir ji
+card charged two times
+pulse 2 vr888139
+pls reply",issue: duplicate payment | confirmed utrs -> full rfnd processed (3149),Billing & Payments,Billing & Payments,Billing,email,Billing & Payments,Payment Failed / Deducted,0.839,ML model posterior probability 83.9% for Billing & Payments (margin: 78.6%),False,sir card charged,True,True
+TK-246410,"money debited but order not showing, VR880315, waiting for your reply",refund of rs 1104 initiated to source. issue: amount deducted without ord. confirmed with payment gateway. [closed],Billing & Payments,Billing & Payments,Billing,chat,Other,General Feedback,0.4975,ML model posterior probability 49.8% for Other (margin: 7.9%) [Flagged for human supervisor review due to lower confidence or close competitor],True,money debited order,False,True
+TK-248426,I bought teh charging case I ordered on December 07. Reufnd was promised 14 days ago and nothing. I checked bank. I want a replacement. Regards Nikhil Varghese,"1. Refund delay
+2. Checked refund satus on PG
+3. Refund of Rs 1169 initiated to source (SOP 2.7)",Billing & Payments,Returns & Refunds,Billing,social,Returns & Refunds,Reverse Pickup Scheduling,0.4331,ML model posterior probability 43.3% for Returns & Refunds (margin: 11.4%) [Flagged for human supervisor review due to lower confidence or close competitor],True,bought teh charging,True,False
+TK-244028,my bank says Rs 3499 went to you but your site says I have no orders. i want a replacement,"Reported: payment debited, no order. Checked PG dashboard for txn. Reufnd procesesd to source. Cx informed.",Billing & Payments,Other,Billing,social,Billing & Payments,Payment Failed / Deducted,0.5791,ML model posterior probability 57.9% for Billing & Payments (margin: 20.6%) [Flagged for human supervisor review due to lower confidence or close competitor],True,bank says went,False,False
+TK-244378,"Dear Sir/Madam,
+
+I am writing with reference to my order of my Strata 3 headphones placed on 20/08. My company accounts team is asking for the tax bill. I have tried different browser. I request you to look into this matter at the earliest.
+
+Regards,
+Faisla Srivastava
+Chandigarh",issue: gst invoice requet | regenerated invoice -> gst invoice regenerated and shared (SOP 3.1),Billing & Payments,Billing & Payments,Billing,email,Billing & Payments,Payment Failed / Deducted,0.8656,ML model posterior probability 86.6% for Billing & Payments (margin: 81.2%),False,dear sir madam,True,True
+TK-243762,"Hi team,
+I bought teh AirLite bds on July 13. The amount got deducted and siince tehn total silence, no update, nothing at my door.
+I chceked with neighbours.
+I want my money back.
+Thanks & regards Dev Trivedi",cx says ord not delivered. conf address w/ cx. xfer to logistics. rfnd initiated as lost in transit.,Billing & Payments,Delivery & Shipping,Billing,email,Delivery & Shipping,Tracking & Delay,0.8279,ML model posterior probability 82.8% for Delivery & Shipping (margin: 77.3%),False,team bought teh,True,False
+TK-253961,"dear sir/madam,
+
+i am writing with reference to my order of pulse2 (vr897940) placed on 24/05. rs debited on 24 may, still empty handed. i have checked the tracking page daily. i request you to look into this matter at the earliest.
+
+regards,
+aishwarya sen","payment ok. shipment issue. -> logistics Cx says order not delivered. conf address with cx. Transferred to Logistics. Courier conf dlvry for 13 Jun, cx informed. Cx informed. ~Imran",Billing & Payments,Delivery & Shipping,Billing,chat,Delivery & Shipping,Tracking & Delay,0.7435,ML model posterior probability 74.4% for Delivery & Shipping (margin: 56.5%) [Flagged for human supervisor review due to lower confidence or close competitor],True,dear sir madam,True,False
+TK-244336,need the bill with my firm's GSTIN on it - VR896567 - please help,invoice not downloading | regenerated invoice -> gst invoice regenerated & shared //HAR,Billing & Payments,Billing & Payments,Billing,email,Billing & Payments,GST Invoice Request,0.94,"Payment transaction anomaly, double debit at gateway, or commercial GST invoice request.",False,payment gateway / GST invoice,True,True
+TK-248757,"hello
+payment done, order status has not moved since 13 dec
+my strata 3 headphones
+kindly do the needful","Not a billing issue - delivery query, transferring to logistics. Reported: shipment not received. chk AWB with courier. Transferred to Logistics. Refund initiated as lost in transit. Will monitor. (SOP 3.1) ~Imran",Billing & Payments,Returns & Refunds,Billing,social,Delivery & Shipping,Tracking & Delay,0.8401,ML model posterior probability 84.0% for Delivery & Shipping (margin: 78.9%),False,hello payment order,False,False
+TK-243193,"not acceptable at this price. orbit speaker purchased in june, order vr899465. payment done, order status has not moved since 19/06. i already called the courier. this is the last time i buy from you.",re: shipment not received | confirmed address wtih cx -> re-shipped from warehouse | xefr logistics [closed],Billing & Payments,Delivery & Shipping,Billing,chat,Delivery & Shipping,Tracking & Delay,0.812,ML model posterior probability 81.2% for Delivery & Shipping (margin: 69.5%),False,acceptable price orbit,True,False
+TK-241840,"PRODUCT: THE AIRLITE BUDS
+ORDER: VR886428
+PURCHASED: 01-04-2025
+ISSUE: ORDER NOT DELIVERED, TRACKING NOT UPDATING
+TRIED: CHECKED THE TRACKING PAGE DAILY
+EXPECTED: FIX","Cx reported order not delivered. Checked AWB w/ crr. xfer to Logistics. RTO conf, reshipped. Will monitor.",Billing & Payments,Delivery & Shipping,Billing,chat,Delivery & Shipping,Tracking & Delay,0.93,"Inquiry regarding shipment transit status, delayed carrier delivery, or dispatch tracking.",False,delivery / tracking delay,True,False
+TK-244516,"hey
+need the bill with my firm's gstin on it
+help",issue: invoice query | updated gstin on ord -> gst invoice regenerated & shared,Billing & Payments,Billing & Payments,Billing,chat,Billing & Payments,GST Invoice Request,0.94,"Payment transaction anomaly, double debit at gateway, or commercial GST invoice request.",False,payment gateway / GST invoice,True,True
+TK-244925,"Hi,
+Order VR892837 (the Nexa 2).  The page failed after I paid and now nothing shows in my account.
+I tried logging out and in. Nothing changed.
+I want my money back.",Cust contacted re fialed order after payment. Checked PG dashboard for txn. Order manually created. Will monitor. (SOP 2.7),Billing & Payments,Other,Billing,chat,Billing & Payments,Payment Failed / Deducted,0.5376,ML model posterior probability 53.8% for Billing & Payments (margin: 12.7%) [Flagged for human supervisor review due to lower confidence or close competitor],True,order nexa page,False,False
+TK-244849,"dear sir/madam,
+
+i am writing with reference to my order of the nexa 2 (vr909875) placed on 01/09. money went out of my account 9 days ago and i have nothing in hand. i have called the courier. i request you to look into this matter at the earliest.
+
+yours faithfully,
+lobsang mathew","1. shipment not rcvd
+2. confirmed address with cx
+3. rto confirmed, reshipped ~Megha",Billing & Payments,Delivery & Shipping,Billing,chat,Delivery & Shipping,Tracking & Delay,0.6977,ML model posterior probability 69.8% for Delivery & Shipping (margin: 49.1%) [Flagged for human supervisor review due to lower confidence or close competitor],True,dear sir madam,True,False
+TK-249100,"Product: orbit mni
+Order: VR891294
+Purchased: 03 Jan
+Issue: my company accountts team is asking for the tax bill
+Tried: checked orders page
+Expected: callback",Ticket raised for GST invoice request. Regenerated invoice. Invoice emailed. Will monitor. (SOP 4.2),Billing & Payments,Billing & Payments,Billing,social,Billing & Payments,Payment Failed / Deducted,0.8128,ML model posterior probability 81.3% for Billing & Payments (margin: 74.8%),False,product orbit mni,True,True
+TK-251288,"hii
+the page failed after i paid and now nothign shows in my account
+pulse earbuds
+urgent",Contact re ammount deducted without order. Asked for UTR. Refund proessed to source. Closing. (SOP 5.4),Billing & Payments,Other,Billing,email,Other,General Feedback,0.4569,ML model posterior probability 45.7% for Other (margin: 7.5%) [Flagged for human supervisor review due to lower confidence or close competitor],True,hii page failed,True,False
+TK-249735,Not acceptable at this price. I bought Strata 3 on 25-01-2026. the festive offer vanished when I clicked pay. I already tried on app and website. Fix this or I am posting on twitter.,issue: coupon not applied | chceked cart eligibility -> partial rfnd of discount amoutn issued [closed],Billing & Payments,Billing & Payments,Billing,chat,Billing & Payments,Payment Failed / Deducted,0.8345,ML model posterior probability 83.5% for Billing & Payments (margin: 74.2%),False,acceptable price bought,True,True
+TK-247661,"bhai
+paid once, statement disagrees
+itna paisa diya hai
+braided cable",re: charged twice | checked pg for duplicate txn -> full refund processed (200) (SOP 5.4),Billing & Payments,Billing & Payments,Billing,email,Billing & Payments,Payment Failed / Deducted,0.7512,ML model posterior probability 75.1% for Billing & Payments (margin: 65.7%),False,bhai paid statement,True,True
+TK-251426,"dear sir/madam, bought the mini speaker around march 15 from amazon.  need gst invoice for my order. kindly look into it.",Ticket raised for GST invoice request. Updatd GSTIN on order. Invoice emailed. Case closed with cx consent. (SOP 4.2),Billing & Payments,Billing & Payments,Billing,social,Billing & Payments,GST Invoice Request,0.94,"Payment transaction anomaly, double debit at gateway, or commercial GST invoice request.",False,payment gateway / GST invoice,True,True
+TK-247020,not what i expected from vireo. got the neexa 2 from vireo.in last week. card charged two times. i already checked with bank. fix this or i am posting on twitter.,"1. Double charge
+2. Checked PG for duplicate txn
+3. Refund approved, Rs 585, 5-7 working days",Billing & Payments,Billing & Payments,Billing,chat,Billing & Payments,Payment Failed / Deducted,0.7766,ML model posterior probability 77.7% for Billing & Payments (margin: 68.7%),False,expected vireo got,True,True
+TK-251701,"my bank shows the same amount twice on the same day
+i want my money back",full refund processed (2499). issue: duplicate payment. confirmed utrs.,Billing & Payments,Billing & Payments,Billing,email,Billing & Payments,Payment Failed / Deducted,0.8533,ML model posterior probability 85.3% for Billing & Payments (margin: 80.2%),False,bank shows twice,True,True
+TK-240056,"hi,
+tihs is regarding braided cable. rs debited on 07/09, still empty handed.
+i called the courier.
+please resolve asap.
+thank you, karan mukherjee","order not delivered | raised ticket with courier partner -> courier confirmed delivery for 24 sep, cx informed | xfer logistics",Billing & Payments,Delivery & Shipping,Billing,chat,Delivery & Shipping,Tracking & Delay,0.8056,ML model posterior probability 80.6% for Delivery & Shipping (margin: 68.8%),False,tihs regarding braided,True,False
+TK-251546,"[IVR transcript] Dear team, Pulse2 purchaseed in March, order VR902465. Your ad said 20% off and the cart says full price. I tried in caps. Please advise. Awaiting respose","issue: promo code invalid | chk cart eligibility -> advised coupon terms, rslvd //HAR",Billing & Payments,Other,Billing,voice,Other,General Feedback,0.5837,ML model posterior probability 58.4% for Other (margin: 26.6%) [Flagged for human supervisor review due to lower confidence or close competitor],True,ivr transcript dear,True,False
+TK-249303,"Not what I expected from Vireo. THIS IS REGARDING PULSE 2 BUDS. payment successful but order not delivered. I already checked the tracking page daily. I want a replacement or refund, nothing else.","courier confirmed dlvry for 16 jan, cx informed. issue: order not delivered. confirmed address w/ cx.",Billing & Payments,Delivery & Shipping,Billing,chat,Delivery & Shipping,Tracking & Delay,0.6292,ML model posterior probability 62.9% for Delivery & Shipping (margin: 28.2%) [Flagged for human supervisor review due to lower confidence or close competitor],True,expected vireo regarding,True,False
+TK-240095,"Dear Sir/Madam,
+
+I am writing w/ reference to my ordder of the fit band placed on 19 Oct. Money gone from account, item not w/ me, 13 days. I have caled the courier. I request u to kindly arrange a replacement.
+
+Sincerely,
+Yash Dutta",payment ok. shipment issue. -> logistics cx reported shipment not received. raised ticket w/ courier partner. xfer to logistics. rfnd initiated as lost in transit.,Billing & Payments,Delivery & Shipping,Billing,email,Delivery & Shipping,Tracking & Delay,0.7332,ML model posterior probability 73.3% for Delivery & Shipping (margin: 60.3%) [Flagged for human supervisor review due to lower confidence or close competitor],True,dear sir madam,True,False
+TK-252106,"hii
+case does not charge, no light at all
+the pulse 2 earbuds vr886028
+??",soted (SOP 4.2),Charging & Battery,Charging & Battery,Email Frontline,email,Charging & Battery,Rapid Battery Drain,0.6732,ML model posterior probability 67.3% for Charging & Battery (margin: 38.7%) [Flagged for human supervisor review due to lower confidence or close competitor],True,hii case does,True,True
+TK-246980,"HI SIR
+GOES FROM FULL TO EMPTY DURING ONE COMMUTE
+ITNA PAISA DIYA HAI
+PULSE EARBUDS",cx says rapid battery drain. checked fw 1.0.11. escalated to warranty.,Charging & Battery,Warranty & Repair,Email Frontline,email,Charging & Battery,Rapid Battery Drain,0.4852,ML model posterior probability 48.5% for Charging & Battery (margin: 33.4%) [Flagged for human supervisor review due to lower confidence or close competitor],True,sir goes commute,False,False
+TK-241498,"hleo
+battery draiins very fast, barely lasts 2 hours
+hello??","issue: rapid battery drain | checked usage pattern with cx -> advised settings change, cx satisfied",Charging & Battery,Charging & Battery,Voice Frontline,voice,Charging & Battery,Rapid Battery Drain,0.6985,ML model posterior probability 69.9% for Charging & Battery (margin: 45.3%) [Flagged for human supervisor review due to lower confidence or close competitor],True,battery fast barely,True,True
+TK-252757,"To the Vireo Customer Care Team,
+
+I am writing with reference to my order of Pulse2 (VR905741) placed on 01/10. Charging case dead, tried 3 cables. I have tried 3 different cables. I request you to process a refund to my original payment method.
+
+Sincerely,
+Megha Agarwal",customer states charging case dead. confirmed case led dead. escalated to wty. closing.,Charging & Battery,Charging & Battery,Email Frontline,email,Charging & Battery,Rapid Battery Drain,0.7472,ML model posterior probability 74.7% for Charging & Battery (margin: 63.4%) [Flagged for human supervisor review due to lower confidence or close competitor],True,vireo customer care,True,True
+TK-248435,[IVR transcript] pathetic experience honestly. this is regarding my pulse 2. left earbud shows 0% and never charges. i already tried a different cable. refund. now.,"1. Left bud not charging
+2. Walked through factory reset
+3. Replacement raised for the bud",Charging & Battery,Charging & Battery,Voice Frontline,voice,Charging & Battery,Rapid Battery Drain,0.7988,ML model posterior probability 79.9% for Charging & Battery (margin: 70.8%),False,ivr transcript pathetic,True,True
+TK-244310,"hi vireo support, got my pulse 2 from flipkart a month ago. battery backup is terrible now. please resolve asap.",esc to wty. issue: battery draining fast. checked usage pattern with cx.,Charging & Battery,Charging & Battery,Email Frontline,email,Charging & Battery,Rapid Battery Drain,0.5349,ML model posterior probability 53.5% for Charging & Battery (margin: 26.8%) [Flagged for human supervisor review due to lower confidence or close competitor],True,vireo support got,True,True
+TK-254510,"Dear team,
+I bought Pulse 2 on 29-03-2026. No light comes on the case when I plgu it in.
+I tried wirless charging pad.
+Not acceptable at this price.
+I waant a replacement.
+Please revert, Bhavna Dutta",Cx says case no LED / no charge. Asked cx to try different cable + adaptor. rplc case raised.,Charging & Battery,Charging & Battery,Chat Frontline,chat,Charging & Battery,Rapid Battery Drain,0.7859,ML model posterior probability 78.6% for Charging & Battery (margin: 70.1%),False,dear team bought,True,True
+TK-241863,I bought the strata 3 on March 18. Battery draining even wen not in use. I fully charged and discharged twice. I want a replacement. Thanks in advance,Customer states rapid battery drain. Checked usage pattern with cx. Transferred to Billing. Replacement raised after test. Case closed with cx consent.,Charging & Battery,Charging & Battery,Chat Frontline,chat,Charging & Battery,Rapid Battery Drain,0.7057,ML model posterior probability 70.6% for Charging & Battery (margin: 46.5%) [Flagged for human supervisor review due to lower confidence or close competitor],True,bought strata march,True,True
+TK-250313,"Hi Vireo support,
+Ordered the Pulse 2 earbuds 2 weeks ago. Charging case dead, tried 3 cables.
+I charged for 6 hours nothing. Nothing changed.
+What do I do now?","Customer states case no LED / no charge. Checked for lint in port. Advised port cleaning, resolved.",Charging & Battery,Charging & Battery,Chat Frontline,chat,Charging & Battery,Rapid Battery Drain,0.7564,ML model posterior probability 75.6% for Charging & Battery (margin: 58.7%),False,vireo support ordered,True,True
+TK-253283,"Hi there,
+Got Strata 2 from Amazon last month. Battery backup is terrible now.
+I turned off always-on display.
+Need this sorted thiis week.","Ticcket raied for poor battery backup. chk FW 2.1.0. Transferred to Escalations & Warranty. Advised settings change, cx satisfied. ~Meera",Charging & Battery,Warranty & Repair,Chat Frontline,chat,Charging & Battery,Rapid Battery Drain,0.7792,ML model posterior probability 77.9% for Charging & Battery (margin: 64.7%),False,got strata amazon,False,False
+TK-249980,[IVR transcript] dies by lunchtime with light use,poor battery backup | checked usage pattern with cx -> replacement raised after test,Charging & Battery,Charging & Battery,Voice Frontline,voice,Charging & Battery,Rapid Battery Drain,0.807,ML model posterior probability 80.7% for Charging & Battery (margin: 68.1%),False,ivr transcript dies,True,True
+TK-254157,not waht i expected from vireo.  bought the pulse 2 earbuds around 01/03 from vireo.in. battery draining even when not in use. i already turned off always-on display. fix this or i am posting on twitter.,"reported: rapid battery drain. checked fw 1.1.12. fw update pushed, adv to monitor. cx satisfied on chat.",Charging & Battery,Charging & Battery,Email Frontline,email,Charging & Battery,Rapid Battery Drain,0.7106,ML model posterior probability 71.1% for Charging & Battery (margin: 52.9%) [Flagged for human supervisor review due to lower confidence or close competitor],True,waht expected vireo,True,True
+TK-248818,"Product: the Pulse 2 earbuds
+Order: VR899615
+Purchased: November 14
+Issue: lft earbud shows 0% and never charges
+Tried: cleaned the contacts with a cloth
+Expected: calllback",Cx reported left earbud not taking charge. Asked cx to clean charging pins. adv to observe for 48h and revert. //SNE,Charging & Battery,Returns & Refunds,Chat Frontline,chat,Charging & Battery,Rapid Battery Drain,0.6529,ML model posterior probability 65.3% for Charging & Battery (margin: 51.8%) [Flagged for human supervisor review due to lower confidence or close competitor],True,product pulse earbuds,False,False
+TK-240698,"[IVR transcript] Hi Vireo support, Ordered airlite earbuds 3 weeks back. The case has been at the same battery level for a week. I tried 3 different cables. Nothing changed. Please call me on my registered number.","1. Case not charging
+2. Checked for lint in port
+3. adv port cleaning, rslvd -NP",Charging & Battery,Account & Login,Voice Frontline,voice,Account & Login,OTP Delivery Failure,0.5257,ML model posterior probability 52.6% for Account & Login (margin: 19.3%) [Flagged for human supervisor review due to lower confidence or close competitor],True,ivr transcript vireo,True,False
+TK-254177,"Product: the Pulse 2 earbuds
+Order: VR885691
+Purchased: 05-05-2026
+Issue: battery draining even when not in use
+Tried: turned off always-on display
+Expected: fix","cx reached out - battery draining fast. advised disabling anc/aod to test. fw update pushed, advised to monitor. (sop 5.4)",Charging & Battery,Charging & Battery,Chat Frontline,chat,Charging & Battery,Rapid Battery Drain,0.8501,ML model posterior probability 85.0% for Charging & Battery (margin: 79.1%),False,product pulse earbuds,True,True
+TK-248798,"team,
+battery drains v fast, barely lasts 2 hours
+kuch karo",-,Charging & Battery,Charging & Battery,Email Frontline,email,Charging & Battery,Rapid Battery Drain,0.6911,ML model posterior probability 69.1% for Charging & Battery (margin: 43.9%) [Flagged for human supervisor review due to lower confidence or close competitor],True,team battery drains,True,True
+TK-240828,"hello ji
+app shows the left at 0 percent no matter how long its in the case
+bahut pareshan hu
+my arc VR893857
+anyone there","contact re left bud not charging. walked through factory reset. replacement approved, reverse pkp arranged. will monitor.",Charging & Battery,Returns & Refunds,Email Frontline,email,Charging & Battery,Rapid Battery Drain,0.7503,ML model posterior probability 75.0% for Charging & Battery (margin: 61.7%),False,hello app shows,False,False
+TK-244240,"Dear team, This is regarding Nexa 2. I have to charge it twice a day now, it used to last days. I turned off always-on display. Nothing changed. Kindly look into it. Thakn you, Om D'Souza","battery draining fast | checked usage pattern with cx -> fw update pushed, advised to monitor -SM",Charging & Battery,Charging & Battery,Chat Frontline,chat,Charging & Battery,Rapid Battery Drain,0.7575,ML model posterior probability 75.7% for Charging & Battery (margin: 60.1%),False,dear team regarding,True,True
+TK-245858,"hello ji
+one of them (left) never gets the green light in the case
+last week se
+my pulse 2
+urgent",New unit shipped under DOA. Issue: L bud no charge in case. conf FW 2.5.8. //SNE,Charging & Battery,Charging & Battery,Chat Frontline,chat,Charging & Battery,Rapid Battery Drain,0.7573,ML model posterior probability 75.7% for Charging & Battery (margin: 64.3%),False,hello left gets,True,True
+TK-247628,"i hear music in one ear only, other is mute",issue: no audio one side | chk balance settings w/ cx -> esc to warranty,Charging & Battery,Warranty & Repair,Email Frontline,email,Audio Quality,Microphone Inaudible / Muffled,0.532,ML model posterior probability 53.2% for Audio Quality (margin: 31.6%) [Flagged for human supervisor review due to lower confidence or close competitor],True,hear music ear,False,False
+TK-254242,This is very disappointing.  I bought Arc neckband on February 08. only the right one lights up when I put them in the case. I already tried another charger. Refund. Now,cx: left bud not charging | asked for photo of the bud contacts -> esc to warranty for inspection | xfer billing [closed],Charging & Battery,Warranty & Repair,Email Frontline,email,Charging & Battery,Rapid Battery Drain,0.8326,ML model posterior probability 83.3% for Charging & Battery (margin: 77.7%),False,disappointing bought arc,False,False
+TK-249061,"helo
+the left one stopped charging since a month ago",esc to wty for inspection. Issue: left earbud not taking charge. chk case LED behaviour w/ cx. //SNE,Charging & Battery,Charging & Battery,Chat Frontline,chat,Charging & Battery,Rapid Battery Drain,0.8211,ML model posterior probability 82.1% for Charging & Battery (margin: 72.3%),False,helo left stopped,True,True
+TK-244081,"to the vireo customer care team,
+
+i am writing with reefrence to my order of airlite placed on 21/07. dies by lunchtime with light use. i have trned off always-on display. i request you to provide a resolution within 3 working days.
+
+sincerely,
+sukhwinder reddy",re: battery draining fast | checked usage pattern with cx -> escalated to wty,Charging & Battery,Charging & Battery,Chat Frontline,chat,Charging & Battery,Rapid Battery Drain,0.7263,ML model posterior probability 72.6% for Charging & Battery (margin: 63.1%) [Flagged for human supervisor review due to lower confidence or close competitor],True,vireo customer care,True,True
+TK-246869,"plugging in does nothing on the case, cable works on my phone","1. Charging case dead
+2. chk for lint in port
+3. rplc raised, RMA shared w/ cx ~Rohan",Charging & Battery,Warranty & Repair,Chat Frontline,chat,Charging & Battery,Rapid Battery Drain,0.6115,ML model posterior probability 61.1% for Charging & Battery (margin: 26.8%) [Flagged for human supervisor review due to lower confidence or close competitor],True,plugging does case,False,False
+TK-253212,"Hello, Bought the Plse 2 earbuds around 03-02-2026 from vireo.in. The promied 24 hours is nowhere close, I get maybe 2. I updated the app. What do I do now? Regards Siddharth Kumar","battery draining fast | adv disabling anc/aod to test -> adv settings change, cx satisfied -SM",Charging & Battery,Charging & Battery,Chat Frontline,chat,Charging & Battery,Rapid Battery Drain,0.6397,ML model posterior probability 64.0% for Charging & Battery (margin: 48.9%) [Flagged for human supervisor review due to lower confidence or close competitor],True,hello bought plse,True,True
+TK-244997,"Dear Sir/Madam,
+
+I am writing with reference to my order of Arc neckband placed on 08/08. Only the rigt one lighst up when I put them in the case. I have tried a different cable. I request you to look into this matter at the earliest.
+
+Yours faithfully,
+Ananya Dhillon",re: left earbud not taking charge | asked cx to clean charging pins -> advised to observe for 48h and revert -SM,Charging & Battery,Charging & Battery,Chat Frontline,chat,Charging & Battery,Rapid Battery Drain,0.4734,ML model posterior probability 47.3% for Charging & Battery (margin: 33.5%) [Flagged for human supervisor review due to lower confidence or close competitor],True,dear sir madam,True,True
+TK-251113,"Dear team, Got the Pulse 2 earbuds from vireo.in a month ago. Left earbud shows 0% and never charges. I tried another charger. Nothing changed. How do I get this fixed? Regards,",rplc raised for the bud. Issue: left bud not charging. Checked case LED behaviour with cx.,Charging & Battery,Charging & Battery,Chat Frontline,chat,Charging & Battery,Rapid Battery Drain,0.7416,ML model posterior probability 74.2% for Charging & Battery (margin: 65.1%) [Flagged for human supervisor review due to lower confidence or close competitor],True,dear team got,True,True
+TK-243939,"helo
+upate failed and now it won't turn on
+anyone there",Customer reached out - FW update stuck. Walked through recovery mode. Recovery successful. Cx informed. -VG,Charging & Battery,App & Firmware,Email Frontline,email,App & Firmware,Firmware Update Stuck / Failed,0.7311,ML model posterior probability 73.1% for App & Firmware (margin: 59.2%) [Flagged for human supervisor review due to lower confidence or close competitor],True,helo failed won,True,False
+TK-247291,"bhai
+the case has been at the same battery level for a week
+itna paisa diya hai
+the airlite buds","issue: charging case dead | asked cx to try different cable + adaptor -> advised port cleaning, resolved -SM",Charging & Battery,Charging & Battery,Chat Frontline,social,Charging & Battery,Rapid Battery Drain,0.7569,ML model posterior probability 75.7% for Charging & Battery (margin: 62.1%),False,bhai case battery,True,True
+TK-253660,Honeslty regretting this purchase.  Bought Strata 2 around 09-04-2026 from Amazon. dies by lunchtime with light use. I already fully charged and discharged twice. This is the last time I buy from you.,rapid battery drain | advised disabling anc/aod to test -> replacement raised after test,Charging & Battery,Charging & Battery,Voice Frontline,voice,Charging & Battery,Rapid Battery Drain,0.7755,ML model posterior probability 77.6% for Charging & Battery (margin: 61.9%),False,regretting purchase bought,True,True
+TK-247170,"Dear Sir/Madam,
+
+I am writing with reference to my order of Pulse2 (VR902322) placed on 01-09-2025. Left side not charging in the case. I have cleaned the contacts with a cloth. I request you to kindly arrange a replacement.
+
+Regards,
+Sameer Sethi","cx: l bud no charge in case | asked cx to clean charging pins -> rplc raised, rma shared witth cx [closed]",Charging & Battery,Warranty & Repair,Chat Frontline,chat,Charging & Battery,Rapid Battery Drain,0.6433,ML model posterior probability 64.3% for Charging & Battery (margin: 41.9%) [Flagged for human supervisor review due to lower confidence or close competitor],True,dear sir madam,False,False
+TK-253172,"hi
+battery drains very fast, barely lasts 2 hours",see prev //SNE,Charging & Battery,Charging & Battery,Chat Frontline,chat,Charging & Battery,Rapid Battery Drain,0.7164,ML model posterior probability 71.6% for Charging & Battery (margin: 48.1%) [Flagged for human supervisor review due to lower confidence or close competitor],True,battery drains fast,True,True
+TK-250134,"Product: Pulse 2
+Purchased: 21 Dec
+Issue: battery life has dropped to almost nothing
+Tried: turned off always-on display
+Expected: fix","cx reached out - battery draining fast. Checked FW 2.3.10. FW update pushed, advised to monitor.",Charging & Battery,Charging & Battery,Chat Frontline,chat,Charging & Battery,Rapid Battery Drain,0.8595,ML model posterior probability 85.9% for Charging & Battery (margin: 78.0%),False,product pulse purchased,True,True
+TK-242781,"team,
+battery backup is terrible now
+anyone there",Contact re rapid battery drain. Checked usage pattern with cx. Replacement raised after test. Closing. -VG,Charging & Battery,Charging & Battery,Voice Frontline,voice,Charging & Battery,Rapid Battery Drain,0.602,ML model posterior probability 60.2% for Charging & Battery (margin: 24.2%) [Flagged for human supervisor review due to lower confidence or close competitor],True,team battery backup,True,True
+TK-247472,"not acceptable at this price. got pulse2 from vireo.in recently. left earbud not charging, right one is fine. i already did teh reset from the manual. refund. now.",see prev //SIM,Charging & Battery,Charging & Battery,Email Frontline,email,Charging & Battery,Rapid Battery Drain,0.8102,ML model posterior probability 81.0% for Charging & Battery (margin: 70.1%),False,acceptable price got,True,True
+TK-251758,"Product: Pulse2
+Order: VR905587
+Purchased: 14 Oct
+Issue: firmware update stuck for 2 hours
+Tried: kept phone nearby
+Expected: refund","1. fw update failed
+2. Asked cx to keep in case 30 min
+3. rplc raised (bricked) ~Rohan",Charging & Battery,App & Firmware,Chat Frontline,chat,App & Firmware,Firmware Update Stuck / Failed,0.8406,ML model posterior probability 84.1% for App & Firmware (margin: 78.7%),False,product order purchased,True,False
+TK-248548,"Namaste, This is regarding airlite earbuds. Microphone is very low on the airlite earbuds. I checked mic permissions. Nothing changed. How do I get this fixed? Please rveert Siddharth Shh","re: mic not working on calls | tested on call with cx -> permissions fixed, resolved | xfer billing //HAR",Connectivity,Warranty & Repair,Chat Frontline,chat,Audio Quality,Microphone Inaudible / Muffled,0.8521,ML model posterior probability 85.2% for Audio Quality (margin: 78.0%),False,namaste regarding airlite,False,False
+TK-250984,i have been a loyal customer and this is how you treat me. got nexa 2 from amazon in december. bluetooth pairing fails every time. i already restarted the phone. fix thsi or i am posting on twitter.,"issue: pairing failure | asked cx to reset the device -> re-pair successful, resolved on chat",Connectivity,Connectivity,Voice Frontline,voice,Connectivity,Bluetooth Pairing Failure,0.8617,ML model posterior probability 86.2% for Connectivity (margin: 78.8%),False,loyal customer treat,True,True
+TK-252253,"audio keeps disconnecting every few minutes
+vr898783
+waiting for your reply",Cx says connection dropping. chk FW 3.4.9. FW update resolved. //SNE,Connectivity,Audio Quality,Chat Frontline,chat,Audio Quality,Microphone Inaudible / Muffled,0.865,ML model posterior probability 86.5% for Audio Quality (margin: 81.0%),False,audio keeps disconnecting,True,False
+TK-250179,"Hello,
+This is regarding pulse 2 buds. Pairing is not working.
+Kindly look into it.","cx: device not discoverable | checked phone os version -> re-pair successful, resolved on chat",Connectivity,Connectivity,Email Frontline,email,Connectivity,Bluetooth Pairing Failure,0.7516,ML model posterior probability 75.2% for Connectivity (margin: 60.7%),False,hello regarding pulse,True,True
+TK-246803,"the pairing light blinks but nothing ever shows up on my Nothing phone, VR905942, please help","reset done, paired ok. issue: unable to pair with phone. walked throuhg forget + re-pair. ~Abhishek",Connectivity,Connectivity,Voice Frontline,voice,Connectivity,Bluetooth Pairing Failure,0.8911,ML model posterior probability 89.1% for Connectivity (margin: 82.8%),False,pairing light blinks,True,True
+TK-250398,"HELLO, THIS IS REGARDING THE PULSE 2 EARBUDS. It cnonects for a second and ten vanishes from the device list. I tried on another phone. Very poor quality. Pleease advise.","Ticket raised for device not discoverable. Asked cx to reset the device. Re-pair successful, resolved on chat. ~Ramesh",Connectivity,Connectivity,Chat Frontline,social,Connectivity,Bluetooth Pairing Failure,0.7567,ML model posterior probability 75.7% for Connectivity (margin: 61.3%),False,hello regarding pulse,True,True
+TK-249738,"pairing is not working
+can someone fix this?","adv FW update via app, rsslvd",Connectivity,Connectivity,Chat Frontline,chat,Connectivity,Bluetooth Pairing Failure,0.7209,ML model posterior probability 72.1% for Connectivity (margin: 47.1%) [Flagged for human supervisor review due to lower confidence or close competitor],True,pairing working fix,True,True
+TK-248439,"dear sir/madam, order vr904883 (airlite earbuds). audio keeps disconnecting every few minutes. i turned off wifi. nothing changed. please resolve asap. thanks","adv, cx will monitor. issue: connection dropping. adv to test in diffferent location.",Connectivity,Audio Quality,Chat Frontline,chat,Audio Quality,Microphone Inaudible / Muffled,0.7327,ML model posterior probability 73.3% for Audio Quality (margin: 58.6%) [Flagged for human supervisor review due to lower confidence or close competitor],True,dear sir madam,True,False
+TK-251604,"hi
+bluetooth pairing fails every time
+the strata 3",customer states device not discoverable. chk phone os version. rplc unit dispatched. cx informed.,Connectivity,Connectivity,Email Frontline,email,Connectivity,Bluetooth Pairing Failure,0.8767,ML model posterior probability 87.7% for Connectivity (margin: 79.2%),False,bluetooth pairing fails,True,True
+TK-242431,"hello
+cannot pair teh pulse buds w/ my laptop
+??","contact re device not discoverable. walked through forget + re-pair. reset done, paired ok. follow-up not required.",Connectivity,Connectivity,Email Frontline,email,Connectivity,Bluetooth Pairing Failure,0.8461,ML model posterior probability 84.6% for Connectivity (margin: 79.4%),False,hello pair teh,True,True
+TK-252136,not pairing with my phone,"re: device not discoverable | checked phone os version -> advised fw update via app, resolved -SM",Connectivity,Connectivity,Chat Frontline,social,Connectivity,Bluetooth Pairing Failure,0.8445,ML model posterior probability 84.4% for Connectivity (margin: 72.0%),False,pairing phone,True,True
+TK-241529,"hello vireo,
+ordered my orbit a month ago.  the sound stutters whenever my phone is in my pocket.
+i kept phone in hand.
+honestly regretting this purchase.
+i want a replacement.
+regards ishaan",cust contacted re intermittent disconnects. chk fw 1.7.12. rplc raised. closing.,Connectivity,Audio Quality,Email Frontline,email,Audio Quality,Microphone Inaudible / Muffled,0.7998,ML model posterior probability 80.0% for Audio Quality (margin: 71.3%),False,hello vireo ordered,True,False
+TK-249839,[IVR transcript] helo the pairing light blinks but nothing ever shows up on my samsung my pulse 2 urgent,"1. Device not discoverable
+2. Asked cx to reset the device
+3. adv FW update via app, rslvd -NP",Connectivity,Connectivity,Voice Frontline,voice,Connectivity,Bluetooth Pairing Failure,0.8903,ML model posterior probability 89.0% for Connectivity (margin: 84.9%),False,ivr transcript helo,True,True
+TK-252042,the pairing light blinks but nothing ever shows up on my samsung,closed (SOP 5.4) //SIM,Connectivity,Connectivity,Email Frontline,email,Connectivity,Bluetooth Pairing Failure,0.8943,ML model posterior probability 89.4% for Connectivity (margin: 84.0%),False,pairing light blinks,True,True
+TK-253824,"dear sir/madam,
+
+i am writing w/ reference to my order of airite earbuds plaecd on 29 apr. connection drops constantly. i have reset both devices. i request u to look into this matter at the earliest.
+
+sincerely,
+saanvi mukherjee","1. Connection droppinng
+2. Advised to test in different location
+3. xfer to Escalations & Warranty
+4. Replacement raised",Connectivity,Warranty & Repair,Chat Frontline,chat,Other,General Feedback,0.6621,ML model posterior probability 66.2% for Other (margin: 58.9%) [Flagged for human supervisor review due to lower confidence or close competitor],True,dear sir madam,False,False
+TK-253347,"hi there,
+got pulse 2 from flipkart in april. random disconnects during calls.
+i reset both devices.
+please help.
+awaiting response,",re: intermittent disconnects | checked interference sources -> rplc raised,Connectivity,Other,Chat Frontline,social,Other,General Feedback,0.7689,ML model posterior probability 76.9% for Other (margin: 67.6%),False,got pulse flipkart,True,False
+TK-244541,i bought pulse earbuds on july 26. the sound stutters whenever my phone is in my pocket. i turned off wifi. i want a replacement. please revert lakshmi kumar,bt dropouts | adv to test in different location -> new unit shipped under doa | xfer billing [closed],Connectivity,Audio Quality,Voice Frontline,voice,Audio Quality,Microphone Inaudible / Muffled,0.8092,ML model posterior probability 80.9% for Audio Quality (margin: 67.7%),False,bought pulse earbuds,True,False
+TK-253177,[IVR transcript] helo cannot pair the mini spaeker with my laptop urgent,"cx reached out - unable to pair w/ phone. Walked through forget + re-pair. Re-pair successful, rslvd on chat. -NP",Connectivity,Connectivity,Voice Frontline,voice,Connectivity,Bluetooth Pairing Failure,0.7669,ML model posterior probability 76.7% for Connectivity (margin: 68.9%),False,ivr transcript helo,True,True
+TK-249042,"hi,
+this is reagrding airlite.  not pairing with my phone.
+i restarted the phone.
+can someone fix this?
+thanks in advance, manish rathore",done,Connectivity,Connectivity,Email Frontline,email,Connectivity,Bluetooth Pairing Failure,0.8951,ML model posterior probability 89.5% for Connectivity (margin: 86.8%),False,airlite pairing phone,True,True
+TK-245134,[IVR transcript] hello keeps losing my phone if i walk to the other room pulse 2 kindly do the needful,Contact re BT dropouts. adv to test in different location. FW update resolved. Will monitor. -VG,Connectivity,App & Firmware,Voice Frontline,voice,Other,General Feedback,0.5619,ML model posterior probability 56.2% for Other (margin: 29.6%) [Flagged for human supervisor review due to lower confidence or close competitor],True,ivr transcript hello,False,False
+TK-248859,"Product: my Strata 3 headphones
+Purchased: 30 Jun
+Issue: my phone just doesn't see it in the list anymore
+Tried: restarted the phone
+Expected: replacement","Cx says device not discoverable. Asked cx to reset the device. Re-pair successful, resolved on chat. Case closed with cx consent.",Connectivity,Connectivity,Chat Frontline,chat,Connectivity,Bluetooth Pairing Failure,0.809,ML model posterior probability 80.9% for Connectivity (margin: 71.5%),False,product strata headphones,True,True
+TK-242927,"This is very disappointing.  Nexa Fit purchased 2 weeks ago, order VR894245. app not opening after update. I already reinstalled the app. Refund. Now.","app crashing | asked for phone model + os -> adv beta build, rslvd //SNE",Connectivity,App & Firmware,Chat Frontline,chat,App & Firmware,Firmware Update Stuck / Failed,0.878,ML model posterior probability 87.8% for App & Firmware (margin: 84.5%),False,disappointing nexa fit,True,False
+TK-246087,"Product: Strata 3
+Order: VR885539
+Purchased: 07/07
+Issue: connection drops constantly
+Tried: reset both devices
+Expected: refund","Cx reported BT dropouts. adv to test in different location. rplc raised, RMA shared w/ cx.",Connectivity,Warranty & Repair,Chat Frontline,chat,Other,General Feedback,0.716,ML model posterior probability 71.6% for Other (margin: 58.1%) [Flagged for human supervisor review due to lower confidence or close competitor],True,product strata order,False,False
+TK-248600,"hii
+bluetooth keeps cutting out
+the orbit smart speaker
+pls reply",cx: bt dropouts | checked fw 2.4.3 -> fw update rslvd,Connectivity,Connectivity,Chat Frontline,chat,Connectivity,Bluetooth Pairing Failure,0.9008,ML model posterior probability 90.1% for Connectivity (margin: 87.2%),False,hii bluetooth keeps,True,True
+TK-243383,"pathetic experience honestly.  teh pulse 2 earbuds purchased in january, order vr881620. not pairing with my phone. i already restarted the phone. this is the last time i buy from you.","Cx reported unable to piar with phone. Asked cx to reset the device. xfer to Escalatioons & wty. Advised FW update via app, rslvd. ~Meera",Connectivity,Connectivity,Email Frontline,email,Connectivity,Bluetooth Pairing Failure,0.8811,ML model posterior probability 88.1% for Connectivity (margin: 83.5%),False,pathetic experience honestly,True,True
+TK-243798,"hi there, tihs is regarding the strata 3.  connection drops constantly. i want my money back.",ticket raised for bt dropouts. advised to test in different location. fw update resolved. will monitor.,Connectivity,App & Firmware,Email Frontline,email,Other,General Feedback,0.6865,ML model posterior probability 68.7% for Other (margin: 52.7%) [Flagged for human supervisor review due to lower confidence or close competitor],True,tihs regarding strata,False,False
+TK-241911,[IVR transcript] the pairing light blinks but nothing ever shows up on my Redmi kindly look into it,"Reported: pairing failure. Walked through forget + re-pair. Reset done, paired ok.",Connectivity,Connectivity,Voice Frontline,voice,Connectivity,Bluetooth Pairing Failure,0.8858,ML model posterior probability 88.6% for Connectivity (margin: 83.0%),False,ivr transcript pairing,True,True
+TK-254502,"hey
+pairing is not working
+orbit speaker
+urgent","re: pairing failure | asked cx to reset the device -> reset done, paired ok //ZOY",Connectivity,Connectivity,Voice Frontline,voice,Connectivity,Bluetooth Pairing Failure,0.6965,ML model posterior probability 69.6% for Connectivity (margin: 44.8%) [Flagged for human supervisor review due to lower confidence or close competitor],True,hey pairing working,True,True
+TK-253368,audio keeps disconnecting every few minutes. please call me on my registered number,customer states connection dropping. checked fw 2.3.12. rplc raised. will monitor. -SM,Connectivity,Account & Login,Chat Frontline,chat,Account & Login,OTP Delivery Failure,0.4737,ML model posterior probability 47.4% for Account & Login (margin: 0.2%) [Flagged for human supervisor review due to lower confidence or close competitor],True,audio keeps disconnecting,True,False
+TK-252380,"THE SOUND STUTTERS WHENEVER MY PHONE IS IN MY POCKET
+VR902529",FW update resolved. Issue: connection dropping. chk FW 1.3.10. Via Logistics. (SOP 3.1) ~Imran,Connectivity,Audio Quality,Chat Frontline,chat,Audio Quality,Microphone Inaudible / Muffled,0.7831,ML model posterior probability 78.3% for Audio Quality (margin: 60.3%),False,sound stutters phone,True,False
+TK-245704,"Hello, This is regarding Pulse 2. My phone just doesn't see it in the list anymore. I tried on another phone. Really frustrating. Please resolve asap. Awaiting response,","1. device not discoverable
+2. walked through forget + re-pair
+3. re-pair successful, resolved on chat",Connectivity,Connectivity,Email Frontline,email,Connectivity,Bluetooth Pairing Failure,0.813,ML model posterior probability 81.3% for Connectivity (margin: 72.9%),False,hello regarding pulse,True,True
+TK-242484,[IVR transcript] HELO THE APP FINDS THE SPEAKER AND THEN GIVES UP AT THE NETWORK STEP ORBIT MINI,"1. Network setup issue
+2. chk router band
+3. FW update, rslvd -NP",Connectivity,App & Firmware,Voice Frontline,voice,App & Firmware,Firmware Update Stuck / Failed,0.7481,ML model posterior probability 74.8% for App & Firmware (margin: 63.2%) [Flagged for human supervisor review due to lower confidence or close competitor],True,ivr transcript helo,True,False
+TK-250561,"cannot connect the speaker to wifi, VR901496","1. unable to connect to wifi
+2. chk app version
+3. fw update, resolved",Connectivity,Connectivity,Email Frontline,email,Connectivity,Bluetooth Pairing Failure,0.8637,ML model posterior probability 86.4% for Connectivity (margin: 80.4%),False,connect speaker wifi,True,True
+TK-248228,"Dear Sir/Madam,
+the strata 3 purchased 10 days ago, oder VR891239. Audio keeps disconnecting every few minutes.
+I ket phone in hand. Nothing changed.
+Please help.
+Rgds,",cx: bt dropouts | checked interference sources -> fw update rslvd -SS,Connectivity,Audio Quality,Chat Frontline,chat,Audio Quality,Microphone Inaudible / Muffled,0.7846,ML model posterior probability 78.5% for Audio Quality (margin: 71.4%),False,dear sir madam,True,False
+TK-246034,"Product: the Plse 2 earbuds
+Order: VR895345
+Purchased: August 28
+Issue: randoom disconnects during calls
+Tried: reset both devices
+Expected: callback",re: connection dropping | advised to test in different location -> rplc raised,Connectivity,Other,Chat Frontline,chat,Other,General Feedback,0.544,ML model posterior probability 54.4% for Other (margin: 37.6%) [Flagged for human supervisor review due to lower confidence or close competitor],True,product plse earbuds,True,False
+TK-243291,"Product: the AirLite buds
+Order: VR898923
+Purchased: 04 Mar
+Issue: pairing is not working
+Tried: tried on another phone
+Expected: resolution","contact re pairing failure. asked cx to reset the device. reset done, paired ok. cx informed.",Connectivity,Connectivity,Email Frontline,email,Connectivity,Bluetooth Pairing Failure,0.8214,ML model posterior probability 82.1% for Connectivity (margin: 71.4%),False,product airlite buds,True,True
+TK-249370,"dear team,
+bought pulse 2 buds around january 06 from vireo.in. received the wrong item.
+i want a replacement.",Replacement unt dispatched. Issue: incorrect product shipped. Verified order vs delivered iteem photos.,Delivery & Shipping,Delivery & Shipping,Logistics,email,Delivery & Shipping,Tracking & Delay,0.6438,ML model posterior probability 64.4% for Delivery & Shipping (margin: 46.4%) [Flagged for human supervisor review due to lower confidence or close competitor],True,dear team bought,True,True
+TK-240971,"product: the neckband
+order: vr901498
+purchased: 14-02-2025
+issue: i haven't received my order
+tried: checked the tracking page daily
+expected: refund",Cx reported order not delivered. chk AWB w/ crr. Re-shipped from warehouse. Cx informed. (SOP 4.2) ~Imran,Delivery & Shipping,Delivery & Shipping,Logistics,email,Delivery & Shipping,Tracking & Delay,0.6931,ML model posterior probability 69.3% for Delivery & Shipping (margin: 43.3%) [Flagged for human supervisor review due to lower confidence or close competitor],True,product neckband order,True,True
+TK-254191,[IVR transcript] helo my order has not been delivered yet hello??,"Cx says dlvry delayed. Raised ticket w/ crr partner. RTO conf, reshipped. (SOP 3.1)",Delivery & Shipping,Delivery & Shipping,Logistics,voice,Delivery & Shipping,Tracking & Delay,0.6839,ML model posterior probability 68.4% for Delivery & Shipping (margin: 51.7%) [Flagged for human supervisor review due to lower confidence or close competitor],True,ivr transcript helo,True,True
+TK-252921,"order not delivered, tracking not updating",closed,Delivery & Shipping,Delivery & Shipping,Logistics,email,Delivery & Shipping,Tracking & Delay,0.93,"Inquiry regarding shipment transit status, delayed carrier delivery, or dispatch tracking.",False,delivery / tracking delay,True,True
+TK-243197,"Hey, Got pulse 1 from vireo.in last week. The parcel looked like it was kicked here from the warehouse, and the unit has a crack. Need this sortde this week. Thanks & regards, Amit",Contact re unit received damaged. Checked with courier for damage claim. Replacement unit dispatched. Closing. (SOP 3.1) ~Imran,Delivery & Shipping,Delivery & Shipping,Logistics,chat,Other,General Feedback,0.3846,ML model posterior probability 38.5% for Other (margin: 15.3%) [Flagged for human supervisor review due to lower confidence or close competitor],True,hey got pulse,False,True
+TK-250483,[IVR transcript] hey i haven't received my order pulse 2 buds VR893510,order not delivered | raised ticket with courier partner -> re-shipped from warehouse,Delivery & Shipping,Delivery & Shipping,Logistics,voice,Delivery & Shipping,Tracking & Delay,0.6917,ML model posterior probability 69.2% for Delivery & Shipping (margin: 53.0%) [Flagged for human supervisor review due to lower confidence or close competitor],True,ivr transcript hey,True,True
+TK-240716,"helo
+order not delivered, tracking not updating
+the nexa 2","re: dlvry delayed | checked awb with crr -> rto conf, reshipped",Delivery & Shipping,Delivery & Shipping,Logistics,social,Delivery & Shipping,Tracking & Delay,0.93,"Inquiry regarding shipment transit status, delayed carrier delivery, or dispatch tracking.",False,delivery / tracking delay,True,True
+TK-244037,"hello, i bought my orbit on 06/08. my son ordered this wtihout asking, pls reverse. i tried cancel button, greyed out. kindly look into it","cust contacted re cancel order. checked shipment status. already shipped, adv rto/return.",Delivery & Shipping,Delivery & Shipping,Logistics,social,Delivery & Shipping,Tracking & Delay,0.6161,ML model posterior probability 61.6% for Delivery & Shipping (margin: 32.8%) [Flagged for human supervisor review due to lower confidence or close competitor],True,hello bought orbit,True,True
+TK-244670,[IVR transcript] GOT A DIFFERENT COLOUR THAN ORDERED - I WANT MY MONEY BACK,"re: wrong variant received | verified order vs delivered item photos -> refund approved, rs 1400, 5-7 working days",Delivery & Shipping,Returns & Refunds,Logistics,voice,Delivery & Shipping,Tracking & Delay,0.7177,ML model posterior probability 71.8% for Delivery & Shipping (margin: 54.7%) [Flagged for human supervisor review due to lower confidence or close competitor],True,ivr transcript got,False,False
+TK-252039,"hey
+package not delivered even after 20 days
+??",done (SOP 5.4) ~Imran,Delivery & Shipping,Delivery & Shipping,Logistics,email,Delivery & Shipping,Tracking & Delay,0.7709,ML model posterior probability 77.1% for Delivery & Shipping (margin: 62.3%),False,hey package delivered,True,True
+TK-253895,"Dear Sir/Madam,
+
+I am writing with reference to my order of Nexa 2 (VR891946) placed on June 03. Order not delivered, tracking not updating. I have checked with neighbours. I request you to provide a resolution within 3 working days.
+
+Regards,
+Lobsang Gaikwad","Cx says dlvry delayed. chk AWB w/ courier. RTO conf, reshipped.",Delivery & Shipping,Delivery & Shipping,Logistics,chat,Delivery & Shipping,Tracking & Delay,0.93,"Inquiry regarding shipment transit status, delayed carrier delivery, or dispatch tracking.",False,delivery / tracking delay,True,True
+TK-247128,"Very poor quality. This is regarding Pulse 2. typo in the flat number, courier will never find it. I already tried editing in app. Escalate this to someone senior.","cx states address update. chk dispatch status. Already dispatched, adv to redirect w/ crr. (SOP 3.1)",Delivery & Shipping,Delivery & Shipping,Logistics,email,Delivery & Shipping,Address & Pincode Correction,0.95,Customer requested destination address or pincode modification prior to delivery.,False,wrong address / pincode,True,True
+TK-248100,"To the Vireo Customer Care Team,
+
+I am writing with reference to my order of the strata 3 (VR896680) placed on 17 Nov. Order not delivered, tracking not updating. I have checked the tracking page daily. I request you to provide a resolution within 3 working days.
+
+Regards,
+Ritika Patil","dlvry delayed | raised ticket w/ courier partner -> rto conf, reshipped",Delivery & Shipping,Delivery & Shipping,Logistics,email,Delivery & Shipping,Tracking & Delay,0.93,"Inquiry regarding shipment transit status, delayed carrier delivery, or dispatch tracking.",False,delivery / tracking delay,True,True
+TK-241093,"bhai
+my order has not been delivered yet
+kal se
+help","RTO conf, reshipped. Issue: delivery delayed. Checkde AWB w/ courier. (SOP 5.4)",Delivery & Shipping,Delivery & Shipping,Logistics,chat,Delivery & Shipping,Tracking & Delay,0.7435,ML model posterior probability 74.3% for Delivery & Shipping (margin: 62.5%) [Flagged for human supervisor review due to lower confidence or close competitor],True,bhai order delivered,True,True
+TK-242859,"Dear Sir/Madam,
+
+I am writing with reference to my order of the Nexa 2 placed on 10 Jun. Opened the parcel and it is a completely different thing. I have checked the invoice. I request you to provide a resolution within 3 working days.
+
+Yours faithfully,
+Neha Menon","replacement raised, rma shared with cx. issue: wrong variant received. verified order vs delivered item photos. via billing. ~Megha",Delivery & Shipping,Billing & Payments,Logistics,chat,Billing & Payments,Payment Failed / Deducted,0.5825,ML model posterior probability 58.2% for Billing & Payments (margin: 39.8%) [Flagged for human supervisor review due to lower confidence or close competitor],True,dear sir madam,True,False
+TK-253410,"to teh vireeo customer care team,
+
+i am writing witth reference to my odrer of my pulse 2 placed on may 15.  my order has not been delivered yet. i havve checked the tracking page daily. i request you to provide a resolution within 3 working days.
+
+regards,
+anjali chopra
+coimbatore","Cx says dlvry delayed. chk AWB w/ crr. crr conf dlvry for 23 May, cx informed.",Delivery & Shipping,Delivery & Shipping,Logistics,email,Delivery & Shipping,Tracking & Delay,0.7181,ML model posterior probability 71.8% for Delivery & Shipping (margin: 48.6%) [Flagged for human supervisor review due to lower confidence or close competitor],True,teh customer care,True,True
+TK-249954,tracking has said out for delivery for a week now.  VR889612. i want a replacement,Ticket raised for order not delivered. Confirmed address with cx. Refund initiated as lost in transit. Case closed with cx consent. ~Imran,Delivery & Shipping,Delivery & Shipping,Logistics,chat,Delivery & Shipping,Tracking & Delay,0.93,"Inquiry regarding shipment transit status, delayed carrier delivery, or dispatch tracking.",False,delivery / tracking delay,True,True
+TK-245557,"hi
+paid on 29/09, still waiting for something to show up",-,Delivery & Shipping,Other,Logistics,email,Delivery & Shipping,Tracking & Delay,0.693,ML model posterior probability 69.3% for Delivery & Shipping (margin: 54.3%) [Flagged for human supervisor review due to lower confidence or close competitor],True,paid waiting,False,False
+TK-242918,[IVR transcript] hello ordeer statuus stuck on shipped since 12-06-2025 my strata 3 headphones urgent,cx states shipment not received. Checked AWB with crr. Re-shipped from warehouse. Will monitor.,Delivery & Shipping,Delivery & Shipping,Logistics,voice,Delivery & Shipping,Tracking & Delay,0.6018,ML model posterior probability 60.2% for Delivery & Shipping (margin: 43.6%) [Flagged for human supervisor review due to lower confidence or close competitor],True,ivr transcript hello,True,True
+TK-250216,the box says pulse 2 buds but what's inside is not what I paid for,"1. Wrong item delivered
+2. Raised w/ warehouse
+3. Refund issued, cx did not want replacement (SOP 3.1) [closed]",Delivery & Shipping,Other,Logistics,chat,Other,General Feedback,0.4637,ML model posterior probability 46.4% for Other (margin: 19.9%) [Flagged for human supervisor review due to lower confidence or close competitor],True,box says pulse,True,False
+TK-242197,"Product: my Strata 3 headphones
+Purchased: 23-04-2025
+Issue: I haven't received my order
+Tried: checked the tracking page daily
+Expected: refund",Ticket raised for shipment not received. Raised ticket w/ crr partner. Re-shipped from warehouse.,Delivery & Shipping,Delivery & Shipping,Logistics,email,Delivery & Shipping,Tracking & Delay,0.743,ML model posterior probability 74.3% for Delivery & Shipping (margin: 53.7%) [Flagged for human supervisor review due to lower confidence or close competitor],True,product strata headphones,True,True
+TK-246441,"paid on 20 oct, still waiting for something to show up
+pls advise","issue: delivery delayed | raised ticket with courier partner -> courier confirmed delivery for 28 oct, cx informed",Delivery & Shipping,Delivery & Shipping,Logistics,chat,Delivery & Shipping,Tracking & Delay,0.6783,ML model posterior probability 67.8% for Delivery & Shipping (margin: 52.2%) [Flagged for human supervisor review due to lower confidence or close competitor],True,paid oct waiting,True,True
+TK-249473,IT HAS BEEN 4 DAYS AND I HAVE NOTHING IN HAND - VR902962,"cx states dlvry delayed. Raised ticket with crr partner. rfnd approved, Rs 475, 5-7 working days.",Delivery & Shipping,Returns & Refunds,Logistics,email,Delivery & Shipping,Tracking & Delay,0.7369,ML model posterior probability 73.7% for Delivery & Shipping (margin: 54.4%) [Flagged for human supervisor review due to lower confidence or close competitor],True,days hand,False,False
+TK-247852,"paid on 28/11, still waiting for something to show up - can someone fix this?","cx reached out - shipment not rcvd. chk awb with crr. rto confirmed, reshipped.",Delivery & Shipping,Delivery & Shipping,Logistics,chat,Delivery & Shipping,Tracking & Delay,0.7327,ML model posterior probability 73.3% for Delivery & Shipping (margin: 61.2%) [Flagged for human supervisor review due to lower confidence or close competitor],True,paid waiting fix,True,True
+TK-241723,"hii
+package not delivered even after 20 days
+the gan charger
+anyone there","re: order not delivered | checked awb with courier -> rto confirmed, reshipped",Delivery & Shipping,Delivery & Shipping,Logistics,email,Delivery & Shipping,Tracking & Delay,0.8107,ML model posterior probability 81.1% for Delivery & Shipping (margin: 70.1%),False,hii package delivered,True,True
+TK-245869,it has been 13 days and I have nothing in hand - VR883239,contact re dlvry delayed. checked awb w/ crr. rfnd initiated as lost in transit.,Delivery & Shipping,Delivery & Shipping,Logistics,chat,Delivery & Shipping,Tracking & Delay,0.7281,ML model posterior probability 72.8% for Delivery & Shipping (margin: 53.7%) [Flagged for human supervisor review due to lower confidence or close competitor],True,days hand,True,True
+TK-241134,"PRODUCT: YOUR CHARGER
+ORDER: VR895336
+PURCHASED: 06-03-2025
+ISSUE: THERE'S A DENT ON THE CASE STRAIGHT OUT OF THE BOX
+TRIED: REFUSED NOTHING AS I DIDN'T NOTICE TILL LATER
+EXPECTED: FIX","unit received damaged | photos received, damage confirmed -> replacement raised, rma shared with cx",Delivery & Shipping,Warranty & Repair,Logistics,chat,Charging & Battery,Rapid Battery Drain,0.4412,ML model posterior probability 44.1% for Charging & Battery (margin: 22.1%) [Flagged for human supervisor review due to lower confidence or close competitor],True,product charger order,False,False
+TK-251260,"[IVR transcript] very poor quality.  pulse2 purchased 10 days ago, order vr906238. package not delivered even after 15 days. i already called the courier. fix this or i am posting on twitter.",Re-shipped from warehouse. Issue: ord not delivered. chk AWB wih courier.,Delivery & Shipping,Delivery & Shipping,Logistics,voice,Delivery & Shipping,Tracking & Delay,0.7511,ML model posterior probability 75.1% for Delivery & Shipping (margin: 55.0%),False,ivr transcript poor,True,True
+TK-252712,Honestly regretting this purchase. Got the Orbit smart speaker from vireo.in around Diwali. tracking has said out for delivery for a week now. I already called the courier. Refund. Now,Ticket raised for shipment not received. chk AWB with courier. Re-shipped from warehouse. Will monitor. (SOP 5.4) ~Imran,Delivery & Shipping,Delivery & Shipping,Logistics,chat,Delivery & Shipping,Tracking & Delay,0.93,"Inquiry regarding shipment transit status, delayed carrier delivery, or dispatch tracking.",False,delivery / tracking delay,True,True
+TK-253671,"hi
+nbody came for the pickup
+the mini speaker
+urgent","Pickup done, rfnd initiated. Issue: pickup missed. Re-raised pickup w/ crr.",Delivery & Shipping,Returns & Refunds,Logistics,email,Returns & Refunds,Reverse Pickup Scheduling,0.8667,ML model posterior probability 86.7% for Returns & Refunds (margin: 81.5%),False,came pickup mini,True,False
+TK-244930,"Hello, Order VR883678 (my Nexa 2 watch). Wrong product delivered. I rechecked my order. Nothing changed. What do I do now?",cx: wrong item delivered | raised with warehouse -> reverse pickup + correct item shipped,Delivery & Shipping,Other,Logistics,chat,Other,General Feedback,0.7182,ML model posterior probability 71.8% for Other (margin: 60.8%) [Flagged for human supervisor review due to lower confidence or close competitor],True,hello order nexa,True,False
+TK-246417,"hello
+package not delivered even after 6 days
+??","Couriier confirmed delivery for 29 Oct, cx informed. Issue: shipment not rcvd. Checked AWB with courier. [closed]",Delivery & Shipping,Delivery & Shipping,Logistics,chat,Delivery & Shipping,Tracking & Delay,0.7546,ML model posterior probability 75.5% for Delivery & Shipping (margin: 55.7%),False,hello package delivered,True,True
+TK-251791,"hi team,
+ordered my strata 2 headphones a month ago.  package not delivered even after 19 days.
+i checked the tracking page daily.
+please help.
+thanks & regards aadhya",Re-shipped from warehouse. Issue: shipment not rcvd. Checked AWB with crr. [closed],Delivery & Shipping,Delivery & Shipping,Logistics,chat,Delivery & Shipping,Tracking & Delay,0.7793,ML model posterior probability 77.9% for Delivery & Shipping (margin: 59.5%),False,team ordered strata,True,True
+TK-252026,"hi
+wrong product delivered
+my pulse 2 VR907196",wrong item delivered | verified order vs delivered item photos -> replacement dispatched,Delivery & Shipping,Other,Logistics,chat,Other,General Feedback,0.7023,ML model posterior probability 70.2% for Other (margin: 56.4%) [Flagged for human supervisor review due to lower confidence or close competitor],True,wrong product delivered,True,False
+TK-241835,"hey,
+ordered the nexa smartwatch around diwali. package not delivered even after 19 days.
+can someone fix this?","crr conf dlvry for 14 apr, cx informed. issue: ord not delivered. raised ticket w/ crr partner.",Delivery & Shipping,Delivery & Shipping,Logistics,chat,Delivery & Shipping,Tracking & Delay,0.7314,ML model posterior probability 73.1% for Delivery & Shipping (margin: 61.4%) [Flagged for human supervisor review due to lower confidence or close competitor],True,hey ordered nexa,True,True
+TK-252990,[IVR transcript] got a different colour than ordered kindly look into it,"issue: wrong item delivered | raised with warehouse -> refund issued, cx did not want replacement",Delivery & Shipping,Delivery & Shipping,Logistics,voice,Delivery & Shipping,Tracking & Delay,0.7274,ML model posterior probability 72.7% for Delivery & Shipping (margin: 56.9%) [Flagged for human supervisor review due to lower confidence or close competitor],True,ivr transcript got,True,True
+TK-241435,I haven't received my order - what do i do now?,cx says order not delivered. checked awb with courier. refund initiated as lost in transit. (sop 4.2),Other,Returns & Refunds,Chat Frontline,chat,Delivery & Shipping,Tracking & Delay,0.5459,ML model posterior probability 54.6% for Delivery & Shipping (margin: 20.9%) [Flagged for human supervisor review due to lower confidence or close competitor],True,haven received order,False,False
+TK-247793,"hi there, pulse 2 buds purchased around diwali, order vr886216. typo in the flat number, courier will never find it. i tried editing in app. nothing changed. not what i expected from vireo. i want my money back. awaiting response,",Customer states wrong pincode. chk dispatch status. Address updated.,Other,Delivery & Shipping,Chat Frontline,chat,Delivery & Shipping,Address & Pincode Correction,0.95,Customer requested destination address or pincode modification prior to delivery.,False,wrong address / pincode,True,False
+TK-247730,"Hi there, I bought Pulse2 on 10/11.  Is Pulse2 compatible w/ my TV. Waiting for ur reply.",issue: compatibility query | shared compatibility info -> cx satisfied -SM,Other,Product Enquiry,Chat Frontline,chat,Product Enquiry,Compatibility Query,0.7957,ML model posterior probability 79.6% for Product Enquiry (margin: 73.1%),False,bought compatible waiting,True,False
+TK-251124,"hello, order vr880158 (pulse 2 buds). tracking has said out for delivery for a week now. i checked the tracking page daily. nothing changed. can someone fix this?","issue: order not delivered | conf address with cx -> courier conf delivery for 15 mar, cx informed | xfer email frontline",Other,Delivery & Shipping,Chat Frontline,chat,Delivery & Shipping,Tracking & Delay,0.93,"Inquiry regarding shipment transit status, delayed carrier delivery, or dispatch tracking.",False,delivery / tracking delay,True,False
+TK-246065,"namaste,
+this is regarding the airlite buds. the festive offer vanished when i clicked pay.
+i want a replacement.",cx reached out - discount not applied. checked cart eligibility. store crediit issued.,Other,Billing & Payments,Chat Frontline,chat,Billing & Payments,Payment Failed / Deducted,0.8711,ML model posterior probability 87.1% for Billing & Payments (margin: 82.5%),False,namaste regarding airlite,True,False
+TK-250715,tracking has said out for delivery for a week now,"cust contacted re shipment not received. confirmed address wiht cx. courier confirmed delivery for 03 mar, cx informed.",Other,Delivery & Shipping,Chat Frontline,chat,Delivery & Shipping,Tracking & Delay,0.93,"Inquiry regarding shipment transit status, delayed carrier delivery, or dispatch tracking.",False,delivery / tracking delay,True,False
+TK-254374,"Got my Nexa 2 watch from Amazon 2 weeks ago. Order not delivered, tracking not updating.
+Please resolve asap.",re-shipped from warehouse,Other,Delivery & Shipping,Chat Frontline,chat,Delivery & Shipping,Tracking & Delay,0.93,"Inquiry regarding shipment transit status, delayed carrier delivery, or dispatch tracking.",False,delivery / tracking delay,True,False
+TK-253664,"paid on 21 May, still waiting for somethig to show up, VR906556, please resolve asap","order not delivered | confirmed address with cx -> courier confirmed delivery for 04 jun, cx informed",Other,Delivery & Shipping,Voice Frontline,voice,Delivery & Shipping,Tracking & Delay,0.596,ML model posterior probability 59.6% for Delivery & Shipping (margin: 33.5%) [Flagged for human supervisor review due to lower confidence or close competitor],True,paid waiting resolve,True,False
+TK-248919,"hi there,
+bought ur charger around january 02 from vireo.in. it has been 4 days & i have nothing in hand.
+i checked the tracikng page daily.
+what do i do now?","cx: dlvry delayed | raised ticket with crr partner -> rto conf, reshipped -SM",Other,Delivery & Shipping,Chat Frontline,chat,Delivery & Shipping,Tracking & Delay,0.8281,ML model posterior probability 82.8% for Delivery & Shipping (margin: 70.6%),False,bought charger january,True,False
+TK-242677,i have been a loyal customer and this is how you treat me. ordered the airlite buds a month ago. bluetooth pairing fails every time. i already forgot the device and tried again. this is the last time i buy from you.,"contact re unale to pair with phone. asked cx to reset the device. re-pair successful, rslvd on chat. closing.",Other,Connectivity,Email Frontline,email,Connectivity,Bluetooth Pairing Failure,0.9073,ML model posterior probability 90.7% for Connectivity (margin: 87.2%),False,loyal customer treat,True,False
+TK-245994,"hey,
+bought spare case around 29 sep from vireo.in. my dad has an old nokia, will the watch app run.
+please advise.
+awaiting response",cx reached out - compatibility query. Shared spec sheet. Cx satisfied.,Other,Charging & Battery,Chat Frontline,chat,App & Firmware,Firmware Update Stuck / Failed,0.7231,ML model posterior probability 72.3% for App & Firmware (margin: 53.8%) [Flagged for human supervisor review due to lower confidence or close competitor],True,hey bought spare,False,False
+TK-247816,"hi, pulse 2 buds purchased 2 weeeks ago, ordr vr892407.  my order has not been deliverde yet. witing for your reply. awaiting response,","contact re order not delivered. checked awb with courier. courier conf delivery for 08 dec, cx informed. cx satisfied on chat.",Other,Delivery & Shipping,Email Frontline,email,Other,General Feedback,0.2692,ML model posterior probability 26.9% for Other (margin: 3.4%) [Flagged for human supervisor review due to lower confidence or close competitor],True,pulse buds purchased,False,False
+TK-246551,"hey
+distorted audio at high volume",closed (SOP 2.7) //SIM,Other,Audio Quality,Email Frontline,email,Audio Quality,Microphone Inaudible / Muffled,0.8327,ML model posterior probability 83.3% for Audio Quality (margin: 72.7%),False,hey distorted audio,True,False
+TK-240493,"Order VR905351 (AirLite).  Ordered the wrong colour, don't ship it.
+How do I get this fixed?
+Thanks in advance Arjun","Cancelled, rfnd initiated. Issue: cancellation request. Cancelled before dispatch. //SNE",Other,Other,Chat Frontline,chat,Delivery & Shipping,Tracking & Delay,0.6048,ML model posterior probability 60.5% for Delivery & Shipping (margin: 32.9%) [Flagged for human supervisor review due to lower confidence or close competitor],True,order airlite ordered,False,True
+TK-245672,"this is very disappointing.  orbit speaker purchased 10 days ago, order vr888072. i haven't received my order. i already checked the tracking page daily. fix this or i am posting on twitter","RTO conf, reshipped. Issue: ord not delivered. conf address with cx.",Other,Delivery & Shipping,Chat Frontline,chat,Delivery & Shipping,Tracking & Delay,0.7225,ML model posterior probability 72.3% for Delivery & Shipping (margin: 49.7%) [Flagged for human supervisor review due to lower confidence or close competitor],True,disappointing orbit speaker,True,False
+TK-245823,"[IVR transcript] helo ordered the wrong colour, don't ship it","cancellation request | cancelled before dispatch -> cancelled, refund initiated",Other,Returns & Refunds,Voice Frontline,voice,Delivery & Shipping,Tracking & Delay,0.4347,ML model posterior probability 43.5% for Delivery & Shipping (margin: 1.6%) [Flagged for human supervisor review due to lower confidence or close competitor],True,ivr transcript helo,False,False
+TK-253947,"hey,
+pulse 1 purchased 2 weeks ago, order vr907431.  it has been 14 days & i have nothing in hand.
+i checked the tracking page daily.
+please resolve asap",shipment not rcvd | raised ticket with courier partner -> re-shipped from warehouse -SM,Other,Delivery & Shipping,Chat Frontline,chat,Delivery & Shipping,Tracking & Delay,0.755,ML model posterior probability 75.5% for Delivery & Shipping (margin: 54.3%),False,hey pulse purchased,True,False
+TK-242582,"dear sir/madam, order vr887208 (my nexa 2 watch). update my shipping address. i tried editing in app. nothing changed. please advise.","issue: address update | updated address with courier -> already dispatched, advised to redirect with courier -SM",Other,Delivery & Shipping,Chat Frontline,chat,App & Firmware,Firmware Update Stuck / Failed,0.6311,ML model posterior probability 63.1% for App & Firmware (margin: 29.9%) [Flagged for human supervisor review due to lower confidence or close competitor],True,dear sir madam,False,False
+TK-252241,"please cancel, ordered by mistake
+VR908064",cust contacted re cancel order. chk shipment status. refunded rs 5524.,Other,Delivery & Shipping,Chat Frontline,chat,Delivery & Shipping,Pre-Dispatch Cancellation,0.94,Customer requested pre-dispatch order cancellation before fulfillment.,False,cancel order,True,False
+TK-242797,"hello ji
+need the bill with my firm's gstin on it
+abhi tak kuch nahi hua",Cx says GST invoice request. Updated GSTIN on ord. Invoice emailed.,Other,Billing & Payments,Chat Frontline,chat,Billing & Payments,GST Invoice Request,0.94,"Payment transaction anomaly, double debit at gateway, or commercial GST invoice request.",False,payment gateway / GST invoice,True,False
+TK-242904,[IVR transcript] not what i expected from vireo. got nexa fit from vireo.in a month ago. bluetooth pairing fails every time. i already restarted the phone. refund. now.,"Reset done, paired ok. Issue: pairing failure. Checked phone OS version.",Other,Connectivity,Voice Frontline,voice,Connectivity,Bluetooth Pairing Failure,0.8837,ML model posterior probability 88.4% for Connectivity (margin: 84.3%),False,ivr transcript expected,True,False
+TK-242470,"[IVR transcript] dies by lunchtime with light use, VR897562","1. poor battery backup
+2. checked usage pattern with cx
+3. replacement raised after test",Other,Charging & Battery,Voice Frontline,voice,Charging & Battery,Rapid Battery Drain,0.807,ML model posterior probability 80.7% for Charging & Battery (margin: 68.1%),False,ivr transcript dies,True,False
+TK-242402,want to cancel my order,"ord cancellation | cancelled befroe dispatch -> cancelled, refund initiated",Other,Delivery & Shipping,Chat Frontline,chat,Delivery & Shipping,Pre-Dispatch Cancellation,0.94,Customer requested pre-dispatch order cancellation before fulfillment.,False,cancel order,True,False
+TK-250897,"upi shows success, your app shows nothing. please resolve asap",failed order after payment | confirmed with payment gateway -> rfnd processed to source -SS,Other,App & Firmware,Chat Frontline,chat,App & Firmware,Firmware Update Stuck / Failed,0.5099,ML model posterior probability 51.0% for App & Firmware (margin: 5.5%) [Flagged for human supervisor review due to lower confidence or close competitor],True,upi shows success,True,False
+TK-245682,need to change delivery adress - pleaes resolve asap,cx reached out - address change request. updated adress w/ crr. address updated. (sop 4.2),Other,Other,Chat Frontline,chat,Delivery & Shipping,Tracking & Delay,0.4772,ML model posterior probability 47.7% for Delivery & Shipping (margin: 20.5%) [Flagged for human supervisor review due to lower confidence or close competitor],True,need change delivery,False,True
+TK-243603,"want to cancel my order
+i want my money back",issue: cancellation request | cancelled before dispatch -> refund of rs 2974 initiated to source,Other,Delivery & Shipping,Chat Frontline,chat,Delivery & Shipping,Pre-Dispatch Cancellation,0.94,Customer requested pre-dispatch order cancellation before fulfillment.,False,cancel order,True,False
+TK-250642,"product: pulse 2
+purchased: 24/01
+issue: service centre toook it, now silence
+tried: emailed twicce
+expected: replcaement","Reported: RMA status query. Checked RMA status. Replacement raised, RMA shared with cx. Closing. (SOP 5.4) -VG",Other,Warranty & Repair,Chat Frontline,chat,Warranty & Repair,Warranty Claim Submission,0.95,"Formal warranty claim, authorized service center inquiry, or hardware RMA tracking.",False,RMA / warranty claim,True,False
+TK-244626,"hii
+cancel order 
+hello??","Cancelled, refund initiated. Issue: order cancellation. Cancelled before dispatch.",Other,Delivery & Shipping,Chat Frontline,social,Delivery & Shipping,Pre-Dispatch Cancellation,0.94,Customer requested pre-dispatch order cancellation before fulfillment.,False,cancel order,True,False
+TK-240823,"Dear team, Got the AirLite buds from vireo.in last month. Warraanty claim peending for 16 days. I called service centre. Nothing changed. Kidnly look into it. Thanks,",Reported: repair status follow-up. Checked QC report. Replacement approved and dispatched. ~Ramesh,Other,Warranty & Repair,Chat Frontline,chat,Warranty & Repair,Warranty Claim Submission,0.95,"Formal warranty claim, authorized service center inquiry, or hardware RMA tracking.",False,RMA / warranty claim,True,False
+TK-254116,order vr903159 (replacement case).  discount was not applied at checkout. i want a replacement.,issue: discount not applied | checked cart eligibility -> full refund processed (1169),Other,Billing & Payments,Chat Frontline,chat,Charging & Battery,Rapid Battery Drain,0.5302,ML model posterior probability 53.0% for Charging & Battery (margin: 32.3%) [Flagged for human supervisor review due to lower confidence or close competitor],True,order replacement case,False,False
+TK-252176,"AirLite purchased recently, order VR904444.  App not opening after update. I updtaed phone. Nothing changed. Honestly regretting this purchase. Please resolve asap. Rgds, Imran","adv beta build, rslvd. issue: app not opening. known issue on ios 18 - bug logged.",Other,App & Firmware,Chat Frontline,chat,App & Firmware,Firmware Update Stuck / Failed,0.8251,ML model posterior probability 82.5% for App & Firmware (margin: 78.8%),False,airlite purchased recently,True,False
+TK-242944,"[IVR transcript] Namaste, I bought Orbit Mini on 02-06-2025.  ENTERED WRONG PINCODE. What do I do now?","wrong pincode | updated address with courier -> already dispatched, advised to redirect with courier",Other,Delivery & Shipping,Voice Frontline,voice,Delivery & Shipping,Address & Pincode Correction,0.95,Customer requested destination address or pincode modification prior to delivery.,False,wrong address / pincode,True,False
+TK-251072,"Hello, This is regarding my Pulse 2. Cannot pair my Pulse 2 with my laptop. I forgot the device & tried again. Nothing changed. What do I do now? Thanks Nisha Nair","customer reached out - device not discoverable. checked phone os version. reset done, paired ok. (sop 3.1)",Other,Connectivity,Chat Frontline,chat,Connectivity,Bluetooth Pairing Failure,0.8891,ML model posterior probability 88.9% for Connectivity (margin: 83.3%),False,hello regarding pulse,True,False
+TK-249384,"dear team, ordered my pulse 2 recently. i moved houses yesterday and the order is going to the old flat. i tried editing in app. please call me on my registered number","address change request | checked dispatch status -> already dispatched, advised to redirect with courier -SS",Other,Delivery & Shipping,Chat Frontline,chat,Delivery & Shipping,Tracking & Delay,0.3637,ML model posterior probability 36.4% for Delivery & Shipping (margin: 1.6%) [Flagged for human supervisor review due to lower confidence or close competitor],True,dear team ordered,True,False
+TK-240508,"[IVR transcript] Honestly regretting this purchase. I bought my Pulse on 14 Jan. want to cancel my order. I already tried cancel button, greyed out. Escalate thsi to someone senior.",Refunded Rs 2499. Issue: cancellation request. Cancelled before dispatch. //ZOY,Other,Delivery & Shipping,Voice Frontline,voice,Delivery & Shipping,Pre-Dispatch Cancellation,0.94,Customer requested pre-dispatch order cancellation before fulfillment.,False,cancel order,True,False
+TK-241361,Really frustrating. This is regarding the mini speaker. will this survive a shower. Escalate this to someone senior.,pre-sales query | shared compatibility info -> cx satisfied,Other,Product Enquiry,Chat Frontline,chat,Product Enquiry,Compatibility Query,0.8945,ML model posterior probability 89.4% for Product Enquiry (margin: 85.9%),False,really frustrating regarding,True,False
+TK-241871,"Product: the Nexa 2
+Purchased: 10/04
+Issue: does the Nexa 2 work with iPhne
+Expected: resolution",Customer states pre-sales query. Shared spec sheet. Cx satisfied. Will monitor. (SOP 4.2) -VG,Product Enquiry,Product Enquiry,Email Frontline,email,Product Enquiry,Compatibility Query,0.8137,ML model posterior probability 81.4% for Product Enquiry (margin: 73.0%),False,product nexa purchased,True,True
+TK-245359,"[IVR transcript] i have been a loyal customer & this is how u treat me.  i bought pulse 2 on 06/09. can i connect two pulse 2 together. i want a replacement or refund, nothing else.",cx: product enquiry | shared spec sheet -> query answered | xfer logistics,Product Enquiry,Connectivity,Voice Frontline,voice,Connectivity,Bluetooth Pairing Failure,0.7217,ML model posterior probability 72.2% for Connectivity (margin: 66.1%) [Flagged for human supervisor review due to lower confidence or close competitor],True,ivr transcript loyal,True,False
+TK-241263,"my dad has an old Nokia, will the watch app run - VR880918",Cx satisfied. Issue: product enquiry. Shared compatibility info. //SNE,Product Enquiry,App & Firmware,Chat Frontline,social,App & Firmware,Firmware Update Stuck / Failed,0.924,ML model posterior probability 92.4% for App & Firmware (margin: 90.7%),False,dad old nokia,True,False
+TK-254440,"Dear Sir/Madam,
+
+I am writing with reference to my order of the Nexa 2 (VR904481) placed on 07 Jun. My dad has an old Nokia, will the watch app run. I request you to provide a resolution within 3 working days.
+
+Regards,
+Swati Mukherjee
+Lucknow",re: product enquiry | shared compatibility info -> cx satisfied ~Ritika,Product Enquiry,App & Firmware,Chat Frontline,chat,App & Firmware,Firmware Update Stuck / Failed,0.8503,ML model posterior probability 85.0% for App & Firmware (margin: 81.1%),False,dear sir madam,True,False
+TK-246180,"Product: pulse 2 buds
+Order: VR888109
+Purchased: September 29
+Issue: can I connect two pulse 2 buds together
+Expected: replacement",done,Product Enquiry,Connectivity,Chat Frontline,chat,Connectivity,Bluetooth Pairing Failure,0.8669,ML model posterior probability 86.7% for Connectivity (margin: 83.6%),False,product pulse buds,True,False
+TK-243685,"hello
+before i buy - will this talk to a 2019 samsung
+the airlite buds",cx: pre-sales query | shared spec sheet -> query answered,Product Enquiry,Product Enquiry,Chat Frontline,social,Product Enquiry,Compatibility Query,0.8516,ML model posterior probability 85.2% for Product Enquiry (margin: 73.9%),False,hello buy talk,True,True
+TK-251183,"Bought Orbti Mini around March 23 from Amazon. Will thsi survive a shower.
+Please advise.
+Thakns & regards, Om Saxena",query answered. issue: compatibility query. shared spec sheet.,Product Enquiry,Product Enquiry,Email Frontline,email,Product Enquiry,Compatibility Query,0.8892,ML model posterior probability 88.9% for Product Enquiry (margin: 86.2%),False,bought orbti mini,True,True
+TK-247366,"[IVR transcript] Hi, Got 65W charger from Amazon last month. Before I buy - will this talk to a 2019 Samsung. How do I get this fixed? Rgds Vivaan",cx states pre-sales query. Shared spec sheet. xfer to Logistics. Cx satisfied. (SOP 4.2),Product Enquiry,Product Enquiry,Voice Frontline,voice,Product Enquiry,Compatibility Query,0.8426,ML model posterior probability 84.3% for Product Enquiry (margin: 76.4%),False,ivr transcript got,True,True
+TK-253952,"[IVR transcript] can i connect two the pulse buds together, what do i do now?",cx: product enquiry | shared spec sheet -> query answered,Product Enquiry,Connectivity,Voice Frontline,voice,Connectivity,Bluetooth Pairing Failure,0.9312,ML model posterior probability 93.1% for Connectivity (margin: 91.8%),False,ivr transcript connect,True,False
+TK-246661,"my dad has an old Nokia, will the watch app run - what do i do now?",Contact re compatibility query. Shared spec sheet. Cx satisfied. Cx informed. -VG,Product Enquiry,App & Firmware,Email Frontline,email,App & Firmware,Firmware Update Stuck / Failed,0.924,ML model posterior probability 92.4% for App & Firmware (margin: 90.7%),False,dad old nokia,True,False
+TK-245619,"hii
+is the airlite buds compatible with my tv
+the airlite busd
+pls relpy",compatibility query | shared spec sheet -> query answered,Product Enquiry,Product Enquiry,Chat Frontline,chat,Product Enquiry,Compatibility Query,0.9169,ML model posterior probability 91.7% for Product Enquiry (margin: 89.5%),False,hii airlite buds,True,True
+TK-245906,"hi
+is my nexa fit band compatible w/ my tv
+my nexa fit band VR884324
+hello??","1. Compatibility query
+2. Shared spec sheet
+3. Cx satisfied ~Rohan",Product Enquiry,Product Enquiry,Chat Frontline,chat,Product Enquiry,Compatibility Query,0.8732,ML model posterior probability 87.3% for Product Enquiry (margin: 83.6%),False,nexa fit band,True,True
+TK-244922,"I have been a loyal cutsomer and this is how u treat me. Ordered pulse 2 buds 3 weeks back. my dad has an old Nokia, will the watch app run. Ecalate this to someone senior",product enquiry | shared spec sheet -> query answered | xfer billing //HAR,Product Enquiry,App & Firmware,Email Frontline,email,App & Firmware,Firmware Update Stuck / Failed,0.9151,ML model posterior probability 91.5% for App & Firmware (margin: 89.4%),False,loyal treat ordered,True,False
+TK-248988,"dear sir/madam,
+
+i am writing with reference to my order of pulse2 (vr909509) placed on january 06. before i buy - will this talk to a 2019 samsung. i request you to look into this matter at the earliest.
+
+yours faithfully,
+komal mukherjee",Cx satisfied. Issue: product enquiry. Shared spec sheet. //SNE,Product Enquiry,Product Enquiry,Chat Frontline,chat,Product Enquiry,Compatibility Query,0.8522,ML model posterior probability 85.2% for Product Enquiry (margin: 78.2%),False,dear sir madam,True,True
+TK-246629,"hii
+dose strata 2 work with iphone
+stata 2 VR908974
+??",Customer reached out - product enquiry. Shared spec sheet. Query answered. Closing. (SOP 2.7) -VG,Product Enquiry,Product Enquiry,Chat Frontline,social,Product Enquiry,Compatibility Query,0.8772,ML model posterior probability 87.7% for Product Enquiry (margin: 80.7%),False,hii strata work,True,True
+TK-247355,"Order VR898038 (the Pulse 2 earbuds).  Before I buy - will this talk to a 2019 Samsung. What do I do now? Thanks in advance, Zoya",pre-sales querry | shared spec sheet -> cx satisfied | xfer chat frontline [closed],Product Enquiry,Product Enquiry,Voice Frontline,voice,Product Enquiry,Compatibility Query,0.8717,ML model posterior probability 87.2% for Product Enquiry (margin: 80.1%),False,order pulse earbuds,True,True
+TK-253068,"[IVR transcript] Hey, I bought Pulse2 on 29-04-2026.  Before I buy - will this talk to a 2019 Samsung. Can someone fix this?",cx: product enquiry | shared spec sheet -> query answered -SS,Product Enquiry,Product Enquiry,Voice Frontline,voice,Product Enquiry,Compatibility Query,0.8553,ML model posterior probability 85.5% for Product Enquiry (margin: 77.6%),False,ivr transcript hey,True,True
+TK-252476,"[IVR transcript] helo my dad has an old nokia, will the watch app run",compatibility query | shared spec sheet -> query answered,Product Enquiry,App & Firmware,Voice Frontline,voice,App & Firmware,Firmware Update Stuck / Failed,0.9191,ML model posterior probability 91.9% for App & Firmware (margin: 90.3%),False,ivr transcript helo,True,False
+TK-240431,"to the vireo customer care team,
+
+i am writinng with reference to my order of strata 3 (vr900928) placed on 11 jan. will this survive a shower. i request you to provide a resolution within 3 working days.
+
+sincerely,
+sukhwinder banerjee","1. Pre-sales query
+2. Shared compatibility info
+3. Query answered",Product Enquiry,Product Enquiry,Chat Frontline,chat,Product Enquiry,Compatibility Query,0.863,ML model posterior probability 86.3% for Product Enquiry (margin: 82.9%),False,vireo customer care,True,True
+TK-240252,"namaste, bought the orbit smart speaker around 18 dec from vireo.in. can i connect two the orbit smart speaker together. i want a replacement. thanks & regards bhavna kumar",re: compatibility query | shared compatibility info -> cx satisfied,Product Enquiry,Connectivity,Chat Frontline,chat,Connectivity,Bluetooth Pairing Failure,0.7331,ML model posterior probability 73.3% for Connectivity (margin: 67.3%) [Flagged for human supervisor review due to lower confidence or close competitor],True,namaste bought orbit,True,False
+TK-244794,"helo
+will this survive a shower",issue: compatibility query | shared spec sheet -> cx satisfied ~Ritika,Product Enquiry,Product Enquiry,Chat Frontline,chat,Product Enquiry,Compatibility Query,0.944,ML model posterior probability 94.4% for Product Enquiry (margin: 93.1%),False,helo survive shower,True,True
+TK-245458,"hello vireo, order vr882099 (strata 3). my dad has an old nokia, will the watch app run. please resolve asap. thanks & regards, suresh",cust contacted re compatibility query. shared compatibility info. query answered. ~Abhishek,Product Enquiry,App & Firmware,Voice Frontline,voice,App & Firmware,Firmware Update Stuck / Failed,0.906,ML model posterior probability 90.6% for App & Firmware (margin: 87.7%),False,hello vireo order,True,False
+TK-249749,[IVR transcript] hello does pulse 1 work with iphone,"1. Product enquiry
+2. Shared spec sheet
+3. Query answered -NP",Product Enquiry,Product Enquiry,Voice Frontline,voice,Product Enquiry,Compatibility Query,0.8734,ML model posterior probability 87.3% for Product Enquiry (margin: 79.1%),False,ivr transcript hello,True,True
+TK-244305,"Namaste, Bought the AirLite buds around August 23 from Amazon.  Is the AirLite buds compatible with my TV. Need this sorted this week. Rgds Anjali",Reported: product enquiry. Shared compatibility info. Qurey answered.,Product Enquiry,Product Enquiry,Chat Frontline,social,Product Enquiry,Compatibility Query,0.8679,ML model posterior probability 86.8% for Product Enquiry (margin: 83.7%),False,namaste bought airlite,True,True
+TK-243025,"my dad has an old Nokia, will the wattch app run. VR897035",Reported: product enquiry. Shared spec sheet. Cx satisfied. ~Ramesh,Product Enquiry,App & Firmware,Chat Frontline,chat,App & Firmware,Firmware Update Stuck / Failed,0.9216,ML model posterior probability 92.2% for App & Firmware (margin: 90.7%),False,dad old nokia,True,False
+TK-248847,"namaste, ordered nexa 2 a month ago. will this survive a shower. please advise. rgds, taun naidu",contact re compatibility query. shared spec sheet. query answered. will monitor.,Product Enquiry,Product Enquiry,Email Frontline,email,Product Enquiry,Compatibility Query,0.8488,ML model posterior probability 84.9% for Product Enquiry (margin: 80.3%),False,namaste ordered nexa,True,True
+TK-250938,"Hi there, Order VR882633 (orbit mini). Does orbit mni work with iPhone. Please help. Regards Sneha",Query answered. Issue: product enquiry. Shared spec sheet.,Product Enquiry,Product Enquiry,Chat Frontline,chat,Product Enquiry,Compatibility Query,0.8204,ML model posterior probability 82.0% for Product Enquiry (margin: 70.5%),False,order orbit mini,True,True
+TK-243996,"Hi there,
+Order VR892518 (pulse 2 buds). Before I buy - will this talk to a 2019 Samsung.
+What do I do now?
+Awaiting response,",Cust contacted re pre-sales query. Shared compatibility info. Query answered.,Product Enquiry,Product Enquiry,Chat Frontline,chat,Product Enquiry,Compatibility Query,0.8415,ML model posterior probability 84.2% for Product Enquiry (margin: 73.3%),False,order pulse buds,True,True
+TK-246984,does the nexa 2 work with iphone,Query answered. Issue: product enquiry. Shared compatibility info. //SNE,Product Enquiry,Product Enquiry,Chat Frontline,chat,Product Enquiry,Compatibility Query,0.8986,ML model posterior probability 89.9% for Product Enquiry (margin: 84.3%),False,does nexa work,True,True
+TK-246097,"To the Vireo Customer Care Team,
+
+I am writing with reference to my order of Pulse 2 (VR896259) placed on 14/09. Before I buy - will this talk to a 2019 Samsung. I request you to process a refund to my original payment method.
+
+Regards,
+Sameer Tiwari",cust contacted re compatibility query. shared spec sheet. cx satisfied.,Product Enquiry,Product Enquiry,Email Frontline,email,Product Enquiry,Compatibility Query,0.8276,ML model posterior probability 82.8% for Product Enquiry (margin: 74.6%),False,vireo customer care,True,True
+TK-242457,"Hi team, This is regarding my Strata 3 headphones. Does my Strata 3 headphones work with iPhone. Please help.",pre-sales query | shared spec sheet -> qery answered [closed],Product Enquiry,Product Enquiry,Chat Frontline,chat,Product Enquiry,Compatibility Query,0.8913,ML model posterior probability 89.1% for Product Enquiry (margin: 84.5%),False,team regarding strata,True,True
+TK-245196,"my dad has an old Nokia, will the watch app run","1. Pre-sales query
+2. Shared compatibility info
+3. Query answered //ZOY",Product Enquiry,App & Firmware,Voice Frontline,voice,App & Firmware,Firmware Update Stuck / Failed,0.924,ML model posterior probability 92.4% for App & Firmware (margin: 90.7%),False,dad old nokia,True,False
+TK-241750,"Hey, Ordered the mini speaker 10 days ago. Will this survive a shower. Please call me on my registered number. Thank you Isha",Cx says compatibility query. Shared compatibility info. Cx satisfied.,Product Enquiry,Account & Login,Chat Frontline,chat,Account & Login,OTP Delivery Failure,0.6141,ML model posterior probability 61.4% for Account & Login (margin: 29.3%) [Flagged for human supervisor review due to lower confidence or close competitor],True,hey ordered mini,True,False
+TK-248686,"my dad has an old Nokia, will the watch app run
+waiting for your reply",cx: compatibility query | shared compatibility info -> cx satisfied -SS,Product Enquiry,App & Firmware,Chat Frontline,social,App & Firmware,Firmware Update Stuck / Failed,0.9162,ML model posterior probability 91.6% for App & Firmware (margin: 89.7%),False,dad old nokia,True,False
+TK-253043,"VERY POOR QUALITY.  Got the Pulse 2 earbuds from vireo.in recently. before I buy - will this talk to a 2019 Samsung. I want a replacement or refund, nothing else.","1. Pre-sales query
+2. Shared spec sheet
+3. Cx satisfied ~Rohan",Product Enquiry,Product Enquiry,Chat Frontline,social,Product Enquiry,Compatibility Query,0.8633,ML model posterior probability 86.3% for Product Enquiry (margin: 81.9%),False,poor quality got,True,True
+TK-249611,Really frustrating. I bought pulse 1 on 23 Jan. before I buy - will this talk to a 2019 Samsung. Refund. Now.,- //SIM,Product Enquiry,Other,Email Frontline,email,Product Enquiry,Compatibility Query,0.8107,ML model posterior probability 81.1% for Product Enquiry (margin: 68.6%),False,really frustrating bought,False,False
+TK-244836,this is regarding my strata 2 headphones. the box says my strata 2 headphones but what's isnide is not what i paid for. i rechecked my order. honestly regretting this purchase. please help. please revert imran,re: incorrect product shipped | verified order vs delivered item photos -> replacement dispatched ~Pranav,Returns & Refunds,Other,Returns Desk,chat,Other,General Feedback,0.4933,ML model posterior probability 49.3% for Other (margin: 26.2%) [Flagged for human supervisor review due to lower confidence or close competitor],True,regarding strata headphones,True,False
+TK-253825,"hi
+return pickup has not happened
+my nexa fit band",reverse pkp pending | re-raised pkp with courier -> pkp rescheduled for 09 jun,Returns & Refunds,Returns & Refunds,Returns Desk,chat,Returns & Refunds,Pickup Missed / Rescheduling,0.95,Customer inquiring about return pickup logistics or refund status for returned merchandise.,False,return pickup / refund follow-up,True,True
+TK-252010,"Hey,
+Ordered Nexa Fit 10 days ago.  Where is the money for the return.
+I emailed twice.
+Need this sorted this week",issue: refund pending | checked reverse pickup qc status -> refund confirmed credited ~Pranav,Returns & Refunds,Other,Returns Desk,chat,Returns & Refunds,Reverse Pickup Scheduling,0.552,ML model posterior probability 55.2% for Returns & Refunds (margin: 22.4%) [Flagged for human supervisor review due to lower confidence or close competitor],True,hey ordered nexa,False,False
+TK-253795,"Hi Vireo support, This is regarding pulse 2 buds. Wheere is the monney for the return. I checked bank. Nohing changed. Can someone fix this? Thhanks in advance",re: refund pending | checked reverse pickup qc status -> refund of rs 3324 initiated to source,Returns & Refunds,Returns & Refunds,Returns Desk,email,Returns & Refunds,Reverse Pickup Scheduling,0.5304,ML model posterior probability 53.0% for Returns & Refunds (margin: 33.0%) [Flagged for human supervisor review due to lower confidence or close competitor],True,vireo support regarding,True,True
+TK-240685,Ordered Nexa 2 2 weeks ago. Refund was promised 6 days ago and nothing. Please resolve asap. THANKS,cx: refund delay | checked refund status on pg -> refunded rs 3250 ~Pranav,Returns & Refunds,Returns & Refunds,Returns Desk,email,Returns & Refunds,Reverse Pickup Scheduling,0.5773,ML model posterior probability 57.7% for Returns & Refunds (margin: 28.6%) [Flagged for human supervisor review due to lower confidence or close competitor],True,ordered nexa weeks,True,True
+TK-246013,"bhai
+pickup scheduled but no one showed up
+itna paisa diyya hai
+anyone there",pkp not done | checked pkp awb -> refund of rs 3149 initiated to source,Returns & Refunds,Returns & Refunds,Returns Desk,voice,Returns & Refunds,Pickup Missed / Rescheduling,0.95,Customer inquiring about return pickup logistics or refund status for returned merchandise.,False,return pickup / refund follow-up,True,True
+TK-242801,"hello
+the app said pickup today, that was on 16-05-2025
+hello??",issue: pickup missed | checked pickup awb -> refund processed without pickup as goodwill [closed],Returns & Refunds,Returns & Refunds,Returns Desk,email,Delivery & Shipping,Tracking & Delay,0.5247,ML model posterior probability 52.5% for Delivery & Shipping (margin: 9.2%) [Flagged for human supervisor review due to lower confidence or close competitor],True,hello app said,False,True
+TK-245736,the return was accepted but the amount is nowhere in my account,"1. Refund not credited
+2. chk refund status on PG
+3. Full refund processed (3149) (SOP 4.2) [closed]",Returns & Refunds,Returns & Refunds,Returns Desk,chat,Returns & Refunds,Reverse Pickup Scheduling,0.5082,ML model posterior probability 50.8% for Returns & Refunds (margin: 3.9%) [Flagged for human supervisor review due to lower confidence or close competitor],True,return accepted account,True,True
+TK-241675,[IVR transcript] hello ji pickup scheduled but no one showed up itna paisa diya hai the nexa 2 vr909327 ??,"re: reverse pickup pending | checked pickup awb -> refund approved, rs 6499, 5-7 working days",Returns & Refunds,Returns & Refunds,Returns Desk,voice,Returns & Refunds,Pickup Missed / Rescheduling,0.95,Customer inquiring about return pickup logistics or refund status for returned merchandise.,False,return pickup / refund follow-up,True,True
+TK-249532,[IVR transcript] Honestly regretting this purchase. I bought my Nexa Fit band on 27 Dec. refund was promised 7 days ago and nothing. I already emailed twice. Refund. Now.,refund pending | checked refund status on pg -> refunded rs 1999 ~Pranav,Returns & Refunds,Returns & Refunds,Returns Desk,voice,Returns & Refunds,Reverse Pickup Scheduling,0.6198,ML model posterior probability 62.0% for Returns & Refunds (margin: 35.3%) [Flagged for human supervisor review due to lower confidence or close competitor],True,ivr transcript honestly,True,True
+TK-247342,"To the Vireo Customer Care Team,
+
+I am writing with reference to my order of my Pulse (VR901645) placed on 15 Nov. I have been sitting at home for 3 days waiting for your courier. I have rescheduled pickup twice. I request you to look into this matter at the earliest.
+
+Yours faithfully,
+Pranav Dutta",pickup not done | checked pickup awb -> refund processed without pickup as goodwill ~Pranav,Returns & Refunds,Delivery & Shipping,Returns Desk,chat,Returns & Refunds,Reverse Pickup Scheduling,0.6687,ML model posterior probability 66.9% for Returns & Refunds (margin: 40.2%) [Flagged for human supervisor review due to lower confidence or close competitor],True,vireo customer care,False,False
+TK-252800,"[IVR transcript] Really frustrating. Ordered teh neckband a montth ago. I have been sitting at home for 3 days waiting for your courier. I already called courier. I want a replacement or refund, nothing else.","cx: pickup missed | re-raised pickup with courier -> refund approved, rs 1039, 5-7 working days ~Pranav",Returns & Refunds,Returns & Refunds,Returns Desk,voice,Returns & Refunds,Reverse Pickup Scheduling,0.5234,ML model posterior probability 52.3% for Returns & Refunds (margin: 8.8%) [Flagged for human supervisor review due to lower confidence or close competitor],True,ivr transcript really,True,True
+TK-242285,"Dear Sir/Madam,
+
+I am writing w/ reference to my order of Nexa watch placed on 10/04.  Refund was promised 10 days ago & nothing. I have checked bank. I request you to provide a resolution within 3 working days.
+
+Sincerely,
+Isaan Sheikh","1. Refund not credited
+2. chk refund status on PG
+3. Refund approved, Rs 4499, 5-7 working days [closed]",Returns & Refunds,Returns & Refunds,Returns Desk,email,Returns & Refunds,Reverse Pickup Scheduling,0.5718,ML model posterior probability 57.2% for Returns & Refunds (margin: 28.2%) [Flagged for human supervisor review due to lower confidence or close competitor],True,dear sir madam,True,True
+TK-245189,"Dear Sir/Madam,
+
+I am writing w/ reference to my order of my Nexa 2 watch (VR898566) placed on September 05. You picked up the item 18 days ago & my money hasn't come back. I HAVE CHECKED BANK. I request u to provide a resolution withiin 3 working days.
+
+Yours faithfully,
+Aarva Jain",issue: refund not credited | checked refund status on pg -> arn shared with cx ~Pranav,Returns & Refunds,Returns & Refunds,Returns Desk,email,Returns & Refunds,Reverse Pickup Scheduling,0.5407,ML model posterior probability 54.1% for Returns & Refunds (margin: 14.8%) [Flagged for human supervisor review due to lower confidence or close competitor],True,dear sir madam,True,True
+TK-252330,STILL WAITING FOR MY REFUND - VR894932 - HOW DO I GET THIS FIXED?,"1. Refund not credited
+2. Checked reverse pkp QC status
+3. Refund of Rs 3324 initiated to source [closed]",Returns & Refunds,Returns & Refunds,Returns Desk,email,Returns & Refunds,Reverse Pickup Scheduling,0.5845,ML model posterior probability 58.5% for Returns & Refunds (margin: 20.3%) [Flagged for human supervisor review due to lower confidence or close competitor],True,waiting refund fixed,True,True
+TK-249173,"product: spare case
+order: vr892889
+purchased: 01/01
+issue: refund was promised 8 days ago and nothing
+tried: emailed twice
+expected: resolution",refund pending | checked reverse pickup qc status -> full refund processed (1104) ~Pranav,Returns & Refunds,Returns & Refunds,Returns Desk,email,Returns & Refunds,Reverse Pickup Scheduling,0.5832,ML model posterior probability 58.3% for Returns & Refunds (margin: 36.0%) [Flagged for human supervisor review due to lower confidence or close competitor],True,product spare case,True,True
+TK-248258,"Order VR883915 (my Pulse).  Refund was promised 15 days ago and nothing.
+I emailed twice.
+How do I get this fixed?
+Please revert",cx: rfnd pending | chk reverse pickup qc status -> rfnd of rs 4248 initiated to source,Returns & Refunds,Returns & Refunds,Returns Desk,voice,Returns & Refunds,Reverse Pickup Scheduling,0.63,ML model posterior probability 63.0% for Returns & Refunds (margin: 36.0%) [Flagged for human supervisor review due to lower confidence or close competitor],True,order pulse refund,True,True
+TK-245014,"Product: my Pulse 2
+Order: VR884247
+Purchased: 28-08-2025
+Issue: the parcel looked like it was kicked here from the warehouse, and the unit has a crack
+Tried: took photos
+Expected: replacement","Replacement unit dispatched. Issue: damaged in transit. Photos rcvd, damage conf. (SOP 5.4) [closed]",Returns & Refunds,Other,Returns Desk,email,Other,General Feedback,0.5145,ML model posterior probability 51.4% for Other (margin: 27.8%) [Flagged for human supervisor review due to lower confidence or close competitor],True,product pulse order,True,False
+TK-250657,Really frustrating.  This is regarding my Pules 2. I have been sitting at home for 3 days waiting for ur courier. I already reschduled pickup twice. This is the last time I buy from u.,"cx: reverse pkp pending | checked pkp awb -> pkp done, rfnd initiated",Returns & Refunds,Returns & Refunds,Returns Desk,chat,Returns & Refunds,Reverse Pickup Scheduling,0.6958,ML model posterior probability 69.6% for Returns & Refunds (margin: 45.1%) [Flagged for human supervisor review due to lower confidence or close competitor],True,really frustrating regarding,True,True
+TK-248679,"sir ji
+u picked up teh ietm 11 days ago and my money hasn't come bakc
+pls reply",Full refund processed (1349). Issue: refund not credited. Checked refund status on PG.,Returns & Refunds,Returns & Refunds,Returns Desk,email,Returns & Refunds,Reverse Pickup Scheduling,0.5843,ML model posterior probability 58.4% for Returns & Refunds (margin: 23.9%) [Flagged for human supervisor review due to lower confidence or close competitor],True,sir picked teh,True,True
+TK-243425,"Product: the mini speaker
+Purchased: June 24
+Issue: return pickup has not happened
+Tried: called courier
+Expected: callback",reverse pickup pending | chk pickup awb -> pickup rescheduled for 18 jul,Returns & Refunds,Returns & Refunds,Returns Desk,chat,Returns & Refunds,Pickup Missed / Rescheduling,0.95,Customer inquiring about return pickup logistics or refund status for returned merchandise.,False,return pickup / refund follow-up,True,True
+TK-251563,"hi sir
+i ordered replacement case and got something else
+bahut pareshan hu
+replacement case VR887278
+kindly do the needful",wrong variant received | raised with warehouse -> new unit shipped under doa,Returns & Refunds,Charging & Battery,Returns Desk,voice,Charging & Battery,Rapid Battery Drain,0.6349,ML model posterior probability 63.5% for Charging & Battery (margin: 44.2%) [Flagged for human supervisor review due to lower confidence or close competitor],True,sir ordered replacement,True,False
+TK-245279,nobody came for the pickup,cx: pickup missed | re-raised pickup with courier -> refunded rs 2799,Returns & Refunds,Returns & Refunds,Returns Desk,chat,Returns & Refunds,Pickup Missed / Rescheduling,0.95,Customer inquiring about return pickup logistics or refund status for returned merchandise.,False,return pickup / refund follow-up,True,True
+TK-251236,"the return was accepted but the amount is nowhere in my account
+waiting for your reply",Refund confirmed credited. Issue: refund not credited. Checked refund status on PG. ~Pranav,Returns & Refunds,Returns & Refunds,Returns Desk,chat,Returns & Refunds,Reverse Pickup Scheduling,0.5292,ML model posterior probability 52.9% for Returns & Refunds (margin: 9.3%) [Flagged for human supervisor review due to lower confidence or close competitor],True,return accepted account,True,True
+TK-246033,"Dear Sir/Madam,
+
+I am writing with reference to my order of Pulse 2 (VR891966) placed on 03/10. I have been sitting at home for 3 days waiting for your courier. I have rescheduled pickup twice. I request you to look into this matter at the earliest.
+
+Sincerely,
+Nikhil Gill",re: pkp not done | re-raised pkp w/ crr -> pkp rescheduled for 20 oct,Returns & Refunds,Delivery & Shipping,Returns Desk,chat,Returns & Refunds,Reverse Pickup Scheduling,0.6692,ML model posterior probability 66.9% for Returns & Refunds (margin: 39.4%) [Flagged for human supervisor review due to lower confidence or close competitor],True,dear sir madam,False,False
+TK-241039,Not what I expected from Vireo. Order VR891535 (Pulse earbuds). pickup scheduled but no one showed up. I already called courier. This is the last time I buy from you.,"cx: pkp msised | re-raised pkp with courier -> pkp done, rfnd initiated",Returns & Refunds,Returns & Refunds,Returns Desk,chat,Returns & Refunds,Pickup Missed / Rescheduling,0.95,Customer inquiring about return pickup logistics or refund status for returned merchandise.,False,return pickup / refund follow-up,True,True
+TK-244050,"hi team, arc neckband purchased last week, order vr897529. packed the box a week ago and it's still here. please advise. regards,","1. Pickup not done
+2. Checked pickup AWB
+3. Pickup rescheduled for 13 Aug (SOP 2.7) [closed]",Returns & Refunds,Delivery & Shipping,Returns Desk,chat,Returns & Refunds,Reverse Pickup Scheduling,0.5101,ML model posterior probability 51.0% for Returns & Refunds (margin: 14.2%) [Flagged for human supervisor review due to lower confidence or close competitor],True,team arc neckband,False,False
+TK-241175,[IVR transcript] Honestly regretting this purchase.  Ordered the AirLite buds 2 weeks ago. pickup scheuled but no one showed up. I already rescheduled pickup twice. Tihs is the last time I buy from you.,Customer states pickup missed. Checked pickup AWB. Pickup rescheduled for 13 Mar. ~Pranav,Returns & Refunds,Returns & Refunds,Returns Desk,voice,Returns & Refunds,Reverse Pickup Scheduling,0.797,ML model posterior probability 79.7% for Returns & Refunds (margin: 73.4%),False,ivr transcript honestly,True,True
+TK-244706,"product: pulse 2
+purchased: october 22
+issue: still waiting for my refund
+tried: checked bank
+expected: replacement",cx: rfnd delay | chk reverse pickup qc status -> rfnd confirmed credited,Returns & Refunds,Returns & Refunds,Returns Desk,chat,Returns & Refunds,Reverse Pickup Scheduling,0.679,ML model posterior probability 67.9% for Returns & Refunds (margin: 45.6%) [Flagged for human supervisor review due to lower confidence or close competitor],True,product pulse purchased,True,True
+TK-242556,"refund not received yet
+VR885128",Cx reported rfnd pending. chk reverse pkp QC status. xfer to Logistics. Full rfnd processed (10398). (SOP 4.2),Returns & Refunds,Returns & Refunds,Returns Desk,chat,Returns & Refunds,Reverse Pickup Scheduling,0.5876,ML model posterior probability 58.8% for Returns & Refunds (margin: 21.4%) [Flagged for human supervisor review due to lower confidence or close competitor],True,refund received,True,True
+TK-242049,"hi sir
+return pickup has not happened
+hello??",reverse pickup pending | re-raised pickup with courier -> full refund processed (1999) ~Pranav,Returns & Refunds,Returns & Refunds,Returns Desk,voice,Returns & Refunds,Pickup Missed / Rescheduling,0.95,Customer inquiring about return pickup logistics or refund status for returned merchandise.,False,return pickup / refund follow-up,True,True
+TK-253771,Pathetic experience honestly. I bought the Pulse 2 earbuds on 05/05. you picked up the item 6 days ago and my money hasn't come back. I already emailed twice. Fix this or I am posting on twitter,"1. Refund pending
+2. Checked refund status on PG
+3. Full refund processed (2974) ~Pranav",Returns & Refunds,Returns & Refunds,Returns Desk,chat,Returns & Refunds,Reverse Pickup Scheduling,0.555,ML model posterior probability 55.5% for Returns & Refunds (margin: 21.2%) [Flagged for human supervisor review due to lower confidence or close competitor],True,pathetic experience honestly,True,True
+TK-246491,"Dear Sir/Madam,
+
+I am writing with reference to my order of Pulse 2 (VR880089) placed on 04 Oct. Refund not received yet. I have emailed twice. I request you to provide a resolution within 3 working days.
+
+Yours faithfully,
+Swati Chatterjee
+Dehradun",re: rnd dealy | checked rfnd status on pg -> rfnd reprocessed,Returns & Refunds,Other,Returns Desk,chat,Returns & Refunds,Reverse Pickup Scheduling,0.6062,ML model posterior probability 60.6% for Returns & Refunds (margin: 41.8%) [Flagged for human supervisor review due to lower confidence or close competitor],True,dear sir madam,False,False
+TK-248836,"Dear Sir/Madam,
+
+I am writing with reference to my order of the Nexa 2 (VR891303) placed on 07 Dec. Refund was promised 18 days ago and nothing. I have emailed twice. I request you to look into this matter at the earliest.
+
+Yours faithfully,
+Nikhil Mishra
+Patna","1. Refund pending
+2. Checked refund status on PG
+3. ARN shared with cx [closed]",Returns & Refunds,Returns & Refunds,Returns Desk,chat,Returns & Refunds,Reverse Pickup Scheduling,0.5907,ML model posterior probability 59.1% for Returns & Refunds (margin: 29.3%) [Flagged for human supervisor review due to lower confidence or close competitor],True,dear sir madam,True,True
+TK-241587,"helo
+nobody came for the pickup
+the pulse buds vr892676
+help",issue: reverse pickup pending | re-raised pickup with courier -> pickup rescheduled for 05 apr ~Pranav,Returns & Refunds,Returns & Refunds,Returns Desk,email,Returns & Refunds,Pickup Missed / Rescheduling,0.95,Customer inquiring about return pickup logistics or refund status for returned merchandise.,False,return pickup / refund follow-up,True,True
+TK-251966,"Hi,
+Got the Pulse 2 earbuds from Flippkart last month. Refund not received yet.
+I emailed twice. Nothing changed.
+I have been a loyal customer and this is how you treat me.
+Need this sorted this week.","1. rfnd not credited
+2. Checked reverse pickup QC status
+3. Refunded Rs 2974 (SOP 2.7)",Returns & Refunds,Returns & Refunds,Returns Desk,social,Returns & Refunds,Reverse Pickup Scheduling,0.4332,ML model posterior probability 43.3% for Returns & Refunds (margin: 5.3%) [Flagged for human supervisor review due to lower confidence or close competitor],True,got pulse earbuds,True,True
+TK-249057,"hey
+service centre took it, now silence
+anyone there","1. rma status query
+2. chk rma status
+3. replacement unit dispatched",Warranty & Repair,Warranty & Repair,Escalations & Warranty,email,Warranty & Repair,Warranty Claim Submission,0.95,"Formal warranty claim, authorized service center inquiry, or hardware RMA tracking.",False,RMA / warranty claim,True,True
+TK-251262,"hii
+screen is unresponsive
+my nexa fit band VR887506",customer states touch issue. walked through hard reset. replacement raised.,Warranty & Repair,Other,Escalations & Warranty,email,Other,General Feedback,0.5212,ML model posterior probability 52.1% for Other (margin: 19.1%) [Flagged for human supervisor review due to lower confidence or close competitor],True,hii screen unresponsive,True,False
+TK-240363,what is the status of my warranty claim,"1. Repair status follow-up
+2. Checked RMA status
+3. Replacement raised, RMA shared with cx",Warranty & Repair,Warranty & Repair,Escalations & Warranty,email,Warranty & Repair,Warranty Claim Submission,0.95,"Formal warranty claim, authorized service center inquiry, or hardware RMA tracking.",False,RMA / warranty claim,True,True
+TK-245701,"helo
+screen is unresponsive",reported: touch not responding. walked through hard reset. escalated to warranty.,Warranty & Repair,Warranty & Repair,Escalations & Warranty,voice,Other,General Feedback,0.5512,ML model posterior probability 55.1% for Other (margin: 25.9%) [Flagged for human supervisor review due to lower confidence or close competitor],True,helo screen unresponsive,False,True
+TK-242359,"Hi Vireo support, This is regarding orbit mini. What is the status of my warranty claim. I called service centre. Please call me on my registered number. Tahnks Farah","1. RMA status query
+2. Checked QC report
+3. rpplc approved, reverse pickup arrnged ~Geeta",Warranty & Repair,Account & Login,Escalations & Warranty,chat,Warranty & Repair,Warranty Claim Submission,0.95,"Formal warranty claim, authorized service center inquiry, or hardware RMA tracking.",False,RMA / warranty claim,False,False
+TK-251675,no sound from the right earbud,customer states single side audio only. asked cx to check bud in case. replacement raised.,Warranty & Repair,Audio Quality,Escalations & Warranty,email,Audio Quality,Microphone Inaudible / Muffled,0.7487,ML model posterior probability 74.9% for Audio Quality (margin: 54.2%) [Flagged for human supervisor review due to lower confidence or close competitor],True,sound right earbud,True,False
+TK-254658,product arrived damaged,"new unit shipped under doa. issue: unit received damaged. photos received, damage confirmed.",Warranty & Repair,Other,Escalations & Warranty,chat,Other,General Feedback,0.5216,ML model posterior probability 52.2% for Other (margin: 17.2%) [Flagged for human supervisor review due to lower confidence or close competitor],True,product arrived damaged,True,False
+TK-253752,"Dear team, I bought pulse 2 buds on May 25. What is the status of my warranty claim. I called service centre. Nothing changed. Need this sorted this week. Awaiting response, Harsh Rao",Ticket raised for RMA status query. Checked RMA status. Replacement approved and dispatched. ~Meera,Warranty & Repair,Warranty & Repair,Escalations & Warranty,email,Warranty & Repair,Warranty Claim Submission,0.95,"Formal warranty claim, authorized service center inquiry, or hardware RMA tracking.",False,RMA / warranty claim,True,True
+TK-243567,"Product: pulse 1
+Order: VR909082
+Purchased: 19-06-2025
+Issue: I sent the unit in 9 days ago and have heard nothing
+Tried: called service centre
+Expected: resolution",done,Warranty & Repair,Warranty & Repair,Escalations & Warranty,chat,Warranty & Repair,Warranty Claim Submission,0.95,"Formal warranty claim, authorized service center inquiry, or hardware RMA tracking.",False,RMA / warranty claim,True,True
+TK-244221,"Dear Sir/Madam,
+
+I am writing with reference to my order of my Pulse 2 (VR908771) placed on 11-08-2025.  What is the status of my warranty claim. I have called service centre. I request you to provide a resolution within 3 working days.
+
+Regards,
+Diya Gupta","1. Warranty claim status
+2. Foollowed up with service centre
+3. Replacement apporved and dispatched ~Geeta",Warranty & Repair,Warranty & Repair,Escalations & Warranty,email,Warranty & Repair,Warranty Claim Submission,0.95,"Formal warranty claim, authorized service center inquiry, or hardware RMA tracking.",False,RMA / warranty claim,True,True
+TK-240613,"Hi team,
+I bought Pluse earuds on 25/11. Claim number RMA79317, anyone alive there?.
+I emailed twice.
+Very poor quality.
+I want my money back.
+Thanks in advance,",cust contacted re warranty claim status. followed up with service centre. replacement approved and dispatched.,Warranty & Repair,Warranty & Repair,Escalations & Warranty,email,Warranty & Repair,RMA Status Follow-up,0.95,"Formal warranty claim, authorized service center inquiry, or hardware RMA tracking.",False,RMA / warranty claim,True,True
+TK-254253,[IVR transcript] hello no update on my repair pulse2 pls reply,"1. rma status query
+2. checked rma status
+3. rplc unit dispatched //AAD",Warranty & Repair,Warranty & Repair,Escalations & Warranty,voice,Warranty & Repair,Warranty Claim Submission,0.7207,ML model posterior probability 72.1% for Warranty & Repair (margin: 64.6%) [Flagged for human supervisor review due to lower confidence or close competitor],True,ivr transcript hello,True,True
+TK-242335,"Namaste, This is regarding my Nexa. Watch strpa broke within a month. I bought a third-party strap. Nothing changed. Please resolve asap.",Cx says strap broken. chk wty eligibility. Replacement strap dispatched. ~Meera,Warranty & Repair,Other,Escalations & Warranty,chat,Warranty & Repair,Warranty Claim Submission,0.6466,ML model posterior probability 64.7% for Warranty & Repair (margin: 44.7%) [Flagged for human supervisor review due to lower confidence or close competitor],True,namaste regarding nexa,False,False
+TK-252561,honestly regretting this purchase.  got arc neckband from vireo.in 3 weeks back. everything sounds like it is coming from one direction now. i already reset the buds. this is the last time i buy from you.,issue: no audio one side | walked through reset -> replacement raised,Warranty & Repair,Audio Quality,Escalations & Warranty,chat,Audio Quality,Microphone Inaudible / Muffled,0.7325,ML model posterior probability 73.3% for Audio Quality (margin: 60.1%) [Flagged for human supervisor review due to lower confidence or close competitor],True,honestly regretting purchase,True,False
+TK-253605,"Hi Vireo support, I bought Orbit speaker on 02/03. Warranty claim pending for 14 days. Pleae help.","cust contacted re warranty claim status. followed up with service centre. cx updated, eta shared.",Warranty & Repair,Warranty & Repair,Escalations & Warranty,chat,Warranty & Repair,Warranty Claim Submission,0.95,"Formal warranty claim, authorized service center inquiry, or hardware RMA tracking.",False,RMA / warranty claim,True,True
+TK-244413,"Hi team,
+Bought airlite earbuds around 02-07-2025 from vireo.in. Service centre took it, now silence.
+I emailed twice. Nothing changed.
+I want a replacement.
+Thank you Sameer",cx ok //AAD,Warranty & Repair,Warranty & Repair,Escalations & Warranty,chat,Warranty & Repair,Warranty Claim Submission,0.95,"Formal warranty claim, authorized service center inquiry, or hardware RMA tracking.",False,RMA / warranty claim,True,True
+TK-240270,Not what I expected from Vireo. Got the AirLite buds from vireo.in last week. I sent the unit in 12 days ago & have heard nothing. I already called service centre. This is the last time I buy from you.,sorted,Warranty & Repair,Warranty & Repair,Escalations & Warranty,chat,Warranty & Repair,Warranty Claim Submission,0.95,"Formal warranty claim, authorized service center inquiry, or hardware RMA tracking.",False,RMA / warranty claim,True,True
+TK-244931,there's a dent on the case straight out of the box - please call me on my registered number,"ticket raised for damaged in transit. photos received, damage confirmed. refund of rs 1169 initiated to source.",Warranty & Repair,Account & Login,Escalations & Warranty,chat,Account & Login,OTP Delivery Failure,0.5783,ML model posterior probability 57.8% for Account & Login (margin: 32.1%) [Flagged for human supervisor review due to lower confidence or close competitor],True,dent case straight,True,False
+TK-250723,"dear sir/madam, order vr896870 (my nexa fit band). strap material peeling like an old sticker. i tried to fix pin. nothing changed. please resolve asap. awaiting response",see prev,Warranty & Repair,Other,Escalations & Warranty,chat,Other,General Feedback,0.4807,ML model posterior probability 48.1% for Other (margin: 7.4%) [Flagged for human supervisor review due to lower confidence or close competitor],True,dear sir madam,True,False
+TK-244123,I have been a loyal customer and this is how you treat me. I bought orbit mini on 15/05. I sent the unit in 13 days ago and have heard nothing. I already emailed twice. Fix this or I am posting on twitter.,done,Warranty & Repair,Other,Escalations & Warranty,email,Warranty & Repair,Warranty Claim Submission,0.6657,ML model posterior probability 66.6% for Warranty & Repair (margin: 50.2%) [Flagged for human supervisor review due to lower confidence or close competitor],True,loyal customer treat,False,False
+TK-254082,"PRODUCT: THE NEXA SMARTWATCH
+ORDER: VR891190
+PURCHASED: MAY 16
+ISSUE: THE BAND SNAPPED WHILE I WAS PUTTING IT ON THIS MORNING
+TRIED: BOUGHT A THIRD-PARTY STRAP
+EXPECTED: REFUND",as discussed,Warranty & Repair,Other,Escalations & Warranty,email,Other,General Feedback,0.4842,ML model posterior probability 48.4% for Other (margin: 16.3%) [Flagged for human supervisor review due to lower confidence or close competitor],True,product nexa smartwatch,True,False
+TK-248203,"Hi Vireo support, Got Orbit Mini from vireo.in around Diwali. I sent the unit in 18 days ago and have heard nothing. I emailed twice. Nothing changed. What do I do now?",cx ok,Warranty & Repair,Other,Escalations & Warranty,email,Warranty & Repair,Warranty Claim Submission,0.6462,ML model posterior probability 64.6% for Warranty & Repair (margin: 42.8%) [Flagged for human supervisor review due to lower confidence or close competitor],True,vireo support got,False,False
+TK-248556,"dear sir/madam,
+
+i am writing with reference to my order of strata 3 placed on 21-11-2025. service centre took it, now silence. i have emailed twice. i request you to kindly arrange a replacement.
+
+regards,
+aditya dhillon
+delhi","1. wty claim status
+2. Checked QC report
+3. Repair completed, shipped back ~Geeta",Warranty & Repair,Warranty & Repair,Escalations & Warranty,chat,Warranty & Repair,Warranty Claim Submission,0.95,"Formal warranty claim, authorized service center inquiry, or hardware RMA tracking.",False,RMA / warranty claim,True,True
+TK-248275,"To the Vireo Customer Care Team,
+
+I am writing with reference to my order of Orbit Mini (VR905975) placed on May 26.  Claim number RMA88460, anyone alive there?. I have called service centre. I REQUEST YOU TO LOOK INTO THIS MATTER AT THE EARLIEST.
+
+SINCERELY,
+DIYA CHOPRA","cx reached out - RMA status query. Cehcked QC report. rplc approved, reverse pickup arranged. ~Meera",Warranty & Repair,Warranty & Repair,Escalations & Warranty,email,Warranty & Repair,RMA Status Follow-up,0.95,"Formal warranty claim, authorized service center inquiry, or hardware RMA tracking.",False,RMA / warranty claim,True,True
+TK-249635,"box was crushed and teh the Pulse 2 earbuds is cracked, please resolve asap","cust contacted re damaged in transit. photos received, damage confirmed. refund initiated.",Warranty & Repair,Returns & Refunds,Escalations & Warranty,voice,Returns & Refunds,Reverse Pickup Scheduling,0.4226,ML model posterior probability 42.3% for Returns & Refunds (margin: 17.3%) [Flagged for human supervisor review due to lower confidence or close competitor],True,box crushed teh,True,False
+TK-248509,"the strap is tearing, kindly look into it","1. strap pin issue
+2. checked warranty eligibility
+3. escalated to warranty",Warranty & Repair,Warranty & Repair,Escalations & Warranty,email,Other,General Feedback,0.6947,ML model posterior probability 69.5% for Other (margin: 53.2%) [Flagged for human supervisor review due to lower confidence or close competitor],True,strap tearing kindly,False,True
+TK-247463,"hello
+the case has been at the same battery level for a week
+the airlite buds VR897915
+help","1. case not charging
+2. asked cx to try different cable + adaptor
+3. full refund processed (1799) (sop 5.4) //AAD",Warranty & Repair,Warranty & Repair,Escalations & Warranty,email,Charging & Battery,Rapid Battery Drain,0.778,ML model posterior probability 77.8% for Charging & Battery (margin: 62.9%),False,hello case battery,False,True
+TK-253193,"Product: AirLite
+Order: VR896847
+Purchased: January 28
+Issue: what is the status of my warranty claim
+Tried: emailed twice
+Expected: fix","1. Warranty claim status
+2. Followed up w/ service centre
+3. Repair completed, shipped back ~Geeta",Warranty & Repair,Warranty & Repair,Escalations & Warranty,email,Warranty & Repair,Warranty Claim Submission,0.95,"Formal warranty claim, authorized service center inquiry, or hardware RMA tracking.",False,RMA / warranty claim,True,True
+TK-252501,"to the vireo customer care team,
+
+i am writing with reference to my order of the pulse 2 earbuds placed on 14-02-2026. claim number rma46620, anyone alive there?. i have called service centre. i request you to look into this matter at the earliest.
+
+sincerely,
+varun agrawal
+nagpur",Cx reported wty claim status. chk QC report. rplc approved and dispatched. Will monitor.,Warranty & Repair,Warranty & Repair,Escalations & Warranty,chat,Warranty & Repair,RMA Status Follow-up,0.95,"Formal warranty claim, authorized service center inquiry, or hardware RMA tracking.",False,RMA / warranty claim,True,True
+TK-254106,"Product: Pulse 2
+Order: VR895693
+Purchased: 25/05
+Issue: no update on my repair
+Tried: called service centre
+Expected: fix",resolved on call (sop 2.7) //AAD,Warranty & Repair,Returns & Refunds,Escalations & Warranty,chat,Warranty & Repair,Warranty Claim Submission,0.95,"Formal warranty claim, authorized service center inquiry, or hardware RMA tracking.",False,RMA / warranty claim,False,False
+TK-254547,"watch not responding to touch
+can someone fix this?",customer reached out - unresponsive display. checked fw version. escalated to warranty.,Warranty & Repair,Warranty & Repair,Escalations & Warranty,email,Other,General Feedback,0.7463,ML model posterior probability 74.6% for Other (margin: 64.2%) [Flagged for human supervisor review due to lower confidence or close competitor],True,watch responding touch,False,True
+TK-241897,Not acceptable at this price. Got Nexa Fit frrom vireo.in 10 days ago. the strap is tearing. I already tried to fix pin. Fix this or I am posting on twitter.,cx reported strap broken. checked warranty eligibility. escalated to warranty.,Warranty & Repair,Warranty & Repair,Escalations & Warranty,email,Other,General Feedback,0.417,ML model posterior probability 41.7% for Other (margin: 0.5%) [Flagged for human supervisor review due to lower confidence or close competitor],True,acceptable price got,False,True
+TK-250623,"hi sir
+no update on my repair
+please jaldi
+pls reply",done //AAD,Warranty & Repair,Warranty & Repair,Escalations & Warranty,chat,Warranty & Repair,Warranty Claim Submission,0.6775,ML model posterior probability 67.8% for Warranty & Repair (margin: 57.9%) [Flagged for human supervisor review due to lower confidence or close competitor],True,sir update repair,True,True
+TK-249714,"Dear Sir/Madam,
+
+I am writing with reerence to my order of my Nexa (VR883886) placed on December 15. Strap material peeling like an old sticker. I have tried to fix pin. I request you to process a refund to my original payment method.
+
+Sincerely,
+Ankit Sandhu",customer states strap pin issue. checked warranty eligibility. advised paid strap purchase.,Warranty & Repair,Warranty & Repair,Escalations & Warranty,social,Other,General Feedback,0.5701,ML model posterior probability 57.0% for Other (margin: 30.5%) [Flagged for human supervisor review due to lower confidence or close competitor],True,dear sir madam,False,True
+TK-241228,I SENT THE UNIT IN 11 DAYS AGO AND HAVE HEARD NOTHING - VR896576,"customer reached out - warranty claim status. followed up with service centre. cx updated, eta shared.",Warranty & Repair,Warranty & Repair,Escalations & Warranty,chat,Warranty & Repair,Warranty Claim Submission,0.755,ML model posterior probability 75.5% for Warranty & Repair (margin: 60.3%),False,sent unit days,True,True
+TK-242320,"hey
+no update on my repair
+pls reply",closed,Warranty & Repair,Warranty & Repair,Escalations & Warranty,chat,Warranty & Repair,Warranty Claim Submission,0.8508,ML model posterior probability 85.1% for Warranty & Repair (margin: 81.3%),False,hey update repair,True,True
+TK-248568,does the AirLite buds work with iPhone,cx: product enquiry | sahred compatibility info -> cx satisfied [closed],Product Enquiry,Product Enquiry,Chat Frontline,chat,Product Enquiry,Compatibility Query,0.9014,ML model posterior probability 90.1% for Product Enquiry (margin: 83.9%),False,does airlite buds,True,True
+TK-252386,"Product: the Pulse 2 earbuds
+Order: VR903923
+Purchased: 13 Apr
+Issue: my bank says Rs 1799 went to you but your site says I have no orders
+Tried: tried logging out and in
+Expected: replacement",failed order after payment | checked pg dashboard for txn -> refund processed to source //HAR,Billing & Payments,Other,Billing,social,Billing & Payments,Payment Failed / Deducted,0.5174,ML model posterior probability 51.7% for Billing & Payments (margin: 9.1%) [Flagged for human supervisor review due to lower confidence or close competitor],True,product pulse earbuds,False,False
+TK-252633,"hey
+where is the money for the return
+kindly do the needful","1. Refund pending
+2. Checked reverse pickup QC status
+3. Full refund processed (3499) ~Pranav",Returns & Refunds,Returns & Refunds,Returns Desk,email,Returns & Refunds,Reverse Pickup Scheduling,0.5385,ML model posterior probability 53.9% for Returns & Refunds (margin: 16.3%) [Flagged for human supervisor review due to lower confidence or close competitor],True,hey money return,True,True
+TK-243207,"To the Vireo Customer Care Team,
+
+I am wrriting with reference to my order of my Nexa 2 watch (VR880448) placed on June 15. Watch strap broke within a month. I have bought a third-party strap. I request you to look into this matter at the earliest.
+
+Yours faithfully,
+Meera George
+Lucknow",cx says strap broken. asked for photo. transferred to chat frontline. advised paid strap purchase. (sop 3.1),Warranty & Repair,Other,Escalations & Warranty,chat,Other,General Feedback,0.4302,ML model posterior probability 43.0% for Other (margin: 2.9%) [Flagged for human supervisor review due to lower confidence or close competitor],True,vireo customer care,True,False

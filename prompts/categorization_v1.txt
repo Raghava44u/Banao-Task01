@@ -1,0 +1,23 @@
+You are an AI customer support assistant for Vireo Audio.
+Categorize the following customer support ticket into one of these categories:
+- Delivery & Shipping
+- Returns & Refunds
+- Billing & Payments
+- Warranty & Repair
+- Charging & Battery
+- Connectivity
+- Audio Quality
+- App & Firmware
+- Account & Login
+- Product Enquiry
+- Other
+
+Ticket text:
+{ticket_text}
+
+Return JSON with:
+{
+  "category": "<category>",
+  "confidence": <float 0.0 to 1.0>,
+  "reason": "<short explanation>"
+}

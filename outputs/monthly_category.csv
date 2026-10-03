@@ -1,0 +1,208 @@
+month,category,ticket_count,percentage
+2024-06,Delivery & Shipping,3,100.0
+2024-07,Delivery & Shipping,12,92.31
+2024-07,Account & Login,1,7.69
+2024-08,Delivery & Shipping,14,100.0
+2024-09,Delivery & Shipping,26,100.0
+2024-10,Delivery & Shipping,26,100.0
+2024-11,Delivery & Shipping,25,100.0
+2024-12,Delivery & Shipping,31,96.88
+2024-12,Account & Login,1,3.12
+2025-01,Delivery & Shipping,95,30.25
+2025-01,Billing & Payments,36,11.46
+2025-01,Charging & Battery,27,8.6
+2025-01,Other,27,8.6
+2025-01,Returns & Refunds,27,8.6
+2025-01,Audio Quality,25,7.96
+2025-01,Connectivity,23,7.32
+2025-01,App & Firmware,20,6.37
+2025-01,Account & Login,15,4.78
+2025-01,Product Enquiry,10,3.18
+2025-01,Warranty & Repair,9,2.87
+2025-02,Delivery & Shipping,108,29.35
+2025-02,Billing & Payments,41,11.14
+2025-02,Returns & Refunds,32,8.7
+2025-02,Other,31,8.42
+2025-02,Account & Login,29,7.88
+2025-02,App & Firmware,28,7.61
+2025-02,Audio Quality,23,6.25
+2025-02,Charging & Battery,23,6.25
+2025-02,Product Enquiry,21,5.71
+2025-02,Connectivity,18,4.89
+2025-02,Warranty & Repair,14,3.8
+2025-03,Delivery & Shipping,128,27.71
+2025-03,Billing & Payments,57,12.34
+2025-03,Other,48,10.39
+2025-03,Returns & Refunds,44,9.52
+2025-03,App & Firmware,36,7.79
+2025-03,Charging & Battery,33,7.14
+2025-03,Connectivity,33,7.14
+2025-03,Audio Quality,25,5.41
+2025-03,Product Enquiry,21,4.55
+2025-03,Warranty & Repair,19,4.11
+2025-03,Account & Login,18,3.9
+2025-04,Delivery & Shipping,125,27.84
+2025-04,Billing & Payments,59,13.14
+2025-04,Other,53,11.8
+2025-04,Returns & Refunds,42,9.35
+2025-04,Charging & Battery,40,8.91
+2025-04,App & Firmware,31,6.9
+2025-04,Connectivity,31,6.9
+2025-04,Audio Quality,22,4.9
+2025-04,Product Enquiry,18,4.01
+2025-04,Account & Login,16,3.56
+2025-04,Warranty & Repair,12,2.67
+2025-05,Delivery & Shipping,123,29.01
+2025-05,Other,41,9.67
+2025-05,Connectivity,40,9.43
+2025-05,Returns & Refunds,40,9.43
+2025-05,Billing & Payments,38,8.96
+2025-05,App & Firmware,35,8.25
+2025-05,Charging & Battery,29,6.84
+2025-05,Audio Quality,25,5.9
+2025-05,Warranty & Repair,20,4.72
+2025-05,Account & Login,18,4.25
+2025-05,Product Enquiry,15,3.54
+2025-06,Delivery & Shipping,135,30.75
+2025-06,Billing & Payments,56,12.76
+2025-06,Returns & Refunds,50,11.39
+2025-06,App & Firmware,32,7.29
+2025-06,Connectivity,30,6.83
+2025-06,Other,29,6.61
+2025-06,Account & Login,28,6.38
+2025-06,Audio Quality,27,6.15
+2025-06,Charging & Battery,25,5.69
+2025-06,Warranty & Repair,14,3.19
+2025-06,Product Enquiry,13,2.96
+2025-07,Delivery & Shipping,140,30.3
+2025-07,Returns & Refunds,47,10.17
+2025-07,App & Firmware,45,9.74
+2025-07,Other,43,9.31
+2025-07,Billing & Payments,39,8.44
+2025-07,Charging & Battery,39,8.44
+2025-07,Connectivity,36,7.79
+2025-07,Account & Login,27,5.84
+2025-07,Audio Quality,19,4.11
+2025-07,Product Enquiry,16,3.46
+2025-07,Warranty & Repair,11,2.38
+2025-08,Delivery & Shipping,196,28.2
+2025-08,Billing & Payments,85,12.23
+2025-08,Returns & Refunds,76,10.94
+2025-08,Other,70,10.07
+2025-08,Charging & Battery,59,8.49
+2025-08,App & Firmware,48,6.91
+2025-08,Connectivity,45,6.47
+2025-08,Audio Quality,39,5.61
+2025-08,Account & Login,36,5.18
+2025-08,Warranty & Repair,23,3.31
+2025-08,Product Enquiry,18,2.59
+2025-09,Delivery & Shipping,185,27.57
+2025-09,Other,70,10.43
+2025-09,App & Firmware,69,10.28
+2025-09,Billing & Payments,66,9.84
+2025-09,Returns & Refunds,64,9.54
+2025-09,Charging & Battery,51,7.6
+2025-09,Connectivity,42,6.26
+2025-09,Account & Login,40,5.96
+2025-09,Audio Quality,37,5.51
+2025-09,Product Enquiry,28,4.17
+2025-09,Warranty & Repair,19,2.83
+2025-10,Delivery & Shipping,231,27.27
+2025-10,Billing & Payments,107,12.63
+2025-10,Other,82,9.68
+2025-10,Returns & Refunds,82,9.68
+2025-10,App & Firmware,77,9.09
+2025-10,Charging & Battery,55,6.49
+2025-10,Audio Quality,51,6.02
+2025-10,Connectivity,49,5.79
+2025-10,Account & Login,48,5.67
+2025-10,Product Enquiry,35,4.13
+2025-10,Warranty & Repair,30,3.54
+2025-11,Delivery & Shipping,292,30.67
+2025-11,Billing & Payments,114,11.97
+2025-11,Returns & Refunds,88,9.24
+2025-11,Other,85,8.93
+2025-11,Connectivity,65,6.83
+2025-11,Charging & Battery,64,6.72
+2025-11,App & Firmware,63,6.62
+2025-11,Product Enquiry,54,5.67
+2025-11,Audio Quality,53,5.57
+2025-11,Account & Login,40,4.2
+2025-11,Warranty & Repair,34,3.57
+2025-12,Delivery & Shipping,235,27.04
+2025-12,Returns & Refunds,90,10.36
+2025-12,Charging & Battery,83,9.55
+2025-12,Other,80,9.21
+2025-12,Billing & Payments,77,8.86
+2025-12,Audio Quality,71,8.17
+2025-12,App & Firmware,68,7.83
+2025-12,Connectivity,61,7.02
+2025-12,Account & Login,43,4.95
+2025-12,Warranty & Repair,33,3.8
+2025-12,Product Enquiry,28,3.22
+2026-01,Delivery & Shipping,196,24.14
+2026-01,Charging & Battery,86,10.59
+2026-01,Billing & Payments,81,9.98
+2026-01,Connectivity,78,9.61
+2026-01,Other,77,9.48
+2026-01,Returns & Refunds,70,8.62
+2026-01,Audio Quality,61,7.51
+2026-01,App & Firmware,56,6.9
+2026-01,Account & Login,44,5.42
+2026-01,Product Enquiry,38,4.68
+2026-01,Warranty & Repair,25,3.08
+2026-02,Delivery & Shipping,188,25.65
+2026-02,Billing & Payments,84,11.46
+2026-02,App & Firmware,74,10.1
+2026-02,Connectivity,68,9.28
+2026-02,Other,63,8.59
+2026-02,Returns & Refunds,61,8.32
+2026-02,Charging & Battery,54,7.37
+2026-02,Audio Quality,49,6.68
+2026-02,Account & Login,41,5.59
+2026-02,Warranty & Repair,28,3.82
+2026-02,Product Enquiry,23,3.14
+2026-03,Delivery & Shipping,195,25.0
+2026-03,Billing & Payments,85,10.9
+2026-03,Charging & Battery,80,10.26
+2026-03,Other,75,9.62
+2026-03,Returns & Refunds,71,9.1
+2026-03,Audio Quality,67,8.59
+2026-03,App & Firmware,59,7.56
+2026-03,Connectivity,59,7.56
+2026-03,Account & Login,39,5.0
+2026-03,Warranty & Repair,27,3.46
+2026-03,Product Enquiry,23,2.95
+2026-04,Delivery & Shipping,199,23.92
+2026-04,Other,91,10.94
+2026-04,Billing & Payments,89,10.7
+2026-04,Charging & Battery,89,10.7
+2026-04,App & Firmware,74,8.89
+2026-04,Connectivity,73,8.77
+2026-04,Audio Quality,61,7.33
+2026-04,Returns & Refunds,60,7.21
+2026-04,Account & Login,40,4.81
+2026-04,Warranty & Repair,30,3.61
+2026-04,Product Enquiry,26,3.12
+2026-05,Delivery & Shipping,190,25.13
+2026-05,Billing & Payments,83,10.98
+2026-05,Charging & Battery,80,10.58
+2026-05,Other,74,9.79
+2026-05,App & Firmware,66,8.73
+2026-05,Returns & Refunds,62,8.2
+2026-05,Connectivity,55,7.28
+2026-05,Audio Quality,51,6.75
+2026-05,Account & Login,44,5.82
+2026-05,Warranty & Repair,28,3.7
+2026-05,Product Enquiry,23,3.04
+2026-06,Delivery & Shipping,168,21.65
+2026-06,Returns & Refunds,80,10.31
+2026-06,Charging & Battery,78,10.05
+2026-06,Audio Quality,73,9.41
+2026-06,Billing & Payments,69,8.89
+2026-06,Other,66,8.51
+2026-06,App & Firmware,62,7.99
+2026-06,Connectivity,61,7.86
+2026-06,Account & Login,59,7.6
+2026-06,Warranty & Repair,33,4.25
+2026-06,Product Enquiry,27,3.48

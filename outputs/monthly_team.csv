@@ -1,0 +1,141 @@
+month,team,ticket_count,percentage
+2024-06,Logistics,2,66.67
+2024-06,Billing,1,33.33
+2024-07,Logistics,7,53.85
+2024-07,Billing,6,46.15
+2024-08,Logistics,9,64.29
+2024-08,Billing,5,35.71
+2024-09,Logistics,18,69.23
+2024-09,Billing,8,30.77
+2024-10,Logistics,21,80.77
+2024-10,Billing,5,19.23
+2024-11,Logistics,21,84.0
+2024-11,Billing,4,16.0
+2024-12,Logistics,21,65.62
+2024-12,Billing,11,34.38
+2025-01,Chat Frontline,82,26.11
+2025-01,Logistics,73,23.25
+2025-01,Billing,53,16.88
+2025-01,Email Frontline,41,13.06
+2025-01,Returns Desk,28,8.92
+2025-01,Voice Frontline,24,7.64
+2025-01,Escalations & Warranty,13,4.14
+2025-02,Chat Frontline,100,27.17
+2025-02,Logistics,94,25.54
+2025-02,Billing,56,15.22
+2025-02,Email Frontline,49,13.32
+2025-02,Returns Desk,32,8.7
+2025-02,Voice Frontline,19,5.16
+2025-02,Escalations & Warranty,18,4.89
+2025-03,Chat Frontline,120,25.97
+2025-03,Logistics,104,22.51
+2025-03,Billing,80,17.32
+2025-03,Email Frontline,57,12.34
+2025-03,Returns Desk,44,9.52
+2025-03,Voice Frontline,33,7.14
+2025-03,Escalations & Warranty,24,5.19
+2025-04,Logistics,110,24.5
+2025-04,Chat Frontline,98,21.83
+2025-04,Email Frontline,77,17.15
+2025-04,Billing,75,16.7
+2025-04,Returns Desk,40,8.91
+2025-04,Escalations & Warranty,29,6.46
+2025-04,Voice Frontline,20,4.45
+2025-05,Chat Frontline,113,26.65
+2025-05,Logistics,89,20.99
+2025-05,Billing,66,15.57
+2025-05,Email Frontline,49,11.56
+2025-05,Returns Desk,40,9.43
+2025-05,Voice Frontline,35,8.25
+2025-05,Escalations & Warranty,32,7.55
+2025-06,Logistics,111,25.28
+2025-06,Chat Frontline,110,25.06
+2025-06,Billing,68,15.49
+2025-06,Email Frontline,54,12.3
+2025-06,Returns Desk,45,10.25
+2025-06,Voice Frontline,31,7.06
+2025-06,Escalations & Warranty,20,4.56
+2025-07,Logistics,113,24.46
+2025-07,Chat Frontline,111,24.03
+2025-07,Email Frontline,73,15.8
+2025-07,Billing,69,14.94
+2025-07,Returns Desk,40,8.66
+2025-07,Voice Frontline,34,7.36
+2025-07,Escalations & Warranty,22,4.76
+2025-08,Chat Frontline,175,25.18
+2025-08,Logistics,163,23.45
+2025-08,Billing,123,17.7
+2025-08,Email Frontline,92,13.24
+2025-08,Returns Desk,74,10.65
+2025-08,Voice Frontline,39,5.61
+2025-08,Escalations & Warranty,29,4.17
+2025-09,Chat Frontline,176,26.23
+2025-09,Logistics,151,22.5
+2025-09,Billing,94,14.01
+2025-09,Email Frontline,90,13.41
+2025-09,Returns Desk,82,12.22
+2025-09,Voice Frontline,42,6.26
+2025-09,Escalations & Warranty,36,5.37
+2025-10,Logistics,202,23.85
+2025-10,Chat Frontline,200,23.61
+2025-10,Billing,143,16.88
+2025-10,Email Frontline,117,13.81
+2025-10,Returns Desk,85,10.04
+2025-10,Escalations & Warranty,57,6.73
+2025-10,Voice Frontline,43,5.08
+2025-11,Chat Frontline,250,26.26
+2025-11,Logistics,224,23.53
+2025-11,Billing,152,15.97
+2025-11,Email Frontline,118,12.39
+2025-11,Returns Desk,96,10.08
+2025-11,Voice Frontline,60,6.3
+2025-11,Escalations & Warranty,52,5.46
+2025-12,Chat Frontline,227,26.12
+2025-12,Logistics,177,20.37
+2025-12,Email Frontline,158,18.18
+2025-12,Billing,128,14.73
+2025-12,Returns Desk,88,10.13
+2025-12,Escalations & Warranty,48,5.52
+2025-12,Voice Frontline,43,4.95
+2026-01,Chat Frontline,225,27.71
+2026-01,Logistics,160,19.7
+2026-01,Email Frontline,126,15.52
+2026-01,Billing,115,14.16
+2026-01,Returns Desk,75,9.24
+2026-01,Voice Frontline,63,7.76
+2026-01,Escalations & Warranty,48,5.91
+2026-02,Chat Frontline,216,29.47
+2026-02,Logistics,152,20.74
+2026-02,Email Frontline,109,14.87
+2026-02,Billing,103,14.05
+2026-02,Returns Desk,65,8.87
+2026-02,Voice Frontline,48,6.55
+2026-02,Escalations & Warranty,40,5.46
+2026-03,Chat Frontline,213,27.31
+2026-03,Logistics,159,20.38
+2026-03,Billing,131,16.79
+2026-03,Email Frontline,118,15.13
+2026-03,Returns Desk,77,9.87
+2026-03,Voice Frontline,44,5.64
+2026-03,Escalations & Warranty,38,4.87
+2026-04,Chat Frontline,237,28.49
+2026-04,Logistics,169,20.31
+2026-04,Billing,137,16.47
+2026-04,Email Frontline,113,13.58
+2026-04,Returns Desk,67,8.05
+2026-04,Voice Frontline,61,7.33
+2026-04,Escalations & Warranty,48,5.77
+2026-05,Chat Frontline,214,28.31
+2026-05,Logistics,165,21.83
+2026-05,Billing,108,14.29
+2026-05,Email Frontline,105,13.89
+2026-05,Voice Frontline,65,8.6
+2026-05,Returns Desk,60,7.94
+2026-05,Escalations & Warranty,39,5.16
+2026-06,Chat Frontline,211,27.19
+2026-06,Logistics,158,20.36
+2026-06,Email Frontline,112,14.43
+2026-06,Billing,97,12.5
+2026-06,Returns Desk,79,10.18
+2026-06,Voice Frontline,62,7.99
+2026-06,Escalations & Warranty,57,7.35
